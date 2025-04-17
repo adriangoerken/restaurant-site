@@ -2,23 +2,23 @@ import React from 'react';
 import { motion, useReducedMotion } from 'framer-motion';
 import { cn } from '../../utils/cn';
 
-interface SectionHeadingProps {
+type SectionHeadingProps = {
 	children: React.ReactNode;
 	className?: string;
 	as?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';
 	color?: 'default' | 'rose' | 'gradient';
 	align?: 'left' | 'center' | 'right';
 	animated?: boolean;
-}
+};
 
-const SectionHeading: React.FC<SectionHeadingProps> = ({
+const SectionHeading = ({
 	children,
 	className,
 	as: Component = 'h2',
 	color = 'default',
 	align = 'center',
 	animated = true,
-}) => {
+}: SectionHeadingProps) => {
 	const prefersReducedMotion = useReducedMotion();
 
 	const baseStyles = 'text-3xl md:text-4xl mb-8 font-medium';

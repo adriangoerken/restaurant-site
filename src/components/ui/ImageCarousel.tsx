@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
 export type CarouselImage = {
@@ -6,19 +6,19 @@ export type CarouselImage = {
 	alt: string;
 };
 
-interface ImageCarouselProps {
+type ImageCarouselProps = {
 	images: CarouselImage[];
 	autoPlayInterval?: number;
 	showNavigation?: boolean;
 	overlayGradient?: string;
-}
+};
 
-const ImageCarousel: React.FC<ImageCarouselProps> = ({
+const ImageCarousel = ({
 	images,
 	autoPlayInterval = 5000,
 	showNavigation = true,
 	overlayGradient = 'from-black/70 via-black/50 to-black/70',
-}) => {
+}: ImageCarouselProps) => {
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
 	useEffect(() => {
