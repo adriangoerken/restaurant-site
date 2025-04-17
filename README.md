@@ -12,7 +12,7 @@ Built with **React** (or specify other tech if used) and designed with user enga
 
 This checklist outlines the planned features and their current implementation status in the demo:
 
--   [ ] **Dynamic Landing Page:** Welcomes visitors with highlights of special offers and featured menu items.
+-   [x] **Dynamic Landing Page:** Welcomes visitors with highlights of special offers and featured menu items.
 -   [ ] **Interactive Menu Page:**
     -   [ ] Displays the full range of dishes with descriptions and pricing.
     -   [ ] Allows users to rate dishes using a star system and leave optional comments. _(API integration planned for data persistence)_

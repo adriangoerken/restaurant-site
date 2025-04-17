@@ -32,26 +32,6 @@
 	src: url('/fonts/Poppins/poppins-v22-latin-700.woff2') format('woff2');
 }
 
-h1,
-h2,
-h3 {
-	@apply leading-none;
-}
-
-hr {
-	@apply border-none;
-	@apply my-10;
-	@apply h-[2px];
-	@apply bg-white;
-	@apply w-full;
-}
-
-p {
-	@apply leading-relaxed;
-	@apply text-center;
-	@apply md:text-start;
-}
-
 /* Custom scroll bar */
 @media only screen and (min-width: 768px) {
 	/* width */
