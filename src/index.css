@@ -1,68 +1,81 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import 'tailwindcss';
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@theme {
+	--color-custom-gray: #121212;
+	--color-elevation-100: #1d1d1d;
+	--color-elevation-200: #1e1e1e;
+	--color-elevation-300: #1f1f1f;
+	--font-sans: 'Poppins', sans-serif;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+@font-face {
+	font-display: swap;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Poppins/poppins-v22-latin-regular.woff2') format('woff2');
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+@font-face {
+	font-display: swap;
+	font-family: 'Poppins';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/fonts/Poppins/poppins-v22-latin-italic.woff2') format('woff2');
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+@font-face {
+	font-display: swap;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/Poppins/poppins-v22-latin-700.woff2') format('woff2');
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+h1,
+h2,
+h3 {
+	@apply leading-none;
+}
+
+hr {
+	@apply border-none;
+	@apply my-10;
+	@apply h-[2px];
+	@apply bg-white;
+	@apply w-full;
+}
+
+p {
+	@apply leading-relaxed;
+	@apply text-center;
+	@apply md:text-start;
+}
+
+/* Custom scroll bar */
+@media only screen and (min-width: 768px) {
+	/* width */
+	::-webkit-scrollbar {
+		width: 15px;
+	}
+
+	/* height */
+	::-webkit-scrollbar {
+		height: 15px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		/*background: #2d2d2d;*/ /* Slightly lighter than bg-gray-900 */
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #1f1f1f; /* Tailwind's bg-gray-600 */
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #1d1d1d; /* Tailwind's bg-gray-500 */
+	}
 }
