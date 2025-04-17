@@ -54,7 +54,7 @@ const Hero = ({ images }: HeroProps) => {
 						initial={{ opacity: 0, y: 20 }}
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.4, duration: 0.5 }}
-						className="space-x-4"
+						className="flex flex-col mx-auto gap-4 md:flex-row w-fit"
 					>
 						<AnimatedButton variant="primary" size="lg">
 							Book a Table
