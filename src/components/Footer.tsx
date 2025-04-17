@@ -46,7 +46,7 @@ const Footer = () => {
 					<div className="pt-8 border-t border-zinc-800">
 						<div className="flex flex-col md:flex-row justify-between items-center gap-4">
 							<p className="text-gray-400">
-								© {currentYear}
+								<span className="mr-2">© {currentYear}</span>
 								<a
 									href="https://adriangoerken.de"
 									target="_blank"
