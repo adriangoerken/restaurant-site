@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import Section from '../ui/Section';
 import SectionHeading from '../ui/SectionHeading';
 import AnimatedButton from '../ui/AnimatedButton';
+import { useTranslation } from 'react-i18next';
 
 type BusinessHours = {
 	days: string;
@@ -10,27 +11,27 @@ type BusinessHours = {
 
 type LocationSectionProps = {
 	address?: string;
-	hours?: BusinessHours[];
-	buttonText?: string;
 	onDirectionsClick?: () => void;
 };
 
-const defaultHours: BusinessHours[] = [
-	{ days: 'Tuesday - Thursday', hours: '5:00 PM - 11:00 PM' },
-	{ days: 'Friday - Saturday', hours: '5:00 PM - 1:00 AM' },
-	{ days: 'Sunday - Monday', hours: 'Closed' },
-];
-
 const LocationSection = ({
 	address = 'Musterstraße 1, 12345 Musterstadt',
-	hours = defaultHours,
-	buttonText = 'Contact & Directions',
 	onDirectionsClick,
 }: LocationSectionProps) => {
+	const { t } = useTranslation();
+
+	const hours: BusinessHours[] = [
+		{ days: t('location.hours1.days'), hours: t('location.hours1.time') },
+		{ days: t('location.hours2.days'), hours: t('location.hours2.time') },
+		{ days: t('location.hours3.days'), hours: t('location.hours3.time') },
+	];
+
 	return (
 		<Section background="dark">
 			<div className="text-center">
-				<SectionHeading color="rose">Find Us</SectionHeading>
+				<SectionHeading color="rose">
+					{t('location.title')}
+				</SectionHeading>{' '}
 				<motion.p
 					className="text-xl mb-4"
 					initial={{ opacity: 0, y: 20 }}
@@ -47,12 +48,12 @@ const LocationSection = ({
 				>
 					{hours.map((schedule, index) => (
 						<p key={index} className="text-lg">
-							{schedule.days}: {schedule.hours}
+							{schedule.days}: {schedule.hours}{' '}
 						</p>
 					))}
 				</motion.div>
 				<AnimatedButton variant="outline" onClick={onDirectionsClick}>
-					{buttonText}
+					{t('location.button')}
 				</AnimatedButton>
 			</div>
 		</Section>

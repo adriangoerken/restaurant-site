@@ -2,6 +2,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 import Container from '../Container';
 import SectionHeading from '../ui/SectionHeading';
 import MenuCard from '../ui/MenuCard';
+import { useTranslation } from 'react-i18next';
 
 type MenuItem = {
 	title: string;
@@ -10,37 +11,34 @@ type MenuItem = {
 	size?: string;
 };
 
-type MenuHighlightsProps = {
-	items?: MenuItem[];
-};
-
-const defaultMenuItems: MenuItem[] = [
-	{
-		title: 'Dragon Fire Roll',
-		desc: 'Spicy tuna, tempura crunch, topped with torched salmon',
-		img: 'https://i.imgur.com/szITcrX.jpeg',
-		size: 'lg:col-span-2 lg:row-span-2',
-	},
-	{
-		title: 'Yakitori Selection',
-		desc: 'Assorted grilled skewers with house-made tare sauce',
-		img: 'https://i.imgur.com/iklvGFY.jpeg',
-	},
-	{
-		title: 'Wagyu Bao Buns',
-		desc: 'Tender wagyu beef, pickled vegetables, special sauce',
-		img: 'https://i.imgur.com/pRRUbBs.jpeg',
-		size: 'lg:col-span-1 lg:row-span-2',
-	},
-	{
-		title: 'Tonkotsu Ramen',
-		desc: 'Rich pork broth, chashu, ajitsuke tamago',
-		img: 'https://i.imgur.com/d96364L.jpeg',
-	},
-];
-
-const MenuHighlights = ({ items = defaultMenuItems }: MenuHighlightsProps) => {
+const MenuHighlights = () => {
+	const { t } = useTranslation();
 	const prefersReducedMotion = useReducedMotion();
+
+	const items: MenuItem[] = [
+		{
+			title: t('menuHighlights.item1.title'),
+			desc: t('menuHighlights.item1.desc'),
+			img: 'https://i.imgur.com/szITcrX.jpeg',
+			size: 'lg:col-span-2 lg:row-span-2',
+		},
+		{
+			title: t('menuHighlights.item2.title'),
+			desc: t('menuHighlights.item2.desc'),
+			img: 'https://i.imgur.com/iklvGFY.jpeg',
+		},
+		{
+			title: t('menuHighlights.item3.title'),
+			desc: t('menuHighlights.item3.desc'),
+			img: 'https://i.imgur.com/pRRUbBs.jpeg',
+			size: 'lg:col-span-1 lg:row-span-2',
+		},
+		{
+			title: t('menuHighlights.item4.title'),
+			desc: t('menuHighlights.item4.desc'),
+			img: 'https://i.imgur.com/d96364L.jpeg',
+		},
+	];
 
 	const sectionVariants = {
 		hidden: { opacity: 0, y: prefersReducedMotion ? 0 : 50 },
@@ -61,7 +59,7 @@ const MenuHighlights = ({ items = defaultMenuItems }: MenuHighlightsProps) => {
 		>
 			<Container>
 				<SectionHeading color="rose" className="mb-16">
-					Menu Highlights
+					{t('menuHighlights.title')}
 				</SectionHeading>
 				<motion.div
 					className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 auto-rows-[minmax(300px,auto)]"
@@ -74,7 +72,7 @@ const MenuHighlights = ({ items = defaultMenuItems }: MenuHighlightsProps) => {
 					}}
 				>
 					{items.map((item, index) => (
-						<MenuCard key={index} index={index} {...item} />
+						<MenuCard key={item.title} index={index} {...item} />
 					))}
 					<motion.div
 						className="flex items-center justify-center"
@@ -103,7 +101,7 @@ const MenuHighlights = ({ items = defaultMenuItems }: MenuHighlightsProps) => {
 							}}
 						>
 							<span className="relative z-10">
-								Explore Full Menu
+								{t('menuHighlights.exploreButton')}
 							</span>
 							{!prefersReducedMotion && (
 								<motion.div

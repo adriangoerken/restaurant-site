@@ -3,31 +3,30 @@ import SectionHeading from '../components/ui/SectionHeading';
 import InfoBlock from '../components/ui/InfoBlock';
 import StyledLink from '../components/ui/StyledLink';
 import { PROVIDER_INFO as providerInfo } from '../utils/constants';
+import { useTranslation } from 'react-i18next';
 
 const ImprintPage = () => {
+	const { t } = useTranslation();
+
 	return (
 		<section className="py-8">
 			<Container>
 				<SectionHeading color="rose" align="left" animated={false}>
-					Imprint
+					{t('imprintPage.title')}
 				</SectionHeading>
 
 				<div className="space-y-8">
 					<p className="text-lg text-gray-300">
-						This imprint is provided in accordance with Section 5 of
-						the German Telemedia Act (TMG) and other applicable
-						laws.
+						{t('imprintPage.intro')}
 					</p>
 
 					{/* Provider Information */}
-					<InfoBlock title="Provider Information">
+					<InfoBlock title={t('imprintPage.providerInfo')}>
 						<div>
 							<p className="font-medium text-lg">
 								{providerInfo.name}
 							</p>
 							<address className="not-italic mt-1 text-gray-300">
-								{' '}
-								{/* Added text-gray-300 for consistency */}
 								{providerInfo.street}
 								<br />
 								{providerInfo.city}
@@ -36,12 +35,8 @@ const ImprintPage = () => {
 							</address>
 						</div>
 						<div className="pt-2 space-y-1">
-							{' '}
-							{/* Added spacing between links */}
 							<p className="text-gray-300">
-								{' '}
-								{/* Added text-gray-300 */}
-								Email:
+								{t('imprintPage.emailLabel')}
 								<StyledLink
 									href={`mailto:${providerInfo.email}`}
 									className="ml-2"
@@ -50,9 +45,7 @@ const ImprintPage = () => {
 								</StyledLink>
 							</p>
 							<p className="text-gray-300">
-								{' '}
-								{/* Added text-gray-300 */}
-								Phone:
+								{t('imprintPage.phoneLabel')}
 								<StyledLink
 									href={`tel:${providerInfo.phone}`}
 									className="ml-2"
@@ -61,16 +54,13 @@ const ImprintPage = () => {
 								</StyledLink>
 							</p>
 							<p className="text-gray-300">
-								{' '}
-								{/* Added text-gray-300 */}
-								Website:
+								{t('imprintPage.websiteLabel')}
 								<StyledLink
 									href={providerInfo.website}
 									target="_blank"
 									rel="noopener noreferrer"
 									className="ml-2"
 								>
-									{/* Display cleaner URL */}
 									{providerInfo.website.replace(
 										'https://',
 										''
@@ -81,21 +71,17 @@ const ImprintPage = () => {
 					</InfoBlock>
 
 					{/* Disclaimer */}
-					<InfoBlock title="Disclaimer">
+					<InfoBlock title={t('imprintPage.disclaimerTitle')}>
 						<p className="text-gray-300">
-							Despite careful monitoring, I assume no liability
-							for the content of external links. The content of
-							linked pages is the sole responsibility of their
-							operators.
+							{t('imprintPage.disclaimerText')}
 						</p>
 					</InfoBlock>
 
 					{/* Contact */}
-					<InfoBlock title="Contact">
+					<InfoBlock title={t('imprintPage.contactTitle')}>
+						{' '}
 						<p className="text-gray-300 mb-4">
-							If you have any questions regarding this imprint or
-							the information provided, please feel free to
-							contact us:
+							{t('imprintPage.contactText')}
 						</p>
 						<div className="space-y-2 text-gray-300">
 							<p>

@@ -1,0 +1,193 @@
+{
+	"brand": {
+		"name": "Umami Nights"
+	},
+	"nav": {
+		"menu": "Menu",
+		"reservation": "Reservation",
+		"story": "Our Story",
+		"gallery": "Gallery",
+		"contactLocation": "Contact & Location",
+		"feedback": "Feedback",
+		"order": "Order",
+		"ariaHomepage": "Umami Nights - Return to homepage",
+		"ariaOpenMenu": "Open main menu",
+		"ariaCloseMenu": "Close main menu"
+	},
+	"footer": {
+		"contact": "Contact",
+		"address": "Address",
+		"openingHours": "Opening Hours",
+		"openingHoursDays": "Tuesday - Sunday",
+		"openingHoursTime": "17:00 - 23:00",
+		"copyright": ". All rights reserved.",
+		"imprint": "Imprint",
+		"privacyPolicy": "Privacy Policy"
+	},
+	"hero": {
+		"headline": "Modern Asian Fusion in the Heart of the City",
+		"bookTable": "Book a Table",
+		"viewMenu": "View Menu"
+	},
+	"concept": {
+		"text": "Step into Umami Nights, where modern Asian flavors meet urban energy. Inspired by Japanese Izakaya culture, we invite you to share plates, discover craft cocktails, and connect in a vibrant setting that captures the essence of contemporary Asian dining."
+	},
+	"menuHighlights": {
+		"title": "Menu Highlights",
+		"item1": {
+			"title": "Dragon Fire Roll",
+			"desc": "Spicy tuna, tempura crunch, topped with torched salmon"
+		},
+		"item2": {
+			"title": "Yakitori Selection",
+			"desc": "Assorted grilled skewers with house-made tare sauce"
+		},
+		"item3": {
+			"title": "Wagyu Bao Buns",
+			"desc": "Tender wagyu beef, pickled vegetables, special sauce"
+		},
+		"item4": {
+			"title": "Tonkotsu Ramen",
+			"desc": "Rich pork broth, chashu, ajitsuke tamago"
+		},
+		"exploreButton": "Explore Full Menu"
+	},
+	"cocktails": {
+		"title": "Crafted Cocktails",
+		"item1": {
+			"title": "Tokyo Nights",
+			"desc": "Japanese whisky, yuzu, shiso, smoke"
+		},
+		"item2": {
+			"title": "Sakura Spring",
+			"desc": "Gin, cherry blossom, lychee, prosecco"
+		}
+	},
+	"ambiance": {
+		"title": "Vibrant Nights. Urban Style.",
+		"item1": {
+			"title": "Restaurant Interior",
+			"desc": "Modern design meets intimate ambiance"
+		},
+		"item2": {
+			"title": "Bar & Lounge",
+			"desc": "Craft cocktails in a sophisticated setting"
+		}
+	},
+	"booking": {
+		"title": "Reserve Your Experience",
+		"button": "Book a Table"
+	},
+	"location": {
+		"title": "Find Us",
+		"hours1": {
+			"days": "Tuesday - Thursday",
+			"time": "5:00 PM - 11:00 PM"
+		},
+		"hours2": {
+			"days": "Friday - Saturday",
+			"time": "5:00 PM - 1:00 AM"
+		},
+		"hours3": {
+			"days": "Sunday - Monday",
+			"time": "Closed"
+		},
+		"button": "Contact & Directions"
+	},
+	"contact": {
+		"title": "Contact Us"
+	},
+	"imprintPage": {
+		"title": "Imprint",
+		"intro": "This imprint is provided in accordance with Section 5 of the German Telemedia Act (TMG) and other applicable laws.",
+		"providerInfo": "Provider Information",
+		"emailLabel": "Email:",
+		"phoneLabel": "Phone:",
+		"websiteLabel": "Website:",
+		"disclaimerTitle": "Disclaimer",
+		"disclaimerText": "Despite careful monitoring, I assume no liability for the content of external links. The content of linked pages is the sole responsibility of their operators.",
+		"contactTitle": "Contact",
+		"contactText": "If you have any questions regarding this imprint or the information provided, please feel free to contact us:"
+	},
+	"privacyPolicyPage": {
+		"title": "Privacy Policy",
+		"effectiveDateLabel": "Effective Date:",
+		"section1Title": "1. Introduction and Controller",
+		"section1Intro": "Welcome to the website for Umami Nights. I, Adrian Goerken ('I,' 'my,' 'me'), am committed to protecting your privacy. This Privacy Policy explains how personal data is collected, used, and protected when you visit this website, in accordance with the EU General Data Protection Regulation (GDPR) and relevant German data protection laws (e.g., BDSG, TTDSG).",
+		"section1Controller": "The responsible party (data controller) for data processing on this website is:",
+		"emailLabel": "Email:",
+		"phoneLabel": "Phone:",
+		"section2Title": "2. Data Processing Activities",
+		"section2aTitle": "a) Website Delivery & Security",
+		"section2aText": "This website's frontend is delivered via Cloudflare Pages (Cloudflare, Inc., USA). When you access the website, Cloudflare processes data, including your IP address and basic request data, for essential content delivery (CDN) and security purposes (e.g., DDoS mitigation), acting as a data processor.",
+		"legalBasisLegitimateInterest": "Legal Basis: Legitimate interest (Art. 6(1)(f) GDPR)",
+		"legalBasisWebsite": "in operating a secure and performant website.",
+		"cloudflarePolicyLinkText": "Cloudflare Privacy Policy",
+		"internationalTransferUSA": "International Data Transfer: Involves data transfer to the USA, safeguarded by measures like Standard Contractual Clauses (SCCs).",
+		"seeLink": "See",
+		"section2bTitle": "b) Backend Services & Hosting",
+		"section2bText": "The backend API (handling feedback/ratings) is hosted on servers provided by Hetzner Online GmbH (Germany). Your IP address is processed by the Hetzner server when your browser communicates with the API for technical necessity. Hetzner may also maintain server logs (including IPs) for security and operation.",
+		"legalBasisServer": "for essential server operation and security.",
+		"hetznerPolicyLinkText": "Hetzner Privacy Policy",
+		"hetznerRole": "Hetzner acts as a data processor.",
+		"section2cTitle": "c) User Feedback and Ratings",
+		"section2cText": "This website allows you to provide feedback on the restaurant and rate individual dishes.",
+		"dataCollected": "Data Collected:",
+		"dataCollectedRating": "Star rating",
+		"dataCollectedComment": "Comment text (if provided)",
+		"dataCollectedTimestamp": "Submission date/time (automatically recorded)",
+		"dataCollectedDisplayName": "An optional \"Display Name\" (which you may choose to provide)",
+		"dataCollectedDisclaimer": "Apart from the optional Display Name you might provide and the content of your comment, the submission is not linked to other personal identifiers.",
+		"purposeLabel": "Purpose:",
+		"purposeText": "To collect user opinions for public display on the website, to understand user preferences, and for internal service improvement.",
+		"legalBasisLabel": "Legal Basis:",
+		"legalBasisConsent": "Your explicit Consent (Art. 6(1)(a) GDPR).",
+		"storageLabel": "Storage:",
+		"storageText": "This data is stored in the website's backend database, hosted on Hetzner servers located in Germany.",
+		"retentionLabel": "Retention:",
+		"retentionFeedback": "Feedback and ratings are stored potentially indefinitely unless removed or until you request deletion.",
+		"section2dTitle": "d) Image Hosting",
+		"section2dText": "This website uses Imgur (Imgur Inc., USA) as a third-party service (CDN) to efficiently host and deliver images. When loading images, your browser connects to Imgur's servers, transmitting your IP address and basic browser information necessary for technical delivery.",
+		"legalBasisDelivery": "in providing an efficiently delivered website.",
+		"imgurPolicyLinkText": "Imgur Privacy Policy",
+		"internationalTransferImgur": "International Data Transfer: Involves data transfer to the USA, typically safeguarded by SCCs.",
+		"section2eTitle": "e) Cookies",
+		"section2eText": "This website does not use cookies.",
+		"section2fTitle": "f) Contacting Me",
+		"section2fText": "If you contact me via the provided email address or phone number, the personal data you transmit will be processed solely to handle your request and respond to you.",
+		"legalBasisContact": "Art. 6(1)(b) GDPR if pre-contractual; otherwise, Art. 6(1)(f) GDPR (legitimate interest in responding).",
+		"retentionContact": "Data deleted once the inquiry is resolved and no legal retention obligations apply.",
+		"section3Title": "3. Data Retention",
+		"section3Text": "Unless specified otherwise (e.g., potentially indefinite storage for feedback/ratings subject to deletion rights, or specific retention periods for provider logs), personal data is stored only as long as necessary for the purposes for which it was collected, or as required by law. Data is deleted once the purpose is fulfilled or retention periods expire.",
+		"section4Title": "4. Data Security",
+		"section4Text": "I implement appropriate technical and organizational security measures to protect data against manipulation, loss, destruction, or unauthorized access.",
+		"section5Title": "5. Third-Party Processors / Recipients",
+		"section5Intro": "Your data may be processed by or transmitted to the following third-party service providers:",
+		"section5Cloudflare": "Cloudflare, Inc. (USA): Frontend hosting, CDN, security.",
+		"section5Hetzner": "Hetzner Online GmbH (Germany): Backend API hosting infrastructure.",
+		"section5Imgur": "Imgur, Inc. (USA): Image hosting/CDN.",
+		"section5DPA": "Data processing agreements are in place where required.",
+		"section6Title": "6. Your Rights as a Data Subject",
+		"section6Intro": "Under the GDPR, you have the following rights regarding your personal data:",
+		"rightAccess": "Access (Art. 15)",
+		"rightRectification": "Rectification (Art. 16)",
+		"rightErasure": "Erasure (Art. 17)",
+		"rightRestriction": "Restriction of Processing (Art. 18)",
+		"rightPortability": "Data Portability (Art. 20)",
+		"rightObject": "Object (Art. 21)",
+		"rightWithdrawConsent": "Withdraw Consent (Art. 7(3))",
+		"rightLodgeComplaint": "Lodge a Complaint (Art. 77)",
+		"section6Exercise": "To exercise these rights (including requesting deletion of your feedback/ratings), please contact me (Section 1). Withdrawing consent does not affect the lawfulness of processing based on consent before its withdrawal.",
+		"section7Title": "7. Right to Lodge a Complaint",
+		"section7Intro": "You have the right to lodge a complaint with a data protection supervisory authority. The authority responsible for me is:",
+		"websiteLabel": "Website:",
+		"section8Title": "8. International Data Transfers",
+		"section8Text": "Using services from Cloudflare and Imgur involves transferring data (primarily IP addresses, request data) to servers potentially located outside the European Union, particularly the USA. These transfers are safeguarded by measures recognized under GDPR, such as Standard Contractual Clauses (SCCs). Hosting of the backend database and API via Hetzner occurs within Germany (EU).",
+		"section9Title": "9. Changes to this Privacy Policy",
+		"section9Text": "This Privacy Policy may be updated occasionally. The current version will always be available on this website."
+	},
+	"notFoundPage": {
+		"title": "Page Not Found",
+		"message": "Sorry, the page you are looking for does not exist."
+	}
+}

@@ -2,25 +2,27 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { motion, AnimatePresence } from 'framer-motion';
 import Container from './Container';
+import { useTranslation } from 'react-i18next';
 
 const NavBar = () => {
+	const { t } = useTranslation();
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
 	const navItems = [
-		{ name: 'Menu', path: '/' },
-		{ name: 'Reservation', path: '/' },
-		{ name: 'Our Story', path: '/' },
-		{ name: 'Gallery', path: '/' },
-		{ name: 'Contact & Location', path: '/' },
-		{ name: 'Feedback', path: '/' },
-		{ name: 'Order', path: '/' },
+		{ name: t('nav.menu'), path: 'menu' },
+		{ name: t('nav.reservation'), path: 'reservation' },
+		{ name: t('nav.order'), path: 'order' },
+		{ name: t('nav.story'), path: '/story' },
+		{ name: t('nav.gallery'), path: '/gallery' },
+		{ name: t('nav.contactLocation'), path: '/contact' },
+		{ name: t('nav.feedback'), path: '/feedback' },
 	];
 
 	return (
 		<nav
 			className="fixed w-full z-50 bg-black/80 backdrop-blur-md"
 			role="navigation"
-			aria-label="Main navigation"
+			aria-label={t('nav.ariaLabelMain')}
 		>
 			<Container>
 				<div className="flex items-center justify-between h-16">
@@ -28,10 +30,10 @@ const NavBar = () => {
 					<Link
 						to="/"
 						className="flex-shrink-0"
-						aria-label="Umami Nights - Return to homepage"
+						aria-label={t('nav.ariaHomepage')}
 					>
 						<span className="text-2xl font-bold text-rose-500">
-							Umami Nights
+							{t('brand.name')}
 						</span>
 					</Link>
 
@@ -39,13 +41,13 @@ const NavBar = () => {
 					<div
 						className="hidden lg:flex items-center space-x-8"
 						role="menubar"
-						aria-label="Desktop navigation"
+						aria-label={t('nav.ariaLabelDesktop')}
 					>
 						{navItems.map((item) => (
 							<Link
 								key={item.name}
 								to={item.path}
-								className="text-gray-300 hover:text-rose-500 py-2 font-medium transition-colors duration-200"
+								className="text-gray-300 hover:text-rose-500 py-2 font-medium text-sm transition-colors duration-200"
 								role="menuitem"
 								aria-current={
 									item.path === window.location.pathname
@@ -67,14 +69,14 @@ const NavBar = () => {
 							aria-controls="mobile-menu"
 							aria-label={
 								isMenuOpen
-									? 'Close main menu'
-									: 'Open main menu'
+									? t('nav.ariaCloseMenu')
+									: t('nav.ariaOpenMenu')
 							}
 						>
 							<span className="sr-only">
 								{isMenuOpen
-									? 'Close main menu'
-									: 'Open main menu'}
+									? t('nav.ariaCloseMenu')
+									: t('nav.ariaOpenMenu')}
 							</span>
 							{!isMenuOpen ? (
 								<svg
@@ -123,7 +125,7 @@ const NavBar = () => {
 						exit={{ opacity: 0, height: 0 }}
 						transition={{ duration: 0.2 }}
 						role="menu"
-						aria-label="Mobile navigation"
+						aria-label={t('nav.ariaLabelMobile')}
 					>
 						<Container>
 							<div className="py-2 space-y-1 text-center">

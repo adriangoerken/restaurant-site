@@ -8,12 +8,14 @@ import Container from '../Container';
 import ImageCarousel, { CarouselImage } from '../ui/ImageCarousel';
 import SectionHeading from '../ui/SectionHeading';
 import AnimatedButton from '../ui/AnimatedButton';
+import { useTranslation } from 'react-i18next';
 
 interface HeroProps {
 	images: CarouselImage[];
 }
 
 const Hero = ({ images }: HeroProps) => {
+	const { t } = useTranslation();
 	const prefersReducedMotion = useReducedMotion();
 	const { scrollY } = useScroll();
 	const heroOpacity = useTransform(scrollY, [0, 300], [1, 0]);
@@ -40,7 +42,7 @@ const Hero = ({ images }: HeroProps) => {
 						className="text-5xl md:text-7xl mb-6 font-bold"
 						animated={false}
 					>
-						Umami Nights
+						{t('brand.name')}
 					</SectionHeading>
 					<motion.p
 						className="text-xl md:text-2xl mb-8 text-gray-300"
@@ -48,7 +50,7 @@ const Hero = ({ images }: HeroProps) => {
 						animate={{ opacity: 1, y: 0 }}
 						transition={{ delay: 0.2, duration: 0.5 }}
 					>
-						Modern Asian Fusion in the Heart of the City
+						{t('hero.headline')}
 					</motion.p>
 					<motion.div
 						initial={{ opacity: 0, y: 20 }}
@@ -57,10 +59,10 @@ const Hero = ({ images }: HeroProps) => {
 						className="flex flex-col mx-auto gap-4 md:flex-row w-fit"
 					>
 						<AnimatedButton variant="primary" size="lg">
-							Book a Table
+							{t('hero.bookTable')}
 						</AnimatedButton>
 						<AnimatedButton variant="secondary" size="lg">
-							View Menu
+							{t('hero.viewMenu')}
 						</AnimatedButton>
 					</motion.div>
 				</Container>

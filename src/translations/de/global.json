@@ -1,0 +1,193 @@
+{
+	"brand": {
+		"name": "Umami Nights"
+	},
+	"nav": {
+		"menu": "Gerichte",
+		"reservation": "Reservierung",
+		"story": "Geschichte",
+		"gallery": "Galerie",
+		"contactLocation": "Kontakt & Standort",
+		"feedback": "Feedback",
+		"order": "Bestellen",
+		"ariaHomepage": "Umami Nights - Zur Startseite zurückkehren",
+		"ariaOpenMenu": "Hauptmenü öffnen",
+		"ariaCloseMenu": "Hauptmenü schließen"
+	},
+	"footer": {
+		"contact": "Kontakt",
+		"address": "Adresse",
+		"openingHours": "Öffnungszeiten",
+		"openingHoursDays": "Dienstag - Sonntag",
+		"openingHoursTime": "17:00 - 23:00",
+		"copyright": ". Alle Rechte vorbehalten.",
+		"imprint": "Impressum",
+		"privacyPolicy": "Datenschutz"
+	},
+	"hero": {
+		"headline": "Moderne asiatische Fusion im Herzen der Stadt",
+		"bookTable": "Tisch reservieren",
+		"viewMenu": "Gerichte ansehen"
+	},
+	"concept": {
+		"text": "Treten Sie ein in Umami Nights, wo moderne asiatische Aromen auf urbane Energie treffen. Inspiriert von der japanischen Izakaya-Kultur laden wir Sie ein, Gerichte zu teilen, Craft-Cocktails zu entdecken und sich in einer lebendigen Umgebung zu verbinden, die die Essenz des zeitgenössischen asiatischen Essens einfängt."
+	},
+	"menuHighlights": {
+		"title": "Gerichte-Highlights",
+		"item1": {
+			"title": "Dragon Fire Roll",
+			"desc": "Scharfer Thunfisch, Tempura-Crunch, garniert mit flambiertem Lachs"
+		},
+		"item2": {
+			"title": "Yakitori-Auswahl",
+			"desc": "Verschiedene gegrillte Spieße mit hausgemachter Tare-Sauce"
+		},
+		"item3": {
+			"title": "Wagyu Bao Buns",
+			"desc": "Zartes Wagyu-Rindfleisch, eingelegtes Gemüse, spezielle Sauce"
+		},
+		"item4": {
+			"title": "Tonkotsu Ramen",
+			"desc": "Reichhaltige Schweinebrühe, Chashu, Ajitsuke Tamago"
+		},
+		"exploreButton": "Gesamtes Menü entdecken"
+	},
+	"cocktails": {
+		"title": "Handgemachte Cocktails",
+		"item1": {
+			"title": "Tokyo Nights",
+			"desc": "Japanischer Whisky, Yuzu, Shiso, Rauch"
+		},
+		"item2": {
+			"title": "Sakura Spring",
+			"desc": "Gin, Kirschblüte, Litschi, Prosecco"
+		}
+	},
+	"ambiance": {
+		"title": "Lebendige Nächte. Urbaner Stil.",
+		"item1": {
+			"title": "Restaurant-Interieur",
+			"desc": "Modernes Design trifft auf intimes Ambiente"
+		},
+		"item2": {
+			"title": "Bar & Lounge",
+			"desc": "Craft-Cocktails in anspruchsvollem Ambiente"
+		}
+	},
+	"booking": {
+		"title": "Reservieren Sie Ihr Erlebnis",
+		"button": "Tisch reservieren"
+	},
+	"location": {
+		"title": "Finden Sie uns",
+		"hours1": {
+			"days": "Dienstag - Donnerstag",
+			"time": "17:00 - 23:00 Uhr"
+		},
+		"hours2": {
+			"days": "Freitag - Samstag",
+			"time": "17:00 - 01:00 Uhr"
+		},
+		"hours3": {
+			"days": "Sonntag - Montag",
+			"time": "Geschlossen"
+		},
+		"button": "Kontakt & Anfahrt"
+	},
+	"contact": {
+		"title": "Kontaktieren Sie uns"
+	},
+	"imprintPage": {
+		"title": "Impressum",
+		"intro": "Dieses Impressum wird gemäß § 5 Telemediengesetz (TMG) und anderen geltenden Gesetzen bereitgestellt.",
+		"providerInfo": "Anbieterinformationen",
+		"emailLabel": "E-Mail:",
+		"phoneLabel": "Telefon:",
+		"websiteLabel": "Webseite:",
+		"disclaimerTitle": "Haftungsausschluss",
+		"disclaimerText": "Trotz sorgfältiger inhaltlicher Kontrolle übernehme ich keine Haftung für die Inhalte externer Links. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.",
+		"contactTitle": "Kontakt",
+		"contactText": "Wenn Sie Fragen zu diesem Impressum oder den bereitgestellten Informationen haben, können Sie uns gerne kontaktieren:"
+	},
+	"privacyPolicyPage": {
+		"title": "Datenschutzerklärung",
+		"effectiveDateLabel": "Gültig ab:",
+		"section1Title": "1. Einleitung und Verantwortlicher",
+		"section1Intro": "Willkommen auf der Webseite von Umami Nights. Ich, Adrian Goerken ('ich', 'mein', 'mir'), verpflichte mich, Ihre Privatsphäre zu schützen. Diese Datenschutzerklärung erläutert, wie personenbezogene Daten beim Besuch dieser Webseite gemäß der EU-Datenschutz-Grundverordnung (DSGVO) und relevanter deutscher Datenschutzgesetze (z.B. BDSG, TTDSG) erhoben, verwendet und geschützt werden.",
+		"section1Controller": "Verantwortliche Stelle (Datenverantwortlicher) für die Datenverarbeitung auf dieser Webseite ist:",
+		"emailLabel": "E-Mail:",
+		"phoneLabel": "Telefon:",
+		"section2Title": "2. Datenverarbeitungsaktivitäten",
+		"section2aTitle": "a) Webseitenbereitstellung & Sicherheit",
+		"section2aText": "Das Frontend dieser Webseite wird über Cloudflare Pages (Cloudflare, Inc., USA) bereitgestellt. Wenn Sie auf die Webseite zugreifen, verarbeitet Cloudflare Daten, einschließlich Ihrer IP-Adresse und grundlegender Anfragedaten, zur wesentlichen Inhaltsbereitstellung (CDN) und zu Sicherheitszwecken (z.B. DDoS-Abwehr) und agiert dabei als Auftragsverarbeiter.",
+		"legalBasisLegitimateInterest": "Rechtsgrundlage: Berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO)",
+		"legalBasisWebsite": "am Betrieb einer sicheren und performanten Webseite.",
+		"cloudflarePolicyLinkText": "Cloudflare Datenschutzrichtlinie",
+		"internationalTransferUSA": "Internationale Datenübertragung: Beinhaltet Datenübertragung in die USA, abgesichert durch Maßnahmen wie Standardvertragsklauseln (SCCs).",
+		"seeLink": "Siehe",
+		"section2bTitle": "b) Backend-Dienste & Hosting",
+		"section2bText": "Die Backend-API (zur Verarbeitung von Feedback/Bewertungen) wird auf Servern der Hetzner Online GmbH (Deutschland) gehostet. Ihre IP-Adresse wird vom Hetzner-Server verarbeitet, wenn Ihr Browser aus technischer Notwendigkeit mit der API kommuniziert. Hetzner kann auch Serverprotokolle (einschließlich IPs) zur Sicherheit und zum Betrieb führen.",
+		"legalBasisServer": "für den wesentlichen Serverbetrieb und die Sicherheit.",
+		"hetznerPolicyLinkText": "Hetzner Datenschutzrichtlinie",
+		"hetznerRole": "Hetzner agiert als Auftragsverarbeiter.",
+		"section2cTitle": "c) Nutzerfeedback und Bewertungen",
+		"section2cText": "Diese Webseite ermöglicht es Ihnen, Feedback zum Restaurant zu geben und einzelne Gerichte zu bewerten.",
+		"dataCollected": "Erhobene Daten:",
+		"dataCollectedRating": "Sternebewertung",
+		"dataCollectedComment": "Kommentartext (falls angegeben)",
+		"dataCollectedTimestamp": "Datum/Uhrzeit der Einreichung (automatisch erfasst)",
+		"dataCollectedDisplayName": "Ein optionaler \"Anzeigename\" (den Sie angeben können)",
+		"dataCollectedDisclaimer": "Abgesehen von dem optionalen Anzeigenamen, den Sie möglicherweise angeben, und dem Inhalt Ihres Kommentars ist die Einreichung nicht mit anderen persönlichen Identifikatoren verknüpft.",
+		"purposeLabel": "Zweck:",
+		"purposeText": "Sammlung von Nutzermeinungen zur öffentlichen Anzeige auf der Webseite, zum Verständnis der Nutzerpräferenzen und zur internen Serviceverbesserung.",
+		"legalBasisLabel": "Rechtsgrundlage:",
+		"legalBasisConsent": "Ihre ausdrückliche Einwilligung (Art. 6 Abs. 1 lit. a DSGVO).",
+		"storageLabel": "Speicherung:",
+		"storageText": "Diese Daten werden in der Backend-Datenbank der Webseite gespeichert, die auf Hetzner-Servern in Deutschland gehostet wird.",
+		"retentionLabel": "Aufbewahrung:",
+		"retentionFeedback": "Feedback und Bewertungen werden potenziell unbegrenzt gespeichert, es sei denn, sie werden entfernt oder Sie beantragen die Löschung.",
+		"section2dTitle": "d) Bild-Hosting",
+		"section2dText": "Diese Webseite nutzt Imgur (Imgur Inc., USA) als Drittanbieterdienst (CDN) zur effizienten Bereitstellung und Auslieferung von Bildern. Beim Laden von Bildern verbindet sich Ihr Browser mit den Servern von Imgur und übermittelt Ihre IP-Adresse sowie grundlegende Browserinformationen, die für die technische Auslieferung notwendig sind.",
+		"legalBasisDelivery": "an der Bereitstellung einer effizient ausgelieferten Webseite.",
+		"imgurPolicyLinkText": "Imgur Datenschutzrichtlinie",
+		"internationalTransferImgur": "Internationale Datenübertragung: Beinhaltet Datenübertragung in die USA, typischerweise abgesichert durch SCCs.",
+		"section2eTitle": "e) Cookies",
+		"section2eText": "Diese Webseite verwendet keine Cookies.",
+		"section2fTitle": "f) Kontaktaufnahme",
+		"section2fText": "Wenn Sie mich über die angegebene E-Mail-Adresse oder Telefonnummer kontaktieren, werden die von Ihnen übermittelten personenbezogenen Daten ausschließlich zur Bearbeitung Ihrer Anfrage und zur Beantwortung verarbeitet.",
+		"legalBasisContact": "Art. 6 Abs. 1 lit. b DSGVO bei vorvertraglichen Maßnahmen; ansonsten Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse an der Beantwortung).",
+		"retentionContact": "Daten werden gelöscht, sobald die Anfrage geklärt ist und keine gesetzlichen Aufbewahrungspflichten bestehen.",
+		"section3Title": "3. Datenspeicherung",
+		"section3Text": "Sofern nicht anders angegeben (z.B. potenziell unbegrenzte Speicherung von Feedback/Bewertungen vorbehaltlich der Löschrechte oder spezifische Aufbewahrungsfristen für Anbieterprotokolle), werden personenbezogene Daten nur so lange gespeichert, wie es für die Zwecke, für die sie erhoben wurden, erforderlich ist oder wie es gesetzlich vorgeschrieben ist. Daten werden gelöscht, sobald der Zweck erfüllt ist oder die Aufbewahrungsfristen ablaufen.",
+		"section4Title": "4. Datensicherheit",
+		"section4Text": "Ich setze geeignete technische und organisatorische Sicherheitsmaßnahmen ein, um Daten gegen Manipulation, Verlust, Zerstörung oder unbefugten Zugriff zu schützen.",
+		"section5Title": "5. Drittanbieter-Verarbeiter / Empfänger",
+		"section5Intro": "Ihre Daten können von folgenden Drittanbieter-Dienstleistern verarbeitet oder an diese übermittelt werden:",
+		"section5Cloudflare": "Cloudflare, Inc. (USA): Frontend-Hosting, CDN, Sicherheit.",
+		"section5Hetzner": "Hetzner Online GmbH (Deutschland): Backend-API-Hosting-Infrastruktur.",
+		"section5Imgur": "Imgur, Inc. (USA): Bild-Hosting/CDN.",
+		"section5DPA": "Auftragsverarbeitungsverträge bestehen, wo erforderlich.",
+		"section6Title": "6. Ihre Rechte als betroffene Person",
+		"section6Intro": "Gemäß der DSGVO haben Sie folgende Rechte bezüglich Ihrer personenbezogenen Daten:",
+		"rightAccess": "Auskunft (Art. 15)",
+		"rightRectification": "Berichtigung (Art. 16)",
+		"rightErasure": "Löschung (Art. 17)",
+		"rightRestriction": "Einschränkung der Verarbeitung (Art. 18)",
+		"rightPortability": "Datenübertragbarkeit (Art. 20)",
+		"rightObject": "Widerspruch (Art. 21)",
+		"rightWithdrawConsent": "Einwilligung widerrufen (Art. 7 Abs. 3)",
+		"rightLodgeComplaint": "Beschwerde einlegen (Art. 77)",
+		"section6Exercise": "Um diese Rechte auszuüben (einschließlich der Beantragung der Löschung Ihres Feedbacks/Ihrer Bewertungen), kontaktieren Sie mich bitte (Abschnitt 1). Der Widerruf der Einwilligung berührt nicht die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung.",
+		"section7Title": "7. Recht auf Beschwerde bei einer Aufsichtsbehörde",
+		"section7Intro": "Sie haben das Recht, eine Beschwerde bei einer Datenschutzaufsichtsbehörde einzulegen. Die für mich zuständige Behörde ist:",
+		"websiteLabel": "Webseite:",
+		"section8Title": "8. Internationale Datenübertragungen",
+		"section8Text": "Die Nutzung von Diensten von Cloudflare und Imgur beinhaltet die Übertragung von Daten (hauptsächlich IP-Adressen, Anfragedaten) an Server, die sich möglicherweise außerhalb der Europäischen Union befinden, insbesondere in den USA. Diese Übertragungen sind durch nach der DSGVO anerkannte Maßnahmen wie Standardvertragsklauseln (SCCs) abgesichert. Das Hosting der Backend-Datenbank und API über Hetzner erfolgt innerhalb Deutschlands (EU).",
+		"section9Title": "9. Änderungen dieser Datenschutzerklärung",
+		"section9Text": "Diese Datenschutzerklärung kann gelegentlich aktualisiert werden. Die jeweils aktuelle Version ist stets auf dieser Webseite verfügbar."
+	},
+	"notFoundPage": {
+		"title": "Seite nicht gefunden",
+		"message": "Entschuldigung, die gesuchte Seite existiert nicht."
+	}
+}

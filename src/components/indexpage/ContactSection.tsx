@@ -2,6 +2,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 import Section from '../ui/Section';
 import SectionHeading from '../ui/SectionHeading';
 import ContactItem from '../ui/ContactItem';
+import { useTranslation } from 'react-i18next';
 
 export interface ContactSectionProps {
 	email: string;
@@ -66,6 +67,7 @@ const LocationIcon = (
 );
 
 const ContactSection = ({ email, phone, address }: ContactSectionProps) => {
+	const { t } = useTranslation();
 	const prefersReducedMotion = useReducedMotion();
 
 	const containerVariants = {
@@ -81,7 +83,9 @@ const ContactSection = ({ email, phone, address }: ContactSectionProps) => {
 	return (
 		<Section background="dark">
 			<div className="text-center">
-				<SectionHeading color="rose">Contact Us</SectionHeading>
+				<SectionHeading color="rose">
+					{t('contact.title')}
+				</SectionHeading>{' '}
 				<motion.div
 					className="flex flex-col items-center gap-8"
 					variants={containerVariants}

@@ -2,6 +2,7 @@ import { motion, useReducedMotion } from 'framer-motion';
 import SectionHeading from '../ui/SectionHeading';
 import Section from '../ui/Section';
 import AmbianceCard from '../ui/AmbianceCard';
+import { useTranslation } from 'react-i18next';
 
 type AmbianceImage = {
 	title: string;
@@ -9,32 +10,28 @@ type AmbianceImage = {
 	img: string;
 };
 
-type AmbianceSectionProps = {
-	items?: AmbianceImage[];
-};
-
-const defaultAmbianceImages: AmbianceImage[] = [
-	{
-		title: 'Restaurant Interior',
-		desc: 'Modern design meets intimate ambiance',
-		img: 'https://i.imgur.com/u0tUh3D.jpeg',
-	},
-	{
-		title: 'Bar & Lounge',
-		desc: 'Craft cocktails in a sophisticated setting',
-		img: 'https://i.imgur.com/d9sGyEk.jpeg',
-	},
-];
-
-const AmbianceSection = ({
-	items = defaultAmbianceImages,
-}: AmbianceSectionProps) => {
+const AmbianceSection = () => {
+	const { t } = useTranslation();
 	const prefersReducedMotion = useReducedMotion();
+
+	// Derive items from translations
+	const items: AmbianceImage[] = [
+		{
+			title: t('ambiance.item1.title'),
+			desc: t('ambiance.item1.desc'),
+			img: 'https://i.imgur.com/u0tUh3D.jpeg',
+		},
+		{
+			title: t('ambiance.item2.title'),
+			desc: t('ambiance.item2.desc'),
+			img: 'https://i.imgur.com/d9sGyEk.jpeg',
+		},
+	];
 
 	return (
 		<Section background="dark">
 			<SectionHeading color="rose" className="mb-16">
-				Vibrant Nights. Urban Style.
+				{t('ambiance.title')}
 			</SectionHeading>
 			<motion.div
 				className="grid grid-cols-1 md:grid-cols-2 gap-8"
@@ -47,7 +44,7 @@ const AmbianceSection = ({
 				}}
 			>
 				{items.map((item, index) => (
-					<AmbianceCard key={index} index={index} {...item} />
+					<AmbianceCard key={item.title} index={index} {...item} />
 				))}
 			</motion.div>
 		</Section>

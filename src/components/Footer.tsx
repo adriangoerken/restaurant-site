@@ -1,8 +1,16 @@
 import { Link } from 'react-router-dom';
 import Container from './Container';
+import { useTranslation } from 'react-i18next';
+import { PROVIDER_INFO } from '../utils/constants';
 
 const Footer = () => {
+	const { t } = useTranslation();
 	const currentYear = new Date().getFullYear();
+
+	const addressLine1 = 'Musterstraße 1';
+	const addressLine2 = '12345 Musterstadt';
+	const phone = '+49 123 456 789';
+	const email = 'info@umaminights.tld';
 
 	return (
 		<footer className="bg-zinc-900 border-t border-zinc-800">
@@ -12,32 +20,32 @@ const Footer = () => {
 					<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
 						<div>
 							<h3 className="text-lg font-medium text-white mb-4">
-								Contact
+								{t('footer.contact')}
 							</h3>
 							<p className="text-gray-400">
-								info@umaminights.tld
+								{email}
 								<br />
-								+49 123 456 789
+								{phone}
 							</p>
 						</div>
 						<div>
 							<h3 className="text-lg font-medium text-white mb-4">
-								Address
+								{t('footer.address')}
 							</h3>
 							<p className="text-gray-400">
-								Musterstraße 1
+								{addressLine1}
 								<br />
-								12345 Musterstadt
+								{addressLine2}
 							</p>
 						</div>
 						<div>
 							<h3 className="text-lg font-medium text-white mb-4">
-								Opening Hours
+								{t('footer.openingHours')}
 							</h3>
 							<p className="text-gray-400">
-								Tuesday - Sunday
+								{t('footer.openingHoursDays')}
 								<br />
-								17:00 - 23:00
+								{t('footer.openingHoursTime')}
 							</p>
 						</div>
 					</div>
@@ -48,27 +56,27 @@ const Footer = () => {
 							<p className="text-gray-400">
 								<span className="mr-2">© {currentYear}</span>
 								<a
-									href="https://adriangoerken.de"
+									href={PROVIDER_INFO.website}
 									target="_blank"
 									rel="noopener noreferrer"
 									className="text-rose-500 hover:text-rose-400 transition-colors"
 								>
-									Adrian Goerken
+									{PROVIDER_INFO.name}
 								</a>
-								. All rights reserved.
+								{t('footer.copyright')}
 							</p>
 							<nav className="flex gap-8">
 								<Link
 									to="/imprint"
 									className="text-gray-400 hover:text-rose-500 transition-colors"
 								>
-									Imprint
+									{t('footer.imprint')}
 								</Link>
 								<Link
 									to="/privacy-policy"
 									className="text-gray-400 hover:text-rose-500 transition-colors"
 								>
-									Privacy Policy
+									{t('footer.privacyPolicy')}
 								</Link>
 							</nav>
 						</div>

@@ -1,53 +1,38 @@
-import { motion, useReducedMotion } from 'framer-motion';
+import { motion } from 'framer-motion';
 import SectionHeading from '../ui/SectionHeading';
 import Section from '../ui/Section';
 import CocktailCard from '../ui/CocktailCard';
-
+import { useTranslation } from 'react-i18next';
 type Cocktail = {
 	title: string;
 	desc: string;
 	img: string;
 };
 
-type CocktailsSectionProps = {
-	items?: Cocktail[];
-};
+const CocktailsSection = () => {
+	const { t } = useTranslation();
 
-const defaultCocktails: Cocktail[] = [
-	{
-		title: 'Tokyo Nights',
-		desc: 'Japanese whisky, yuzu, shiso, smoke',
-		img: 'https://i.imgur.com/PuSelT2.jpeg',
-	},
-	{
-		title: 'Sakura Spring',
-		desc: 'Gin, cherry blossom, lychee, prosecco',
-		img: 'https://i.imgur.com/dBKRQrD.jpeg',
-	},
-];
-
-const CocktailsSection = ({
-	items = defaultCocktails,
-}: CocktailsSectionProps) => {
-	const prefersReducedMotion = useReducedMotion();
+	const items: Cocktail[] = [
+		{
+			title: t('cocktails.item1.title'),
+			desc: t('cocktails.item1.desc'),
+			img: 'https://i.imgur.com/PuSelT2.jpeg',
+		},
+		{
+			title: t('cocktails.item2.title'),
+			desc: t('cocktails.item2.desc'),
+			img: 'https://i.imgur.com/dBKRQrD.jpeg',
+		},
+	];
 
 	return (
 		<Section>
 			<SectionHeading color="rose" className="mb-16">
-				Crafted Cocktails
+				{t('cocktails.title')}
 			</SectionHeading>
-			<motion.div
-				className="grid grid-cols-1 md:grid-cols-2 gap-8"
-				variants={{
-					visible: {
-						transition: {
-							staggerChildren: prefersReducedMotion ? 0 : 0.2,
-						},
-					},
-				}}
-			>
+			<motion.div className="grid grid-cols-1 md:grid-cols-2 gap-8">
 				{items.map((item, index) => (
-					<CocktailCard key={index} index={index} {...item} />
+					<CocktailCard key={item.title} index={index} {...item} />
 				))}
 			</motion.div>
 		</Section>
