@@ -58,10 +58,18 @@ const Hero = ({ images }: HeroProps) => {
 						transition={{ delay: 0.4, duration: 0.5 }}
 						className="flex flex-col mx-auto gap-4 md:flex-row w-fit"
 					>
-						<AnimatedButton variant="primary" size="lg">
+						<AnimatedButton
+							variant="primary"
+							size="lg"
+							to="/reservation"
+						>
 							{t('hero.bookTable')}
 						</AnimatedButton>
-						<AnimatedButton variant="secondary" size="lg">
+						<AnimatedButton
+							variant="secondary"
+							size="lg"
+							to="/menu"
+						>
 							{t('hero.viewMenu')}
 						</AnimatedButton>
 					</motion.div>

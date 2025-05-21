@@ -1,5 +1,6 @@
 import { motion, useReducedMotion } from 'framer-motion';
 import { cn } from '../../utils/cn';
+import { Link } from 'react-router-dom';
 
 type AnimatedButtonProps = {
 	children: React.ReactNode;
@@ -8,7 +9,10 @@ type AnimatedButtonProps = {
 	size?: 'sm' | 'md' | 'lg';
 	className?: string;
 	type?: 'button' | 'submit' | 'reset';
+	to?: string;
 };
+
+const MotionLink = motion(Link);
 
 const AnimatedButton = ({
 	children,
@@ -17,6 +21,7 @@ const AnimatedButton = ({
 	size = 'md',
 	className,
 	type = 'button',
+	to,
 }: AnimatedButtonProps) => {
 	const prefersReducedMotion = useReducedMotion();
 
@@ -43,24 +48,24 @@ const AnimatedButton = ({
 		outline: 'bg-rose-500/10',
 	};
 
-	return (
-		<motion.button
-			type={type}
-			role="button"
-			className={cn(
-				baseStyles,
-				variantStyles[variant],
-				sizeStyles[size],
-				className
-			)}
-			whileHover={{
-				scale: prefersReducedMotion ? 1 : 1.05,
-			}}
-			whileTap={{
-				scale: prefersReducedMotion ? 1 : 0.95,
-			}}
-			onClick={onClick}
-		>
+	const commonProps = {
+		className: cn(
+			baseStyles,
+			variantStyles[variant],
+			sizeStyles[size],
+			className
+		),
+		whileHover: {
+			scale: prefersReducedMotion ? 1 : 1.05,
+		},
+		whileTap: {
+			scale: prefersReducedMotion ? 1 : 0.95,
+		},
+		onClick: to ? undefined : onClick,
+	};
+
+	const content = (
+		<>
 			<span className="relative z-10">{children}</span>
 			{!prefersReducedMotion && (
 				<motion.div
@@ -71,6 +76,25 @@ const AnimatedButton = ({
 					aria-hidden="true"
 				/>
 			)}
+		</>
+	);
+
+	if (to) {
+		return (
+			<MotionLink to={to} {...commonProps}>
+				{content}
+			</MotionLink>
+		);
+	}
+
+	return (
+		<motion.button
+			type={type}
+			role="button"
+			{...commonProps}
+			onClick={onClick}
+		>
+			{content}
 		</motion.button>
 	);
 };
