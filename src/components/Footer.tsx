@@ -1,16 +1,11 @@
 import { Link } from 'react-router-dom';
 import Container from './Container';
 import { useTranslation } from 'react-i18next';
-import { PROVIDER_INFO } from '../utils/constants';
+import { PROVIDER_INFO, RESTAURANT_INFO } from '../utils/constants';
 
 const Footer = () => {
 	const { t } = useTranslation();
 	const currentYear = new Date().getFullYear();
-
-	const addressLine1 = 'Musterstraße 1';
-	const addressLine2 = '12345 Musterstadt';
-	const phone = '+49 123 456 789';
-	const email = 'info@umaminights.tld';
 
 	return (
 		<footer className="bg-zinc-900 border-t border-zinc-800">
@@ -23,9 +18,9 @@ const Footer = () => {
 								{t('footer.contact')}
 							</h3>
 							<p className="text-gray-400">
-								{email}
+								{RESTAURANT_INFO.email}
 								<br />
-								{phone}
+								{RESTAURANT_INFO.hone}
 							</p>
 						</div>
 						<div>
@@ -33,9 +28,9 @@ const Footer = () => {
 								{t('footer.address')}
 							</h3>
 							<p className="text-gray-400">
-								{addressLine1}
+								{RESTAURANT_INFO.addressLine1}
 								<br />
-								{addressLine2}
+								{RESTAURANT_INFO.addressLine2}
 							</p>
 						</div>
 						<div>

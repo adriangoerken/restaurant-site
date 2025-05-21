@@ -4,8 +4,16 @@ import IndexPage from './pages/IndexPage';
 import ImprintPage from './pages/ImprintPage';
 import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import { NotFoundPage } from './pages/NotFoundPage';
+import { useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 function App() {
+	const { i18n } = useTranslation();
+
+	useEffect(() => {
+		document.documentElement.lang = i18n.language;
+	}, [i18n.language]);
+
 	return (
 		<BrowserRouter>
 			<Routes>
