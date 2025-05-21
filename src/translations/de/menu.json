@@ -1,0 +1,262 @@
+{
+	"dietaryHeader": "Informationen zu Ernährungsbedürfnissen",
+	"importantAllergenDisclaimer": "Bitte informieren Sie Ihr Servicepersonal über Allergien oder diätetische Einschränkungen. Obwohl wir Maßnahmen ergreifen, um Risiken zu minimieren und Lebensmittel, die Hauptallergene enthalten, sicher zu handhaben, beachten Sie bitte, dass Kreuzkontaminationen auftreten können, da unsere Küche Produkte mit Gluten, Soja, Milchprodukten, Nüssen, Eiern, Fisch und Schalentieren zubereitet.",
+	"categories": {
+		"1": {
+			"name": "Kleine Teller & zum Teilen (Izakaya-Stil)",
+			"description": null
+		},
+		"2": {
+			"name": "Sushi & Rolls",
+			"description": null
+		},
+		"3": {
+			"name": "Hauptgerichte",
+			"description": null
+		},
+		"4": {
+			"name": "Nudeln & Reis",
+			"description": null
+		},
+		"5": {
+			"name": "Beilagen",
+			"description": null
+		},
+		"6": {
+			"name": "Desserts",
+			"description": null
+		},
+		"7": {
+			"name": "Signature Cocktails",
+			"description": "(Im Allgemeinen haben Cocktails nicht die gleichen Allergenbedenken wie Lebensmittel, aber einige Zutaten können relevant sein, z. B. Eiweiß, Milchprodukte in cremigen Likören oder spezifische Fruchtallergien. Bei gängigen Spirituosen und Mixgetränken wie diesen sind Hauptallergene weniger typisch, aber hier sind einige Hinweise.)"
+		}
+	},
+	"items": {
+		"1": {
+			"name": "Wagyu Bao Buns",
+			"description": "Flauschig weiche gedämpfte Brötchen, gefüllt mit zartem, langsam gegartem Wagyu-Rindfleisch, eingelegter Gurke, Hoisin-Glasur und einem Hauch scharfer Mayo.",
+			"priceInfo": "für 3 Stück",
+			"notes": "Signature, Publikumsliebling.",
+			"allergens": {
+				"1": { "details": "Brötchen, Hoisin" },
+				"2": { "details": "Hoisin" },
+				"3": { "details": "Mayo" },
+				"9": { "details": "Kann Sesam enthalten" }
+			},
+			"dietarySymbols": {
+				"4": { "details": "leicht" }
+			}
+		},
+		"2": {
+			"name": "Yakitori-Auswahl",
+			"description": "Auswahl an gegrillten Spießen. Enthält Hähnchenschenkel mit Frühlingszwiebeln, Schweinebauch mit Shichimi-Pfeffer und Shiitake-Pilze mit Teriyaki-Glasur.",
+			"priceInfo": "für 6 Spieße, je 2 Stück",
+			"notes": "Klassisches Izakaya-Gericht.",
+			"allergens": {
+				"2": { "details": "Teriyaki" },
+				"1": { "details": "Teriyaki, möglicherweise Shichimi" },
+				"9": { "details": "Kann Sesam enthalten (Shichimi)" }
+			},
+			"dietarySymbols": {
+				"4": { "details": "Schweinebauch - leicht" }
+			}
+		},
+		"6": {
+			"name": "Dragon Fire Roll",
+			"description": "Shrimp-Tempura und Gurke, belegt mit scharfem Thunfisch, Avocado und Unagi-Sauce, abgerundet mit Tempura-Crunch und Sriracha-Tupfern.",
+			"priceInfo": null,
+			"notes": "Signature Roll, mittelscharf.",
+			"allergens": {
+				"5": { "details": "Shrimps" },
+				"4": { "details": "Thunfisch" },
+				"1": { "details": "Tempura, Unagi-Sauce, Crunch" },
+				"2": { "details": "Unagi-Sauce, Sojasauce zum Dippen" },
+				"3": { "details": "scharfe Mayo" }
+			},
+			"dietarySymbols": {
+				"4": { "details": null }
+			}
+		},
+		"7": {
+			"name": "Umami Signature Roll",
+			"description": "Geflämmter Lachs-Bauch, Schneekrabbe, Spargel und Avocado, umhüllt von Sojapapier und garniert mit Yuzu-Tobiko und einer cremigen Miso-Aioli.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"4": { "details": "Lachs, Tobiko" },
+				"5": { "details": "Schneekrabbe" },
+				"2": { "details": "Sojapapier, Miso" },
+				"3": { "details": "Aioli" }
+			},
+			"dietarySymbols": {}
+		},
+		"10": {
+			"name": "Miso glasierter Schwarzer Kabeljau",
+			"description": "Pfannengebratener schwarzer Kabeljau, mariniert in süß-herzhaftem Saikyo-Miso, serviert mit gegrilltem Spargel und gedämpftem Reis.",
+			"priceInfo": null,
+			"notes": "Elegant und geschmackvoll.",
+			"allergens": {
+				"4": { "details": "Kabeljau" },
+				"2": { "details": "Miso" }
+			},
+			"dietarySymbols": {
+				"3": { "details": "sicherstellen, dass Miso GF ist" }
+			}
+		},
+		"11": {
+			"name": "Koreanische BBQ Short Ribs",
+			"description": "Zarte Rinder-Short-Ribs, mariniert in einer süß-herzhaften Gochujang-basierten Sauce, perfekt gegrillt, serviert mit Kimchi und Salat-Wraps.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"2": { "details": "Gochujang, Marinade" },
+				"9": { "details": "Marinade, Kimchi" },
+				"1": {
+					"details": "Kann Gluten enthalten (Gochujang - Marke prüfen)"
+				}
+			},
+			"dietarySymbols": {
+				"4": { "details": "Gochujang, Kimchi" }
+			}
+		},
+		"14": {
+			"name": "Tonkotsu Ramen",
+			"description": "Reichhaltige und cremige Schweineknochenbrühe, dünne Ramen-Nudeln, zarter Chashu-Schweinebauch, Ajitama (mariniertes weichgekochtes Ei), Menma (Bambussprossen) und Nori.",
+			"priceInfo": null,
+			"notes": "Klassisch, herzhaft.",
+			"allergens": {
+				"1": { "details": "Nudeln" },
+				"2": {
+					"details": "Chashu-Marinade, Ei-Marinade, Brühe-Aromen"
+				},
+				"3": { "details": "Ajitama" }
+			},
+			"dietarySymbols": {}
+		},
+		"15": {
+			"name": "Scharfes Kimchi Udon",
+			"description": "Dicke Udon-Nudeln, gebraten mit herzhaftem Schweinebauch (oder Tofu für vegetarische Option), scharfem Kimchi, Gochujang, garniert mit einem Spiegelei und zerkleinertem Seetang.",
+			"priceInfo": null,
+			"notes": "Vegetarische Option verfügbar (angeben, ob vegan anpassbar).",
+			"allergens": {
+				"1": { "details": "Udon-Nudeln" },
+				"2": { "details": "Gochujang, Tofu-Marinade falls verwendet" },
+				"3": { "details": "Topping" },
+				"9": { "details": "Kimchi" }
+			},
+			"dietarySymbols": {
+				"4": { "details": null },
+				"1": {
+					"details": "mit Tofu, sicherstellen, dass keine Fischsauce in Kimchi/Gochujang enthalten ist, wenn streng vegetarisch gewünscht"
+				}
+			}
+		},
+		"18": {
+			"name": "Edamame mit Meersalz",
+			"description": "Gedämpfte junge Sojabohnen, leicht gesalzen.",
+			"priceInfo": null,
+			"notes": "Klassische Vorspeise/Beilage.",
+			"allergens": {
+				"2": { "details": null }
+			},
+			"dietarySymbols": {
+				"1": { "details": null },
+				"2": { "details": null },
+				"3": { "details": null },
+				"6": { "details": null }
+			}
+		},
+		"19": {
+			"name": "Seetangsalat",
+			"description": "Gekühlter gemischter Seetang mit leichtem Sesam-Dressing.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"9": { "details": null },
+				"2": { "details": "oft im Dressing" }
+			},
+			"dietarySymbols": {
+				"1": { "details": null },
+				"2": { "details": null },
+				"3": { "details": "Dressing-Zutaten prüfen" },
+				"6": { "details": null }
+			}
+		},
+		"22": {
+			"name": "Matcha Lava Cake",
+			"description": "Warmer Matcha-Schokoladen-Lavakuchen mit einem flüssigen Grüntee-Kern, serviert mit Vanilleeis und frischen Beeren.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"1": { "details": "Kuchen" },
+				"3": { "details": "Kuchen, Eiscreme" },
+				"6": { "details": "Schokolade, Eiscreme" }
+			},
+			"dietarySymbols": {
+				"1": { "details": null }
+			}
+		},
+		"23": {
+			"name": "Yuzu-Käsekuchen",
+			"description": "Cremiger Käsekuchen mit japanischer Yuzu-Zitrusfrucht, auf einem Ingwer-Keksboden, garniert mit einer Yuzu-Glasur.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"6": { "details": "Käsekuchen" },
+				"1": { "details": "Boden" },
+				"3": { "details": "Käsekuchen" }
+			},
+			"dietarySymbols": {
+				"1": { "details": null }
+			}
+		},
+		"26": {
+			"name": "Tokyo Nights",
+			"description": "Japanischer Whisky, Yuzu-Likör, frische Shiso-Blätter, ein Schuss Angostura-Bitter, serviert über einer großen Eiskugel mit einem Hauch von Rauch.",
+			"priceInfo": null,
+			"notes": "Anspruchsvoll, rauchig.",
+			"allergens": {
+				"100": { "details": null },
+				"7": {
+					"details": "Einige Bitter können Nüsse enthalten, typischerweise in Spuren (spezifische Marke prüfen, falls kritisch)"
+				},
+				"1": {
+					"details": "Einige Bitter können Gluten enthalten, typischerweise in Spuren (spezifische Marke prüfen, falls kritisch)"
+				}
+			},
+			"dietarySymbols": {}
+		},
+		"27": {
+			"name": "Sakura Spring",
+			"description": "Premium Gin, Kirschblütensirup, Litschisaft, aufgefüllt mit Prosecco und garniert mit einer essbaren Blüte.",
+			"priceInfo": null,
+			"notes": "Blumig, erfrischend.",
+			"allergens": {
+				"100": { "details": null },
+				"8": { "details": "Prosecco" }
+			},
+			"dietarySymbols": {}
+		}
+	},
+	"allergensTitle": "Allergien: ",
+	"allergenNames": {
+		"1": "Gluten",
+		"2": "Soja",
+		"3": "Ei",
+		"4": "Fisch",
+		"5": "Schalentiere",
+		"6": "Milchprodukte",
+		"7": "Nüsse",
+		"8": "Sulfite",
+		"9": "Sesam",
+		"100": "Alkohol"
+	},
+	"dietarySymbolData": {
+		"1": { "symbol": "V", "description": "Vegetarisch" },
+		"2": { "symbol": "VG", "description": "Vegan" },
+		"3": { "symbol": "GF", "description": "Glutenfrei" },
+		"4": { "symbol": "S", "description": "Scharf" },
+		"5": { "symbol": "N", "description": "Enthält Nüsse" },
+		"6": { "symbol": "LF", "description": "Laktosefrei" }
+	}
+}

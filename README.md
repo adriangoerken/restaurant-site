@@ -14,7 +14,7 @@ This checklist outlines the planned features and their current implementation st
 
 -   [x] **Dynamic Landing Page:** Welcomes visitors with highlights of special offers and featured menu items.
 -   [ ] **Interactive Menu Page:**
-    -   [ ] Displays the full range of dishes with descriptions and pricing.
+    -   [x] Displays the full range of dishes with descriptions and pricing.
     -   [ ] Allows users to rate dishes using a star system and leave optional comments. _(API integration planned for data persistence)_
 -   [ ] **Table Reservation System:**
     -   [ ] A dedicated page allowing users to request table bookings. _(API integration planned for handling requests)_

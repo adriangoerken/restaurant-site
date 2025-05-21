@@ -3,6 +3,7 @@ import Container from '../Container';
 import SectionHeading from '../ui/SectionHeading';
 import MenuCard from '../ui/MenuCard';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 type MenuItem = {
 	title: string;
@@ -100,9 +101,9 @@ const MenuHighlights = () => {
 								scale: prefersReducedMotion ? 1 : 0.95,
 							}}
 						>
-							<span className="relative z-10">
+							<Link to="/menu" className="relative z-10">
 								{t('menuHighlights.exploreButton')}
-							</span>
+							</Link>
 							{!prefersReducedMotion && (
 								<motion.div
 									className="absolute inset-0 bg-rose-500/10"

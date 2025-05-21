@@ -1,0 +1,262 @@
+{
+	"dietaryHeader": "Dietary Information",
+	"importantAllergenDisclaimer": "Please inform your server of any allergies or dietary restrictions. While we take steps to minimize risk and safely handle foods that contain major allergens, please be aware that cross-contamination may occur as our kitchen prepares items with gluten, soy, dairy, nuts, eggs, fish, and shellfish.",
+	"categories": {
+		"1": {
+			"name": "Small Plates & Shareables (Izakaya Style)",
+			"description": null
+		},
+		"2": {
+			"name": "Sushi & Rolls",
+			"description": null
+		},
+		"3": {
+			"name": "Main Courses",
+			"description": null
+		},
+		"4": {
+			"name": "Noodles & Rice",
+			"description": null
+		},
+		"5": {
+			"name": "Sides",
+			"description": null
+		},
+		"6": {
+			"name": "Desserts",
+			"description": null
+		},
+		"7": {
+			"name": "Signature Cocktails",
+			"description": "(Generally, cocktails don't have the same allergen concerns as food, but some ingredients can be relevant, e.g., egg white, dairy in creamy liqueurs, or specific fruit allergies. For common spirits and mixers like these, major food allergens are less typical, but here are some notes.)"
+		}
+	},
+	"items": {
+		"1": {
+			"name": "Wagyu Bao Buns",
+			"description": "Pillowy soft steamed buns filled with tender, slow-cooked Wagyu beef, pickled cucumber, hoisin glaze, and a touch of spicy mayo.",
+			"priceInfo": "for 3 pieces",
+			"notes": "Signature, crowd-pleaser.",
+			"allergens": {
+				"1": { "details": "buns, hoisin" },
+				"2": { "details": "hoisin" },
+				"3": { "details": "mayo" },
+				"9": { "details": "May contain sesame" }
+			},
+			"dietarySymbols": {
+				"4": { "details": "mildly" }
+			}
+		},
+		"2": {
+			"name": "Yakitori Selection",
+			"description": "Assortment of grilled skewers. Includes chicken thigh with spring onion, pork belly with shichimi pepper, and shiitake mushroom with teriyaki glaze.",
+			"priceInfo": "for 6 skewers, 2 of each",
+			"notes": "Classic Izakaya dish.",
+			"allergens": {
+				"2": { "details": "teriyaki" },
+				"1": { "details": "teriyaki, potentially shichimi" },
+				"9": { "details": "May contain sesame (shichimi)" }
+			},
+			"dietarySymbols": {
+				"4": { "details": "pork belly - mildly" }
+			}
+		},
+		"6": {
+			"name": "Dragon Fire Roll",
+			"description": "Shrimp tempura and cucumber, topped with spicy tuna, avocado, and unagi sauce, finished with a sprinkle of tempura crunch and sriracha dots.",
+			"priceInfo": null,
+			"notes": "Signature Roll, medium spicy.",
+			"allergens": {
+				"5": { "details": "shrimp" },
+				"4": { "details": "tuna" },
+				"1": { "details": "tempura, unagi sauce, crunch" },
+				"2": { "details": "unagi sauce, soy sauce for dipping" },
+				"3": { "details": "spicy mayo" }
+			},
+			"dietarySymbols": {
+				"4": { "details": null }
+			}
+		},
+		"7": {
+			"name": "Umami Signature Roll",
+			"description": "Torched salmon belly, snow crab, asparagus, and avocado, wrapped in soy paper and topped with yuzu tobiko and a creamy miso aioli.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"4": { "details": "salmon, tobiko" },
+				"5": { "details": "snow crab" },
+				"2": { "details": "soy paper, miso" },
+				"3": { "details": "aioli" }
+			},
+			"dietarySymbols": {}
+		},
+		"10": {
+			"name": "Miso Glazed Black Cod",
+			"description": "Pan-seared black cod marinated in a sweet and savory Saikyo miso, served with grilled asparagus and a side of steamed rice.",
+			"priceInfo": null,
+			"notes": "Elegant and flavorful.",
+			"allergens": {
+				"4": { "details": "cod" },
+				"2": { "details": "miso" }
+			},
+			"dietarySymbols": {
+				"3": { "details": "ensure miso is GF" }
+			}
+		},
+		"11": {
+			"name": "Korean BBQ Short Ribs",
+			"description": "Tender beef short ribs marinated in a sweet and savory gochujang-based sauce, grilled to perfection, served with kimchi and lettuce wraps.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"2": { "details": "gochujang, marinade" },
+				"9": { "details": "marinade, kimchi" },
+				"1": {
+					"details": "May contain gluten (gochujang - check brand)"
+				}
+			},
+			"dietarySymbols": {
+				"4": { "details": "gochujang, kimchi" }
+			}
+		},
+		"14": {
+			"name": "Tonkotsu Ramen",
+			"description": "Rich and creamy pork bone broth, thin ramen noodles, tender chashu pork belly, ajitama (marinated soft-boiled egg), menma (bamboo shoots), and nori.",
+			"priceInfo": null,
+			"notes": "Classic, hearty.",
+			"allergens": {
+				"1": { "details": "noodles" },
+				"2": {
+					"details": "chashu marinade, egg marinade, broth flavorings"
+				},
+				"3": { "details": "ajitama" }
+			},
+			"dietarySymbols": {}
+		},
+		"15": {
+			"name": "Spicy Kimchi Udon",
+			"description": "Thick udon noodles stir-fried with savory pork belly (or tofu for vegetarian option), spicy kimchi, gochujang, and topped with a fried egg and shredded seaweed.",
+			"priceInfo": null,
+			"notes": "Vegetarian option available (specify if vegan adaptable).",
+			"allergens": {
+				"1": { "details": "udon noodles" },
+				"2": { "details": "gochujang, tofu marinade if used" },
+				"3": { "details": "topping" },
+				"9": { "details": "kimchi" }
+			},
+			"dietarySymbols": {
+				"4": { "details": null },
+				"1": {
+					"details": "with tofu, ensure no fish sauce in kimchi/gochujang if aiming for strict vegetarian"
+				}
+			}
+		},
+		"18": {
+			"name": "Edamame with Sea Salt",
+			"description": "Steamed young soybeans, lightly salted.",
+			"priceInfo": null,
+			"notes": "Classic starter/side.",
+			"allergens": {
+				"2": { "details": null }
+			},
+			"dietarySymbols": {
+				"1": { "details": null },
+				"2": { "details": null },
+				"3": { "details": null },
+				"6": { "details": null }
+			}
+		},
+		"19": {
+			"name": "Seaweed Salad",
+			"description": "Chilled mixed seaweed with a light sesame dressing.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"9": { "details": null },
+				"2": { "details": "often in dressing" }
+			},
+			"dietarySymbols": {
+				"1": { "details": null },
+				"2": { "details": null },
+				"3": { "details": "check dressing ingredients" },
+				"6": { "details": null }
+			}
+		},
+		"22": {
+			"name": "Matcha Lava Cake",
+			"description": "Warm matcha-infused chocolate lava cake with a molten green tea center, served with vanilla bean ice cream and fresh berries.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"1": { "details": "cake" },
+				"3": { "details": "cake, ice cream" },
+				"6": { "details": "chocolate, ice cream" }
+			},
+			"dietarySymbols": {
+				"1": { "details": null }
+			}
+		},
+		"23": {
+			"name": "Yuzu Cheesecake",
+			"description": "Creamy cheesecake infused with Japanese yuzu citrus, on a ginger biscuit crust, topped with a yuzu glaze.",
+			"priceInfo": null,
+			"notes": null,
+			"allergens": {
+				"6": { "details": "cheesecake" },
+				"1": { "details": "crust" },
+				"3": { "details": "cheesecake" }
+			},
+			"dietarySymbols": {
+				"1": { "details": null }
+			}
+		},
+		"26": {
+			"name": "Tokyo Nights",
+			"description": "Japanese whiskey, yuzu liqueur, fresh shiso leaves, a dash of angostura bitters, served over a large ice sphere with a hint of smoke.",
+			"priceInfo": null,
+			"notes": "Sophisticated, smoky.",
+			"allergens": {
+				"100": { "details": null },
+				"7": {
+					"details": "Some bitters can contain nuts, typically in trace amounts (check specific brand if critical)"
+				},
+				"1": {
+					"details": "Some bitters can contain gluten, typically in trace amounts (check specific brand if critical)"
+				}
+			},
+			"dietarySymbols": {}
+		},
+		"27": {
+			"name": "Sakura Spring",
+			"description": "Premium gin, cherry blossom syrup, lychee juice, topped with prosecco and garnished with an edible flower.",
+			"priceInfo": null,
+			"notes": "Floral, refreshing.",
+			"allergens": {
+				"100": { "details": null },
+				"8": { "details": "prosecco" }
+			},
+			"dietarySymbols": {}
+		}
+	},
+	"allergensTitle": "Allergens: ",
+	"allergenNames": {
+		"1": "Gluten",
+		"2": "Soy",
+		"3": "Egg",
+		"4": "Fish",
+		"5": "Shellfish",
+		"6": "Dairy",
+		"7": "Nuts",
+		"8": "Sulfites",
+		"9": "Sesame",
+		"100": "Alcohol"
+	},
+	"dietarySymbolData": {
+		"1": { "symbol": "V", "description": "Vegetarian" },
+		"2": { "symbol": "VG", "description": "Vegan" },
+		"3": { "symbol": "GF", "description": "Gluten-Free" },
+		"4": { "symbol": "S", "description": "Spicy" },
+		"5": { "symbol": "N", "description": "Contains Nuts" },
+		"6": { "symbol": "DF", "description": "Dairy-Free" }
+	}
+}

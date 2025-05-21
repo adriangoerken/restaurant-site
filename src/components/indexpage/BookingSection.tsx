@@ -3,11 +3,7 @@ import SectionHeading from '../ui/SectionHeading';
 import AnimatedButton from '../ui/AnimatedButton';
 import { useTranslation } from 'react-i18next';
 
-type BookingSectionProps = {
-	onBookingClick?: () => void;
-};
-
-const BookingSection = ({ onBookingClick }: BookingSectionProps) => {
+const BookingSection = () => {
 	const { t } = useTranslation();
 
 	return (
@@ -19,7 +15,8 @@ const BookingSection = ({ onBookingClick }: BookingSectionProps) => {
 				<AnimatedButton
 					variant="primary"
 					size="lg"
-					onClick={onBookingClick}
+					to="/reservation"
+					disabledAnimation={true}
 				>
 					{t('booking.button')}
 				</AnimatedButton>

@@ -10,6 +10,7 @@ type AnimatedButtonProps = {
 	className?: string;
 	type?: 'button' | 'submit' | 'reset';
 	to?: string;
+	disabledAnimation?: boolean;
 };
 
 const MotionLink = motion(Link);
@@ -22,6 +23,7 @@ const AnimatedButton = ({
 	className,
 	type = 'button',
 	to,
+	disabledAnimation = false,
 }: AnimatedButtonProps) => {
 	const prefersReducedMotion = useReducedMotion();
 
@@ -67,7 +69,7 @@ const AnimatedButton = ({
 	const content = (
 		<>
 			<span className="relative z-10">{children}</span>
-			{!prefersReducedMotion && (
+			{!prefersReducedMotion && !disabledAnimation && (
 				<motion.div
 					className={`absolute inset-0 ${hoverBackgroundColors[variant]}`}
 					initial={{ x: '-100%' }}

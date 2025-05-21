@@ -6,6 +6,8 @@ import PrivacyPolicyPage from './pages/PrivacyPolicyPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 import { useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
+import MenuPage from './pages/MenuPage';
+import ReservationPage from './pages/ReservationPage';
 
 function App() {
 	const { i18n } = useTranslation();
@@ -20,6 +22,8 @@ function App() {
 				<Route path="/" element={<MainLayout />}>
 					<Route index element={<IndexPage />} />
 					<Route path="imprint" element={<ImprintPage />} />
+					<Route path="menu" element={<MenuPage />} />
+					<Route path="reservation" element={<ReservationPage />} />
 					<Route
 						path="privacy-policy"
 						element={<PrivacyPolicyPage />}

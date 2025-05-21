@@ -11,12 +11,10 @@ type BusinessHours = {
 
 type LocationSectionProps = {
 	address?: string;
-	onDirectionsClick?: () => void;
 };
 
 const LocationSection = ({
 	address = 'Musterstraße 1, 12345 Musterstadt',
-	onDirectionsClick,
 }: LocationSectionProps) => {
 	const { t } = useTranslation();
 
@@ -52,7 +50,7 @@ const LocationSection = ({
 						</p>
 					))}
 				</motion.div>
-				<AnimatedButton variant="outline" onClick={onDirectionsClick}>
+				<AnimatedButton variant="outline">
 					{t('location.button')}
 				</AnimatedButton>
 			</div>

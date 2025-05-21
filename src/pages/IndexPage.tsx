@@ -15,16 +15,6 @@ const IndexPage = () => {
 		},
 	];
 
-	const handleBookingClick = () => {
-		// Implement booking functionality
-		console.log('Booking clicked');
-	};
-
-	const handleDirectionsClick = () => {
-		// Implement directions functionality
-		console.log('Directions clicked');
-	};
-
 	return (
 		<main className="min-h-screen text-gray-300 bg-black">
 			{/* Hero Section */}
@@ -43,10 +33,10 @@ const IndexPage = () => {
 			<AmbianceSection />
 
 			{/* Booking Section */}
-			<BookingSection onBookingClick={handleBookingClick} />
+			<BookingSection />
 
 			{/* Location & Hours */}
-			<LocationSection onDirectionsClick={handleDirectionsClick} />
+			<LocationSection />
 		</main>
 	);
 };

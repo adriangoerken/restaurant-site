@@ -20,7 +20,7 @@ const Footer = () => {
 							<p className="text-gray-400">
 								{RESTAURANT_INFO.email}
 								<br />
-								{RESTAURANT_INFO.hone}
+								{RESTAURANT_INFO.phone}
 							</p>
 						</div>
 						<div>
