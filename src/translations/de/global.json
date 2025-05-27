@@ -187,6 +187,25 @@
 		"section9Title": "9. Änderungen dieser Datenschutzerklärung",
 		"section9Text": "Diese Datenschutzerklärung kann gelegentlich aktualisiert werden. Die jeweils aktuelle Version ist stets auf dieser Webseite verfügbar."
 	},
+	"reservationPage": {
+		"title": "Reservierung",
+		"guestInfo": "Gästeinformationen",
+		"name": "Vollständiger Name",
+		"email": "E-Mail",
+		"phone": "Telefonnummer",
+		"guests": "Anzahl der Gäste",
+		"reservationDetails": "Reservierungsdetails",
+		"date": "Datum",
+		"time": "Uhrzeit",
+		"specialRequests": "Besondere Wünsche",
+		"specialRequestsPlaceholder": "Informieren Sie uns über Ernährungseinschränkungen, Allergien oder besondere Anlässe",
+		"submit": "Reservierung absenden",
+		"required": "Pflichtfeld",
+		"success": "Reservierung erfolgreich übermittelt",
+		"error": "Bei der Übermittlung Ihrer Reservierung ist ein Fehler aufgetreten",
+		"successTitle": "Reservierung erfolgreich!",
+		"successMessage": "Vielen Dank für Ihre Reservierung. Sie haben eine E-Mail-Bestätigung mit allen Details erhalten."
+	},
 	"notFoundPage": {
 		"title": "Seite nicht gefunden",
 		"message": "Entschuldigung, die gesuchte Seite existiert nicht."

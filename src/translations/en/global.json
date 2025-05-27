@@ -187,6 +187,25 @@
 		"section9Title": "9. Changes to this Privacy Policy",
 		"section9Text": "This Privacy Policy may be updated occasionally. The current version will always be available on this website."
 	},
+	"reservationPage": {
+		"title": "Make a Reservation",
+		"guestInfo": "Guest Information",
+		"name": "Full Name",
+		"email": "Email",
+		"phone": "Phone Number",
+		"guests": "Number of Guests",
+		"reservationDetails": "Reservation Details",
+		"date": "Date",
+		"time": "Time",
+		"specialRequests": "Special Requests",
+		"specialRequestsPlaceholder": "Tell us about any dietary restrictions, allergies, or special occasions",
+		"submit": "Submit Reservation",
+		"required": "Required field",
+		"success": "Reservation submitted successfully",
+		"error": "There was an error submitting your reservation",
+		"successTitle": "Reservation Successful!",
+		"successMessage": "Thank you for your reservation. We have sent a confirmation email with all the details."
+	},
 	"notFoundPage": {
 		"title": "Page Not Found",
 		"message": "Sorry, the page you are looking for does not exist."

@@ -15,9 +15,9 @@ This checklist outlines the planned features and their current implementation st
 -   [x] **Dynamic Landing Page:** Welcomes visitors with highlights of special offers and featured menu items.
 -   [x] **Menu Page:**
     -   [x] Displays the full range of dishes with descriptions and pricing.
-    -   ~~Allows users to rate dishes using a star system and leave optional comments. _(API integration planned for data persistence)_~~
--   [ ] **Table Reservation System:**
-    -   [ ] A dedicated page allowing users to request table bookings. _(API integration planned for handling requests)_
+    -   ~~Allows users to rate dishes using a star system and leave optional comments.~~
+-   [x] **Table Reservation System:**
+    -   [x] A dedicated page allowing users to request table bookings.
 -   [ ] **Customer Feedback Section:**
     -   [ ] Enables users to provide detailed feedback, comments, and overall ratings for the restaurant. _(API integration planned for collecting feedback)_
 -   [ ] **Restaurant Story Page:**
@@ -30,7 +30,7 @@ This checklist outlines the planned features and their current implementation st
 -   [ ] **Events & Promotions Section:**
     -   [ ] Keeps customers informed about upcoming events, seasonal menus, or exclusive promotions.
 -   [ ] **Online Ordering Concept (Optional Feature):**
-    -   [ ] Includes a mock-up or conceptual design for potential takeout and delivery services. _(Requires significant API integration if fully implemented)_
+    -   [ ] Includes a mock-up or conceptual design for potential takeout and delivery services.
 -   [ ] **Responsive & Accessible Design:**
     -   [ ] Ensures the website is functional and looks great on major device sizes (desktops, tablets, mobiles).
     -   [ ] Prioritizes accessibility standards for usability by all visitors (Ongoing refinement).
