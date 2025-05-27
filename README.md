@@ -6,16 +6,16 @@
 
 This **Restaurant Website Demo** project serves as a comprehensive example of a modern, interactive website for a dining establishment. It aims to demonstrate key features that enhance the customer experience, from Browse the menu to booking a table.
 
-Built with **React** (or specify other tech if used) and designed with user engagement in mind, this demo showcases how a restaurant can connect with its patrons online.
+Built with **React** and designed with user engagement in mind, this demo showcases how a restaurant can connect with its patrons online.
 
 ### Project Scope & Features:
 
 This checklist outlines the planned features and their current implementation status in the demo:
 
 -   [x] **Dynamic Landing Page:** Welcomes visitors with highlights of special offers and featured menu items.
--   [ ] **Interactive Menu Page:**
+-   [x] **Menu Page:**
     -   [x] Displays the full range of dishes with descriptions and pricing.
-    -   [ ] Allows users to rate dishes using a star system and leave optional comments. _(API integration planned for data persistence)_
+    -   ~~Allows users to rate dishes using a star system and leave optional comments. _(API integration planned for data persistence)_~~
 -   [ ] **Table Reservation System:**
     -   [ ] A dedicated page allowing users to request table bookings. _(API integration planned for handling requests)_
 -   [ ] **Customer Feedback Section:**
@@ -41,7 +41,7 @@ This checklist outlines the planned features and their current implementation st
 
 To explore the demo website:
 
-1.  Visit the live demo at [Link to Live Demo - To Be Added](#)
+1.  Visit the live demo at https://umaminights.pages.dev/
 2.  Browse the menu, explore the gallery, view restaurant information, and interact with features like booking or feedback (where implemented).
 
 _No setup required to view the live demo._
