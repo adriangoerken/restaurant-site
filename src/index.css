@@ -1,0 +1,68 @@
+@import 'tailwindcss';
+
+@theme {
+	--font-display: 'Poppins', ui-sans-serif, system-ui, sans-serif;
+	--font-weight-normal: 400;
+	--font-weight-bold: 700;
+
+	--color-primary: #1a1a1a;
+	--color-secondary: #0f172a;
+	--color-accent: #ff6b6b;
+	--color-highlight: #fbbf24;
+	--color-success: #6ee7b7;
+	--color-text-normal: #fafafa;
+	--color-text-muted: #94a3b8;
+}
+
+/* poppins-regular - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 400;
+	src: url('/fonts/Poppins/poppins-v22-latin-regular.woff2') format('woff2');
+}
+/* poppins-italic - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Poppins';
+	font-style: italic;
+	font-weight: 400;
+	src: url('/fonts/Poppins/poppins-v22-latin-italic.woff2') format('woff2');
+}
+/* poppins-700 - latin */
+@font-face {
+	font-display: swap;
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 700;
+	src: url('/fonts/Poppins/poppins-v22-latin-700.woff2') format('woff2');
+}
+
+@media only screen and (min-width: 768px) {
+	/* Custom scroll bar */
+	/* width */
+	::-webkit-scrollbar {
+		width: 15px;
+	}
+
+	/* height */
+	::-webkit-scrollbar {
+		height: 15px;
+	}
+
+	/* Track */
+	::-webkit-scrollbar-track {
+		/*background: #2d2d2d;*/ /* Slightly lighter than bg-gray-900 */
+	}
+
+	/* Handle */
+	::-webkit-scrollbar-thumb {
+		background: #1d1d1d;
+	}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #1d1d1d; /* Tailwind's bg-gray-500 */
+	}
+}
