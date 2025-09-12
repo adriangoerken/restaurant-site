@@ -29,3 +29,81 @@ Desserts
 Matcha Crème Brûlée - Green tea custard, caramelized sugar - $12
 Mochi Ice Cream Trio - Vanilla, red bean, and mango - $10
 Black Sesame Cheesecake - Graham crust, sesame tuile - $14
+
+----
+
+Phase 1: Planung & Struktur (1-2 Tage)
+
+Wireframes erstellen - Skizziere grob die Layouts deiner Seiten auf Papier oder mit Tools wie Excalidraw
+Komponenten-Architektur planen - Identifiziere wiederverwendbare Komponenten (Header, Footer, MenuCard, etc.)
+Routing-Struktur definieren - Welche URLs für welche Seiten
+
+Phase 2: Design-Foundation (1 Tag)
+
+Typography festlegen - 1-2 Google Fonts auswählen (z.B. eine für Headlines, eine für Body)
+Spacing-System definieren - Einheitliche Abstände (4px, 8px, 16px, 24px, etc.)
+Component Library wählen - Empfehlung: Tailwind CSS für schnelles Styling ohne Design-Skills
+
+Phase 3: Grundgerüst (2-3 Tage)
+
+Basis-Layout - Header, Footer, Main-Content-Area
+Navigation implementieren
+Responsive Grid-System aufsetzen
+
+Phase 4: Seiten entwickeln (5-7 Tage)
+Beginne mit der wichtigsten Seite und arbeite dich vor:
+
+Homepage
+Speisekarte
+Über uns
+Kontakt
+Weitere Features
+
+Phase 5: Polish & Testing (2-3 Tage)
+
+Mobile Optimierung
+Performance optimieren
+Accessibility prüfen
+
+----
+
+Phase 1: Design-Foundation & Setup (2-3 Tage)
+Erst zeig mir bitte deine Farbpalette, dann kann ich dir konkrete Design-Empfehlungen geben.
+Setup-Empfehlungen:
+
+Tailwind CSS installieren - ideal für dein Projekt ohne Design-Skills
+React Router für die Navigation zwischen den vielen Seiten
+Lucide React für Icons
+Framer Motion (optional) für sanfte Animationen
+
+Phase 2: Komponenten-Architektur (1 Tag)
+Basis-Komponenten identifizieren:
+
+Header/Navigation (mit Logo, Menü-Links)
+Footer (Kontaktinfo, Öffnungszeiten)
+MenuCard (für Gerichte)
+ReservationForm (Tischreservierung)
+FeedbackCard (Kundenbewertungen)
+GalleryImage (Bildergalerie)
+EventCard (Events & Promotions)
+
+Phase 3: Prioritätenliste der Seiten
+Empfohlene Reihenfolge:
+
+Landing Page - Erster Eindruck ist wichtig
+Menu Page - Kernfunktion eines Restaurants
+Contact & Location - Essentiell für Kunden
+Restaurant Story - Storytelling
+Reservation System - Interaktive Funktionalität
+Gallery - Visueller Appeal
+Events & Promotions - Marketing
+Feedback Section - Community Building
+Admin Dashboard - Zuletzt, da am komplexesten
+
+Colors:
+primary (charcoal) and secondary (navy) for backgrounds
+accent (coral) for the "Neon" text and primary button
+highlight (gold) for accents and hover states
+success (mint) for the floating background element
+text-normal (warm white) for main text
+text-muted (light gray) for secondary text
