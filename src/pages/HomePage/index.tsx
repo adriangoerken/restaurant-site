@@ -10,6 +10,7 @@ import {
 	slideInRight,
 	staggerContainer,
 } from '../../utils/animations';
+import AnimatedSection from '../../components/ui/AnimatedSection';
 
 // Enhanced OfferCard with animations
 export interface OfferCardProps {
@@ -188,32 +189,6 @@ const GalleryImage: React.FC<GalleryImageProps> = ({ src, alt, className }) => {
 				</div>
 			)}
 		</motion.div>
-	);
-};
-
-// Animated section wrapper
-interface AnimatedSectionProps {
-	children: React.ReactNode;
-	className?: string;
-	'aria-labelledby'?: string;
-}
-
-const AnimatedSection: React.FC<AnimatedSectionProps> = ({
-	children,
-	className,
-	'aria-labelledby': ariaLabelledBy,
-}) => {
-	return (
-		<motion.section
-			className={className}
-			aria-labelledby={ariaLabelledBy}
-			initial="hidden"
-			whileInView="visible"
-			viewport={{ once: true, margin: '-100px' }}
-			variants={fadeIn}
-		>
-			{children}
-		</motion.section>
 	);
 };
 
