@@ -10,7 +10,7 @@ const TextContent = () => {
 		<div className="z-10 text-center">
 			{/* Title heading */}
 			<motion.h1
-				className="flex justify-center gap-x-4  font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
+				className="flex justify-center gap-x-4 font-display text-5xl md:text-7xl lg:text-8xl font-bold mb-6"
 				initial="hidden"
 				animate="visible"
 				variants={{
@@ -52,7 +52,7 @@ const TextContent = () => {
 				{t('subtitle')}
 			</motion.p>
 
-			{/* CTA Buttons */}
+			{/* CTA buttons */}
 			<motion.div
 				className="flex flex-col sm:flex-row gap-4 justify-center items-center"
 				initial="hidden"

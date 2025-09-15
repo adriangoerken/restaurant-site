@@ -12,36 +12,50 @@ Built with **React** and designed with user engagement in mind, this demo showca
 
 This checklist outlines the planned features and their current implementation status in the demo:
 
--   [ ] **Dynamic Landing Page:** Welcomes visitors with highlights of special offers and featured menu items.
--   [ ] **Menu Page:**
+**Frontend Tasks:**
+
+-   [ ] **Dynamic Landing Page UI:** Welcomes visitors with highlights of special offers and featured menu items.
+-   [ ] **Menu Page Layout:**
     -   [ ] Displays the full range of dishes with descriptions and pricing.
-    -   ~~Allows users to rate dishes using a star system and leave optional comments.~~
--   [ ] **Table Reservation System:**
-    -   [ ] A dedicated page allowing users to request table bookings.
--   [ ] **Customer Feedback Section:**
-    -   [ ] Enables users to provide detailed feedback, comments, and overall ratings for the restaurant. _(API integration planned for collecting feedback)_
--   [ ] **Restaurant Story Page:**
-    -   [ ] Shares the unique background, culinary concept, and information about the head chef or team.
--   [ ] **Contact & Location Page:**
+-   [ ] **Table Reservation Form UI:** A dedicated form allowing users to request table bookings.
+-   [ ] **Customer Feedback Form Interface:** Enables users to provide detailed feedback, comments, and overall ratings for the restaurant.
+-   [ ] **Restaurant Story Page Layout:** Shares the unique background, culinary concept, and information about the head chef or team.
+-   [ ] **Contact & Location Page UI:**
     -   [ ] Provides essential contact information and operating hours.
-    -   [ ] Includes an embedded map for easy directions. _(Potential API for dynamic map features)_
--   [ ] **Visual Gallery:**
-    -   [ ] Features high-quality images showcasing the restaurant's ambiance, signature dishes, and special events.
--   [ ] **Events & Promotions Section:**
-    -   [ ] Keeps customers informed about upcoming events, seasonal menus, or exclusive promotions.
--   [ ] **Online Ordering Concept (Optional Feature):**
-    -   [ ] Includes a mock-up or conceptual design for potential takeout and delivery services.
+    -   [ ] Includes an embedded map for easy directions.
+-   [ ] **Visual Gallery Component:** Features high-quality images showcasing the restaurant's ambiance, signature dishes, and special events.
+-   [ ] **Events & Promotions Display:** Keeps customers informed about upcoming events, seasonal menus, or exclusive promotions.
 -   [ ] **Responsive & Accessible Design:**
     -   [ ] Ensures the website is functional and looks great on major device sizes (desktops, tablets, mobiles).
-    -   [ ] Prioritizes accessibility standards for usability by all visitors (Ongoing refinement).
--   [ ] **Administrative Dashboard for Content & Site Management:**
-    -   [ ] Manage customer feedback submissions (view, moderate, respond).
-    -   [ ] Update and organize menu items, descriptions and pricing.
-    -   [ ] Highlight or schedule featured items and offers on the landing page.
-    -   [ ] Upload and organize images for the gallery.
-    -   [ ] Monitor reservation requests and update availability settings.
-    -   [ ] Control general site settings, such as opening hours, contact info, and social links.
-    -   [ ] Role-based access controls for staff/admin users (optional advanced feature).
+    -   [ ] Prioritizes accessibility standards for usability by all visitors.
+-   [ ] **Administrative Dashboard UI:**
+    -   [ ] Interface to manage customer feedback submissions (view, moderate, respond).
+    -   [ ] Interface to update and organize menu items, descriptions and pricing.
+    -   [ ] Interface to highlight or schedule featured items and offers on the landing page.
+    -   [ ] Interface to upload and organize images for the gallery.
+    -   [ ] Interface to monitor reservation requests and update availability settings.
+
+**Backend Tasks:**
+
+-   [ ] **Menu Items API:** CRUD operations for managing dishes, descriptions, and pricing.
+-   [ ] **Table Reservation API:** System for handling booking requests with availability checking.
+-   [ ] **Customer Feedback API:** Backend for collecting, storing, and moderating customer feedback and ratings.
+-   [ ] **Image Upload API:** File handling system for gallery image management.
+-   [ ] **Events/Promotions API:** Backend for managing upcoming events, seasonal menus, and exclusive promotions.
+-   [ ] **Contact Form API:** System for handling contact form submissions and notifications.
+-   [ ] **Admin Authentication System:** Secure login and session management for administrative users.
+-   [ ] **Content Management APIs:** Backend services for updating site settings, hours, contact info, and social links.
+-   [ ] **Database Schema Design:** Design and implement database structure for all restaurant data.
+-   [ ] **Role-based Access Control:** Different permission levels for staff/admin users.
+
+**Integration Tasks:**
+
+-   [ ] **Menu Integration:** Connect menu display components to backend menu API.
+-   [ ] **Reservation Integration:** Link booking form to reservation API with real-time availability.
+-   [ ] **Feedback Integration:** Connect customer feedback forms to backend collection and moderation system.
+-   [ ] **Gallery Integration:** Link image upload interface to backend storage and retrieval system.
+-   [ ] **Admin Dashboard Integration:** Connect all administrative interfaces to their respective backend APIs.
+-   [ ] **Map API Integration:** Integrate dynamic map features for location display.
 
 ## Installation and Usage
 
@@ -49,7 +63,7 @@ This checklist outlines the planned features and their current implementation st
 
 To explore the demo website:
 
-1.  Visit the live demo at https://umaminights.pages.dev/
+1.  Visit the live demo at [available soon]
 2.  Browse the menu, explore the gallery, view restaurant information, and interact with features like booking or feedback (where implemented).
 
 _No setup required to view the live demo._

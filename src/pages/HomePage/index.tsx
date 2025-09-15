@@ -1,9 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Clock, Users, Award } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import HeroSection from './sections/HeroSection';
 import {
-	fadeIn,
 	fadeInUp,
 	scaleIn,
 	slideInLeft,
@@ -11,71 +10,7 @@ import {
 	staggerContainer,
 } from '../../utils/animations';
 import AnimatedSection from '../../components/ui/AnimatedSection';
-
-// Enhanced OfferCard with animations
-export interface OfferCardProps {
-	title: string;
-	description: string;
-	discount?: string;
-	validUntil?: string;
-	icon?: React.ReactNode;
-}
-
-const OfferCard: React.FC<OfferCardProps> = ({
-	title,
-	description,
-	discount,
-	validUntil,
-	icon,
-}) => {
-	return (
-		<motion.article
-			className="bg-background-elevated border border-border-primary rounded-xl p-6 hover:border-accent transition-all duration-300"
-			variants={fadeInUp}
-			whileHover={{
-				scale: 1.03,
-				borderColor: 'var(--color-accent)',
-				transition: { duration: 0.2 },
-			}}
-			whileTap={{ scale: 0.98 }}
-		>
-			<div className="flex items-start gap-4">
-				{icon && (
-					<motion.div
-						className="text-accent flex-shrink-0"
-						whileHover={{ rotate: 5 }}
-						transition={{ duration: 0.2 }}
-					>
-						{icon}
-					</motion.div>
-				)}
-				<div className="flex-1">
-					<h3 className="text-xl font-semibold text-text-primary mb-2">
-						{title}
-					</h3>
-					<p className="text-text-secondary mb-4 leading-relaxed">
-						{description}
-					</p>
-					{discount && (
-						<motion.div
-							className="text-highlight font-bold text-lg mb-2"
-							initial={{ scale: 0.8, opacity: 0 }}
-							animate={{ scale: 1, opacity: 1 }}
-							transition={{ delay: 0.2 }}
-						>
-							{discount}
-						</motion.div>
-					)}
-					{validUntil && (
-						<p className="text-text-muted text-sm">
-							Valid until {validUntil}
-						</p>
-					)}
-				</div>
-			</div>
-		</motion.article>
-	);
-};
+import SpecialOffersSection from './sections/SpecialOffersSection';
 
 // Enhanced MenuItem with animations
 export interface MenuItemProps {
@@ -194,32 +129,6 @@ const GalleryImage: React.FC<GalleryImageProps> = ({ src, alt, className }) => {
 
 // Main HomePage component
 const HomePage: React.FC = () => {
-	const specialOffers = [
-		{
-			title: 'Happy Hour Special',
-			description: 'Enjoy 30% off all signature cocktails and appetizers',
-			discount: '30% OFF',
-			validUntil: 'March 31st',
-			icon: <Clock size={24} />,
-		},
-		{
-			title: "Chef's Tasting Menu",
-			description:
-				'Experience our 7-course journey through modern Asian cuisine',
-			discount: '$85/person',
-			validUntil: 'Limited time',
-			icon: <Award size={24} />,
-		},
-		{
-			title: 'Group Dining',
-			description:
-				'Special pricing for parties of 6 or more. Private dining available',
-			discount: '15% OFF',
-			validUntil: 'Ongoing',
-			icon: <Users size={24} />,
-		},
-	];
-
 	const featuredItems = [
 		{
 			name: 'Black Garlic Ramen',
@@ -261,48 +170,7 @@ const HomePage: React.FC = () => {
 			<HeroSection />
 
 			<div id="main-content">
-				{/* Special Offers Section */}
-				<AnimatedSection
-					className="py-20 px-4 bg-background-secondary"
-					aria-labelledby="special-offers-heading"
-				>
-					<div className="container mx-auto overflow-hidden">
-						<motion.h2
-							id="special-offers-heading"
-							className="text-4xl md:text-5xl font-bold text-center mb-4 font-display"
-							variants={fadeInUp}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-						>
-							<span className="text-text-primary">Special</span>{' '}
-							<span className="text-highlight">Offers</span>
-						</motion.h2>
-						<motion.p
-							className="text-text-secondary text-center max-w-2xl mx-auto mb-12"
-							variants={fadeInUp}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-							transition={{ delay: 0.2 }}
-						>
-							Don't miss out on our exclusive deals and seasonal
-							promotions
-						</motion.p>
-						<motion.div
-							className="grid md:grid-cols-2 lg:grid-cols-3 gap-8"
-							variants={staggerContainer}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-						>
-							{specialOffers.map((offer, index) => (
-								<OfferCard key={index} {...offer} />
-							))}
-						</motion.div>
-					</div>
-				</AnimatedSection>
-
+				<SpecialOffersSection />
 				{/* Featured Menu Section */}
 				<AnimatedSection
 					className="py-20 px-4 bg-background-primary"
