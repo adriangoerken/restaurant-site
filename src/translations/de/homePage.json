@@ -1,0 +1,51 @@
+{
+	"hero": {
+		"welcomeAriaLabel": "Willkommen in der Neon Kitchen",
+		"titlePart1": "Neon",
+		"titlePart2": "Kitchen",
+		"subheading": "Moderne asiatische Fusion mit zeitgenössischen Wendungen traditioneller Aromen",
+		"reserveButton": "Tisch reservieren",
+		"reserveButtonAriaLabel": "Einen Tisch in der Neon Kitchen reservieren",
+		"menuButton": "Speisekarte ansehen",
+		"menuButtonAriaLabel": "Unsere Speisekarte ansehen"
+	},
+	"specialOffers": {
+		"ariaLabel": "Sonderangebote",
+		"headingPart1": "Spezielle",
+		"headingPart2": "Angebote",
+		"subheading": "Verpassen Sie nicht unsere exklusiven Angebote und saisonalen Aktionen",
+		"validUntilPrefix": "Gültig bis"
+	},
+	"signatureDishes": {
+		"ariaLabel": "Signature-Gerichte",
+		"headingPart1": "Signature",
+		"headingPart2": "Gerichte",
+		"subheading": "Entdecken Sie die sorgfältig kreierten Fusionsgerichte unseres Küchenchefs",
+		"signatureBadge": "Signature",
+		"imageAlt": "{{dishName}} - ein Gericht in der Neon Kitchen"
+	},
+	"visualExperience": {
+		"ariaLabel": "Galerie der visuellen Erfahrung",
+		"headingPart1": "Visuelle",
+		"headingPart2": "Erfahrung",
+		"subheading": "Treten Sie ein in unsere lebendige Atmosphäre und kulinarische Kunstfertigkeit",
+		"images": {
+			"diningRoom": "Innenbereich des Restaurants mit Neonbeleuchtung",
+			"chefRamen": "Küchenchef bei der Zubereitung des Signature-Ramen-Gerichts",
+			"misoSalmon": "Kunstvolle Präsentation von Miso-Lachs",
+			"barArea": "Barbereich mit handwerklichen Cocktails",
+			"openKitchen": "Offene Küche mit Köchen bei der Arbeit",
+			"privateDining": "Aufbau des privaten Speiseraums"
+		}
+	},
+	"ourStory": {
+		"ariaLabel": "Unsere Geschichte",
+		"headingPart1": "Unsere",
+		"headingPart2": "Geschichte",
+		"paragraph1": "In der Neon Kitchen glauben wir an die Kraft der Fusion - nicht nur in unseren Gerichten, sondern auch daran, verschiedene kulinarische Traditionen zusammenzubringen, um etwas völlig Neues zu schaffen. Die Reise unseres Küchenchefs durch die Nachtmärkte von Seoul, die Ramen-Bars von Tokyo und die Straßenimbisse von Bangkok hat jedes Gericht auf unserer Speisekarte inspiriert.",
+		"paragraph2": "Wir sind mehr als ein Restaurant - wir sind eine Feier der modernen asiatischen Küche, wo traditionelle Techniken auf zeitgenössische Innovation treffen in einer Atmosphäre, die sowohl elektrisierend als auch intim ist.",
+		"learnMoreButton": "Mehr über uns erfahren",
+		"learnMoreButtonAriaLabel": "Mehr über die Geschichte und Philosophie der Neon Kitchen erfahren",
+		"visualAriaLabel": "Koch-Illustration, die unsere kulinarische Expertise repräsentiert"
+	}
+}

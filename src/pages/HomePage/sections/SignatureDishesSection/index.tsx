@@ -7,7 +7,7 @@ import SectionHeading from '../../../../components/ui/SectionHeading';
 import Container from '../../../../components/layout/Container';
 
 const SignatureDishesSection = () => {
-	const { t } = useTranslation('signatureDishes');
+	const { t } = useTranslation('homePage');
 	// TODO: Mock data, remove when backend is implemented
 	const featuredItems = [
 		{
@@ -45,9 +45,9 @@ const SignatureDishesSection = () => {
 			<Container>
 				<SectionHeading
 					id="featured-menu-heading"
-					part1={t('headingPart1')}
-					part2={t('headingPart2')}
-					subheading={t('subheading')}
+					part1={t('signatureDishes.headingPart1')}
+					part2={t('signatureDishes.headingPart2')}
+					subheading={t('signatureDishes.subheading')}
 				/>
 				<motion.div
 					className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"

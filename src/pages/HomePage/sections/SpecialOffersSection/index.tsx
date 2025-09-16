@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 import SectionHeading from '../../../../components/ui/SectionHeading';
 
 const index = () => {
-	const { t } = useTranslation('specialOffers');
+	const { t } = useTranslation('homePage');
 	// TODO: Mock data, remove when backend is implemented
 	const specialOffers = [
 		{
@@ -45,9 +45,9 @@ const index = () => {
 				<div className="container mx-auto">
 					<SectionHeading
 						id="featured-menu-heading"
-						part1={t('headingPart1')}
-						part2={t('headingPart2')}
-						subheading={t('subheading')}
+						part1={t('specialOffers.headingPart1')}
+						part2={t('specialOffers.headingPart2')}
+						subheading={t('specialOffers.subheading')}
 						highlightColor="highlight"
 					/>
 

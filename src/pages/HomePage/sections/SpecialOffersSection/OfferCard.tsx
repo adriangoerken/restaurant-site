@@ -17,7 +17,7 @@ const OfferCard: React.FC<OfferCardProps> = ({
 	validUntil,
 	icon,
 }) => {
-	const { t } = useTranslation('specialOffers');
+	const { t } = useTranslation('homePage');
 	const titleId = `offer-title-${title.replace(/\s+/g, '-').toLowerCase()}`;
 	const descriptionId = `offer-description-${title
 		.replace(/\s+/g, '-')
@@ -77,10 +77,11 @@ const OfferCard: React.FC<OfferCardProps> = ({
 						)}
 						{validUntil && (
 							<p className="text-text-muted text-sm">
-								<span className="sr-only">
-									Offer valid until:
+								<span>
+									{t('specialOffers.validUntilPrefix')}
+									&nbsp;
 								</span>
-								{t('validUntilPrefix')} {validUntil}
+								{validUntil}
 							</p>
 						)}
 					</div>

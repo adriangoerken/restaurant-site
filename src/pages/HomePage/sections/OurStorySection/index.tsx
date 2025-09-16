@@ -5,7 +5,7 @@ import StoryContent from './StoryContent';
 import StoryVisual from './StoryVisual';
 
 const OurStorySection: React.FC = () => {
-	const { t } = useTranslation('ourStory');
+	const { t } = useTranslation('homePage');
 
 	const handleLearnMoreClick = () => {
 		// TODO: Implement navigation to about page or modal
@@ -20,7 +20,7 @@ const OurStorySection: React.FC = () => {
 			<Container>
 				<div className="grid lg:grid-cols-2 gap-12 items-center overflow-hidden">
 					<StoryContent onLearnMoreClick={handleLearnMoreClick} />
-					<StoryVisual ariaLabel={t('visualAriaLabel')} />
+					<StoryVisual ariaLabel={t('ourStory.visualAriaLabel')} />
 				</div>
 			</Container>
 		</AnimatedSection>

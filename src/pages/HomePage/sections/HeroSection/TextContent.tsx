@@ -4,7 +4,7 @@ import AnimatedButton from '../../../../components/ui/AnimatedButton';
 import { useTranslation } from 'react-i18next';
 
 const TextContent = () => {
-	const { t } = useTranslation('hero');
+	const { t } = useTranslation('homePage');
 
 	return (
 		<div className="z-10 text-center">
@@ -25,7 +25,9 @@ const TextContent = () => {
 					},
 				}}
 			>
-				<span className="text-text-primary">{t('titlePart1')}</span>
+				<span className="text-text-primary">
+					{t('hero.titlePart1')}
+				</span>
 				<motion.span
 					className="bg-gradient-to-r from-accent to-highlight bg-clip-text text-transparent"
 					animate={{
@@ -37,7 +39,7 @@ const TextContent = () => {
 					}}
 					style={{ backgroundSize: '200% 200%' }}
 				>
-					{t('titlePart2')}
+					{t('hero.titlePart2')}
 				</motion.span>
 			</motion.h1>
 
@@ -49,7 +51,7 @@ const TextContent = () => {
 				variants={fadeInUp}
 				transition={{ delay: 0.3 }}
 			>
-				{t('subheading')}
+				{t('hero.subheading')}
 			</motion.p>
 
 			{/* CTA buttons */}
@@ -62,15 +64,15 @@ const TextContent = () => {
 			>
 				<AnimatedButton
 					variant="primary"
-					aria-label={t('reserveButtonAriaLabel')}
+					aria-label={t('hero.reserveButtonAriaLabel')}
 				>
-					{t('reserveButton')}
+					{t('hero.reserveButton')}
 				</AnimatedButton>
 				<AnimatedButton
 					variant="outline"
-					aria-label={t('menuButtonAriaLabel')}
+					aria-label={t('hero.menuButtonAriaLabel')}
 				>
-					{t('menuButton')}
+					{t('hero.menuButton')}
 				</AnimatedButton>
 			</motion.div>
 		</div>

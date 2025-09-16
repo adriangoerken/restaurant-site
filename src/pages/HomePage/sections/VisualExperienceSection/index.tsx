@@ -7,20 +7,20 @@ import SectionHeading from '../../../../components/ui/SectionHeading';
 import Container from '../../../../components/layout/Container';
 
 const VisualExperienceSection = () => {
-	const { t } = useTranslation('visualExperience');
+	const { t } = useTranslation('homePage');
 
 	return (
 		<AnimatedSection
 			className="py-20 px-4 bg-background-secondary"
-			aria-label={t('ariaLabel')}
+			aria-label={t('visualExperience.ariaLabel')}
 		>
 			<Container>
 				<div className="container mx-auto">
 					<SectionHeading
 						id="featured-menu-heading"
-						part1={t('headingPart1')}
-						part2={t('headingPart2')}
-						subheading={t('subheading')}
+						part1={t('visualExperience.headingPart1')}
+						part2={t('visualExperience.headingPart2')}
+						subheading={t('visualExperience.subheading')}
 						highlightColor="success"
 					/>
 					<motion.div
@@ -31,15 +31,23 @@ const VisualExperienceSection = () => {
 						viewport={{ once: true }}
 					>
 						<GalleryImage
-							alt={t('images.diningRoom')}
+							alt={t('visualExperience.images.diningRoom')}
 							className="col-span-2"
 						/>
-						<GalleryImage alt={t('images.chefRamen')} />
-						<GalleryImage alt={t('images.misoSalmon')} />
-						<GalleryImage alt={t('images.barArea')} />
-						<GalleryImage alt={t('images.openKitchen')} />
 						<GalleryImage
-							alt={t('images.privateDining')}
+							alt={t('visualExperience.images.chefRamen')}
+						/>
+						<GalleryImage
+							alt={t('visualExperience.images.misoSalmon')}
+						/>
+						<GalleryImage
+							alt={t('visualExperience.images.barArea')}
+						/>
+						<GalleryImage
+							alt={t('visualExperience.images.openKitchen')}
+						/>
+						<GalleryImage
+							alt={t('visualExperience.images.privateDining')}
 							className="col-span-2"
 						/>
 					</motion.div>

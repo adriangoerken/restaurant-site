@@ -18,7 +18,7 @@ const MenuCard: React.FC<MenuCardProps> = ({
 	image,
 	isSignature,
 }) => {
-	const { t } = useTranslation('signatureDishes');
+	const { t } = useTranslation('homePage');
 	const titleId = `dish-name-${name.replace(/\s+/g, '-').toLowerCase()}`;
 	const descriptionId = `dish-description-${name
 		.replace(/\s+/g, '-')
@@ -48,7 +48,7 @@ const MenuCard: React.FC<MenuCardProps> = ({
 				{image ? (
 					<img
 						src={image}
-						alt={t('imageAlt', { dishName: name })}
+						alt={t('signatureDishes.imageAlt', { dishName: name })}
 						className="w-full h-full object-cover"
 						loading="lazy"
 					/>
@@ -77,7 +77,7 @@ const MenuCard: React.FC<MenuCardProps> = ({
 						role="status"
 						aria-label={`${name} is a signature dish`}
 					>
-						{t('signatureBadge')}
+						{t('signatureDishes.signatureBadge')}
 					</motion.div>
 				)}
 			</motion.div>

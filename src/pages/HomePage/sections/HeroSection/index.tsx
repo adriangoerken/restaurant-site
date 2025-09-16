@@ -5,12 +5,12 @@ import TextContent from './TextContent';
 import { useTranslation } from 'react-i18next';
 
 const HeroSection = () => {
-	const { t } = useTranslation('hero');
+	const { t } = useTranslation('homePage');
 
 	return (
 		<AnimatedSection
 			className={`relative min-h-screen bg-gradient-to-br from-background-primary via-background-secondary to-background-primary flex items-center justify-center overflow-hidden`}
-			aria-labelledby={t('welcomeAriaLabel')}
+			aria-labelledby={t('hero.welcomeAriaLabel')}
 		>
 			<AnimatedBackground />
 			<Container>

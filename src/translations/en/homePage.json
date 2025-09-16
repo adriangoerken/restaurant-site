@@ -1,0 +1,51 @@
+{
+	"hero": {
+		"welcomeAriaLabel": "Welcome to Neon Kitchen",
+		"titlePart1": "Neon",
+		"titlePart2": "Kitchen",
+		"subheading": "Modern Asian Fusion with contemporary twists on traditional flavors",
+		"reserveButton": "Reserve Table",
+		"reserveButtonAriaLabel": "Make a reservation at Neon Kitchen",
+		"menuButton": "View Menu",
+		"menuButtonAriaLabel": "View our menu"
+	},
+	"specialOffers": {
+		"ariaLabel": "Special Offers",
+		"headingPart1": "Special",
+		"headingPart2": "Offers",
+		"subheading": "Don't miss out on our exclusive deals and seasonal promotions",
+		"validUntilPrefix": "Valid until"
+	},
+	"signatureDishes": {
+		"ariaLabel": "Signature Dishes",
+		"headingPart1": "Signature",
+		"headingPart2": "Dishes",
+		"subheading": "Discover our chef's carefully crafted fusion creations",
+		"signatureBadge": "Signature",
+		"imageAlt": "{{dishName}} - a dish at Neon Kitchen"
+	},
+	"visualExperience": {
+		"ariaLabel": "Visual Experience Gallery",
+		"headingPart1": "Visual",
+		"headingPart2": "Experience",
+		"subheading": "Step inside our vibrant atmosphere and culinary artistry",
+		"images": {
+			"diningRoom": "Interior dining room with neon lighting",
+			"chefRamen": "Chef preparing signature ramen dish",
+			"misoSalmon": "Artistic plating of miso salmon",
+			"barArea": "Bar area with craft cocktails",
+			"openKitchen": "Open kitchen with chefs at work",
+			"privateDining": "Private dining room setup"
+		}
+	},
+	"ourStory": {
+		"ariaLabel": "Our Story",
+		"headingPart1": "Our",
+		"headingPart2": "Story",
+		"paragraph1": "At Neon Kitchen, we believe in the power of fusion - not just in our dishes, but in bringing together diverse culinary traditions to create something entirely new. Our chef's journey through the night markets of Seoul, the ramen bars of Tokyo, and the street food stalls of Bangkok has inspired every dish on our menu.",
+		"paragraph2": "We're more than a restaurant - we're a celebration of modern Asian cuisine, where traditional techniques meet contemporary innovation in an atmosphere that's both electric and intimate.",
+		"learnMoreButton": "Learn More About Us",
+		"learnMoreButtonAriaLabel": "Learn more about Neon Kitchen's story and philosophy",
+		"visualAriaLabel": "Chef illustration representing our culinary expertise"
+	}
+}
