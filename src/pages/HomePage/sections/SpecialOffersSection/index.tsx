@@ -37,11 +37,11 @@ const index = () => {
 
 	return (
 		<AnimatedSection
-			className="py-20 px-4 bg-background-secondary"
+			className="py-20 bg-background-secondary"
 			aria-labelledby="special-offers-heading"
 		>
 			<Container>
-				<div className="container mx-auto overflow-hidden">
+				<div className="container mx-auto">
 					{/* Section heading */}
 					<motion.h2
 						id="special-offers-heading"

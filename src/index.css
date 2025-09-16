@@ -101,26 +101,28 @@
 	/* Custom scroll bar */
 	/* width */
 	::-webkit-scrollbar {
-		width: 15px;
+		width: 12px;
 	}
 
 	/* height */
 	::-webkit-scrollbar {
-		height: 15px;
+		height: 12px;
 	}
 
 	/* Track */
 	::-webkit-scrollbar-track {
-		/*background: #2d2d2d;*/ /* Slightly lighter than bg-gray-900 */
+		background: var(--color-background-primary);
 	}
 
 	/* Handle */
 	::-webkit-scrollbar-thumb {
-		background: #1d1d1d;
+		background: var(--color-border-secondary);
+		border-radius: 10px;
+		border: 2px solid var(--color-background-primary);
 	}
 
 	/* Handle on hover */
 	::-webkit-scrollbar-thumb:hover {
-		background: #1d1d1d; /* Tailwind's bg-gray-500 */
+		background: var(--color-highlight);
 	}
 }
