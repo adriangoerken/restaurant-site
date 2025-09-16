@@ -12,44 +12,7 @@ import {
 import AnimatedSection from '../../components/ui/AnimatedSection';
 import SpecialOffersSection from './sections/SpecialOffersSection';
 import SignatureDishesSection from './sections/SignatureDishesSection';
-
-// Enhanced GalleryImage with animations
-export interface GalleryImageProps {
-	src?: string;
-	alt: string;
-	className?: string;
-}
-
-const GalleryImage: React.FC<GalleryImageProps> = ({ src, alt, className }) => {
-	return (
-		<motion.div
-			className={`aspect-square bg-background-secondary rounded-xl overflow-hidden transition-transform duration-300 ${className}`}
-			variants={scaleIn}
-			whileHover={{
-				scale: 1.05,
-				transition: { duration: 0.2 },
-			}}
-		>
-			{src ? (
-				<img
-					src={src}
-					alt={alt}
-					className="w-full h-full object-cover"
-				/>
-			) : (
-				<div className="w-full h-full flex items-center justify-center text-text-muted">
-					<motion.span
-						className="text-4xl opacity-30"
-						whileHover={{ rotate: 10 }}
-						transition={{ duration: 0.2 }}
-					>
-						📷
-					</motion.span>
-				</div>
-			)}
-		</motion.div>
-	);
-};
+import VisualExperienceSection from './sections/VisualExperienceSection';
 
 // Main HomePage component
 const HomePage: React.FC = () => {
@@ -68,57 +31,7 @@ const HomePage: React.FC = () => {
 			<div id="main-content">
 				<SpecialOffersSection />
 				<SignatureDishesSection />
-
-				{/* Gallery Preview Section */}
-				<AnimatedSection
-					className="py-20 px-4 bg-background-secondary"
-					aria-labelledby="gallery-heading"
-				>
-					<div className="container mx-auto">
-						<motion.h2
-							id="gallery-heading"
-							className="text-4xl md:text-5xl font-bold text-center mb-4 font-display"
-							variants={fadeInUp}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-						>
-							<span className="text-text-primary">Visual</span>{' '}
-							<span className="text-success">Experience</span>
-						</motion.h2>
-						<motion.p
-							className="text-text-secondary text-center max-w-2xl mx-auto mb-12"
-							variants={fadeInUp}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-							transition={{ delay: 0.2 }}
-						>
-							Step inside our vibrant atmosphere and culinary
-							artistry
-						</motion.p>
-						<motion.div
-							className="grid grid-cols-2 md:grid-cols-4 gap-4"
-							variants={staggerContainer}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-						>
-							<GalleryImage
-								alt="Interior dining room with neon lighting"
-								className="col-span-2"
-							/>
-							<GalleryImage alt="Chef preparing signature ramen dish" />
-							<GalleryImage alt="Artistic plating of miso salmon" />
-							<GalleryImage alt="Bar area with craft cocktails" />
-							<GalleryImage alt="Open kitchen with chefs at work" />
-							<GalleryImage
-								alt="Private dining room setup"
-								className="col-span-2"
-							/>
-						</motion.div>
-					</div>
-				</AnimatedSection>
+				<VisualExperienceSection />
 
 				{/* Story Preview Section */}
 				<AnimatedSection

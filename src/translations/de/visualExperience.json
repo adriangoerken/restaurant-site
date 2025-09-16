@@ -1,0 +1,14 @@
+{
+	"ariaLabel": "Visuelle Erlebnis-Galerie",
+	"headingPart1": "Visuelles",
+	"headingPart2": "Erlebnis",
+	"subheading": "Treten Sie ein in unsere lebendige Atmosphäre und kulinarische Kunstfertigkeit",
+	"images": {
+		"diningRoom": "Innenbereich des Speisesaals mit Neonbeleuchtung",
+		"chefRamen": "Koch bereitet charakteristische Ramen-Schale zu",
+		"misoSalmon": "Künstlerische Anrichtung von Miso-Lachs",
+		"barArea": "Barbereich mit handwerklich gebrauten Cocktails",
+		"openKitchen": "Offene Küche mit Köchen bei der Arbeit",
+		"privateDining": "Privater Speiseraum-Aufbau"
+	}
+}

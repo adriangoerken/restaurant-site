@@ -14,6 +14,8 @@ import specialOffers_en from './translations/en/specialOffers.json';
 import specialOffers_de from './translations/de/specialOffers.json';
 import signatureDishes_en from './translations/en/signatureDishes.json';
 import signatureDishes_de from './translations/de/signatureDishes.json';
+import visualExperience_en from './translations/en/visualExperience.json';
+import visualExperience_de from './translations/de/visualExperience.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
@@ -28,12 +30,14 @@ i18next.init({
 			hero: hero_en,
 			specialOffers: specialOffers_en,
 			signatureDishes: signatureDishes_en,
+			visualExperience: visualExperience_en,
 		},
 		de: {
 			global: global_de,
 			hero: hero_de,
 			specialOffers: specialOffers_de,
 			signatureDishes: signatureDishes_de,
+			visualExperience: visualExperience_de,
 		},
 	},
 });

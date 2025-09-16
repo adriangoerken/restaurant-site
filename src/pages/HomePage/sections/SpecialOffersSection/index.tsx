@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import Container from '../../../../components/layout/Container';
 import AnimatedSection from '../../../../components/ui/AnimatedSection';
-import { fadeInUp, staggerContainer } from '../../../../utils/animations';
+import { staggerContainer } from '../../../../utils/animations';
 import { Clock, Users, Award } from 'lucide-react';
 import OfferCard from './OfferCard';
 import { useTranslation } from 'react-i18next';
