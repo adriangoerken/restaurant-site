@@ -41,7 +41,7 @@ const TextContent = () => {
 				</motion.span>
 			</motion.h1>
 
-			{/* Subtitle */}
+			{/* subheading */}
 			<motion.p
 				className="text-xl md:text-2xl text-text-secondary max-w-3xl mx-auto mb-8 leading-relaxed"
 				initial="hidden"
@@ -49,7 +49,7 @@ const TextContent = () => {
 				variants={fadeInUp}
 				transition={{ delay: 0.3 }}
 			>
-				{t('subtitle')}
+				{t('subheading')}
 			</motion.p>
 
 			{/* CTA buttons */}

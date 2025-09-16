@@ -5,6 +5,7 @@ import { fadeInUp, staggerContainer } from '../../../../utils/animations';
 import { Clock, Users, Award } from 'lucide-react';
 import OfferCard from './OfferCard';
 import { useTranslation } from 'react-i18next';
+import SectionHeading from '../../../../components/ui/SectionHeading';
 
 const index = () => {
 	const { t } = useTranslation('specialOffers');
@@ -42,34 +43,13 @@ const index = () => {
 		>
 			<Container>
 				<div className="container mx-auto">
-					{/* Section heading */}
-					<motion.h2
-						id="special-offers-heading"
-						className="flex justify-center gap-x-4 text-4xl md:text-5xl font-bold text-center mb-4 font-display"
-						variants={fadeInUp}
-						initial="hidden"
-						whileInView="visible"
-						viewport={{ once: true }}
-					>
-						<span className="text-text-primary">
-							{t('headingPart1')}
-						</span>
-						<span className="text-highlight">
-							{t('headingPart2')}
-						</span>
-					</motion.h2>
-
-					{/* Subtitle */}
-					<motion.p
-						className="text-text-secondary text-center max-w-2xl mx-auto mb-12"
-						variants={fadeInUp}
-						initial="hidden"
-						whileInView="visible"
-						viewport={{ once: true }}
-						transition={{ delay: 0.2 }}
-					>
-						{t('subtitle')}
-					</motion.p>
+					<SectionHeading
+						id="featured-menu-heading"
+						part1={t('headingPart1')}
+						part2={t('headingPart2')}
+						subheading={t('subheading')}
+						highlightColor="highlight"
+					/>
 
 					{/* Special offer cards */}
 					<motion.div

@@ -18,10 +18,14 @@ const OfferCard: React.FC<OfferCardProps> = ({
 	icon,
 }) => {
 	const { t } = useTranslation('specialOffers');
+	const titleId = `offer-title-${title.replace(/\s+/g, '-').toLowerCase()}`;
+	const descriptionId = `offer-description-${title
+		.replace(/\s+/g, '-')
+		.toLowerCase()}`;
 
 	return (
 		<motion.article
-			className="bg-background-elevated border border-border-primary rounded-xl p-6 hover:border-accent transition-all duration-300"
+			className="bg-background-elevated border border-border-primary rounded-xl p-6 hover:border-accent transition-all duration-300 flex flex-col h-full focus-within:ring-2 focus-within:ring-accent focus-within:ring-offset-2"
 			variants={fadeInUp}
 			whileHover={{
 				scale: 1.03,
@@ -29,42 +33,57 @@ const OfferCard: React.FC<OfferCardProps> = ({
 				transition: { duration: 0.2 },
 			}}
 			whileTap={{ scale: 0.98 }}
+			role="article"
+			aria-labelledby={titleId}
+			aria-describedby={descriptionId}
+			tabIndex={0}
 		>
-			<div className="flex items-start gap-4">
-				{/* Icon */}
+			<div className="flex items-start gap-4 flex-grow">
 				{icon && (
 					<motion.div
 						className="text-accent flex-shrink-0"
 						whileHover={{ rotate: 5 }}
 						transition={{ duration: 0.2 }}
+						aria-hidden="true"
 					>
 						{icon}
 					</motion.div>
 				)}
-
-				{/* Text content */}
-				<div className="flex-1">
-					<h3 className="text-xl font-semibold text-text-primary mb-2">
+				<div className="flex flex-col h-full flex-grow">
+					<h3
+						id={titleId}
+						className="text-xl font-semibold text-text-primary mb-2"
+					>
 						{title}
 					</h3>
-					<p className="text-text-secondary mb-4 leading-relaxed">
+					<p
+						id={descriptionId}
+						className="text-text-secondary mb-4 leading-relaxed flex-grow"
+					>
 						{description}
 					</p>
-					{discount && (
-						<motion.div
-							className="text-highlight font-bold text-lg mb-2"
-							initial={{ scale: 0.8, opacity: 0 }}
-							animate={{ scale: 1, opacity: 1 }}
-							transition={{ delay: 0.2 }}
-						>
-							{discount}
-						</motion.div>
-					)}
-					{validUntil && (
-						<p className="text-text-muted text-sm">
-							{t('validUntilPrefix')} {validUntil}
-						</p>
-					)}
+					<div className="mt-auto">
+						{discount && (
+							<motion.div
+								className="text-highlight font-bold text-lg mb-2"
+								initial={{ scale: 0.8, opacity: 0 }}
+								animate={{ scale: 1, opacity: 1 }}
+								transition={{ delay: 0.2 }}
+								role="status"
+								aria-label={`Discount: ${discount}`}
+							>
+								{discount}
+							</motion.div>
+						)}
+						{validUntil && (
+							<p className="text-text-muted text-sm">
+								<span className="sr-only">
+									Offer valid until:
+								</span>
+								{t('validUntilPrefix')} {validUntil}
+							</p>
+						)}
+					</div>
 				</div>
 			</div>
 		</motion.article>

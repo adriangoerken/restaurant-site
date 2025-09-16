@@ -11,83 +11,7 @@ import {
 } from '../../utils/animations';
 import AnimatedSection from '../../components/ui/AnimatedSection';
 import SpecialOffersSection from './sections/SpecialOffersSection';
-
-// Enhanced MenuItem with animations
-export interface MenuItemProps {
-	name: string;
-	description: string;
-	price: string;
-	image?: string;
-	isSignature?: boolean;
-}
-
-const MenuItem: React.FC<MenuItemProps> = ({
-	name,
-	description,
-	price,
-	image,
-	isSignature,
-}) => {
-	return (
-		<motion.article
-			className="bg-background-elevated border border-border-primary rounded-xl overflow-hidden hover:border-accent transition-all duration-300"
-			variants={fadeInUp}
-			whileHover={{
-				scale: 1.03,
-				transition: { duration: 0.2 },
-			}}
-		>
-			<motion.div
-				className="aspect-video bg-background-secondary relative overflow-hidden"
-				whileHover={{ scale: 1.05 }}
-				transition={{ duration: 0.3 }}
-			>
-				{image ? (
-					<img
-						src={image}
-						alt={`${name} - signature dish at Neon Kitchen`}
-						className="w-full h-full object-cover"
-					/>
-				) : (
-					<div className="w-full h-full flex items-center justify-center text-text-muted">
-						<motion.span
-							className="text-6xl opacity-30"
-							animate={{ rotate: [0, 5, -5, 0] }}
-							transition={{ duration: 2, repeat: Infinity }}
-						>
-							🍜
-						</motion.span>
-					</div>
-				)}
-				{isSignature && (
-					<motion.div
-						className="absolute top-4 left-4 bg-highlight text-text-inverse px-3 py-1 rounded-full text-sm font-semibold"
-						initial={{ scale: 0, opacity: 0 }}
-						animate={{ scale: 1, opacity: 1 }}
-						transition={{ delay: 0.3, type: 'spring' }}
-					>
-						Signature
-					</motion.div>
-				)}
-			</motion.div>
-			<div className="p-6">
-				<h3 className="text-xl font-semibold text-text-primary mb-2">
-					{name}
-				</h3>
-				<p className="text-text-secondary mb-4 leading-relaxed">
-					{description}
-				</p>
-				<motion.div
-					className="text-accent font-bold text-lg"
-					whileHover={{ scale: 1.1 }}
-					transition={{ duration: 0.2 }}
-				>
-					{price}
-				</motion.div>
-			</div>
-		</motion.article>
-	);
-};
+import SignatureDishesSection from './sections/SignatureDishesSection';
 
 // Enhanced GalleryImage with animations
 export interface GalleryImageProps {
@@ -129,34 +53,6 @@ const GalleryImage: React.FC<GalleryImageProps> = ({ src, alt, className }) => {
 
 // Main HomePage component
 const HomePage: React.FC = () => {
-	const featuredItems = [
-		{
-			name: 'Black Garlic Ramen',
-			description: 'House-made noodles, slow-cooked broth, soft egg',
-			price: '$24',
-			isSignature: true,
-		},
-		{
-			name: 'Miso Salmon',
-			description:
-				'Pan-seared salmon, miso glaze, jasmine rice, bok choy',
-			price: '$32',
-			isSignature: true,
-		},
-		{
-			name: 'Korean BBQ Short Ribs',
-			description: 'Marinated beef ribs, kimchi fried rice',
-			price: '$38',
-			isSignature: false,
-		},
-		{
-			name: 'Pork Belly Bao',
-			description: 'Braised pork belly, pickled vegetables, hoisin sauce',
-			price: '$18',
-			isSignature: false,
-		},
-	];
-
 	return (
 		<>
 			{/* Skip link for accessibility */}
@@ -171,47 +67,7 @@ const HomePage: React.FC = () => {
 
 			<div id="main-content">
 				<SpecialOffersSection />
-				{/* Featured Menu Section */}
-				<AnimatedSection
-					className="py-20 px-4 bg-background-primary"
-					aria-labelledby="featured-menu-heading"
-				>
-					<div className="container mx-auto">
-						<motion.h2
-							id="featured-menu-heading"
-							className="text-4xl md:text-5xl font-bold text-center mb-4 font-display"
-							variants={fadeInUp}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-						>
-							<span className="text-text-primary">Signature</span>{' '}
-							<span className="text-accent">Dishes</span>
-						</motion.h2>
-						<motion.p
-							className="text-text-secondary text-center max-w-2xl mx-auto mb-12"
-							variants={fadeInUp}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-							transition={{ delay: 0.2 }}
-						>
-							Discover our chef's carefully crafted fusion
-							creations
-						</motion.p>
-						<motion.div
-							className="grid md:grid-cols-2 lg:grid-cols-4 gap-8"
-							variants={staggerContainer}
-							initial="hidden"
-							whileInView="visible"
-							viewport={{ once: true }}
-						>
-							{featuredItems.map((item, index) => (
-								<MenuItem key={index} {...item} />
-							))}
-						</motion.div>
-					</div>
-				</AnimatedSection>
+				<SignatureDishesSection />
 
 				{/* Gallery Preview Section */}
 				<AnimatedSection
