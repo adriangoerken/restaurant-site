@@ -47,5 +47,18 @@
 		"learnMoreButton": "Mehr über uns erfahren",
 		"learnMoreButtonAriaLabel": "Mehr über die Geschichte und Philosophie der Neon Kitchen erfahren",
 		"visualAriaLabel": "Koch-Illustration, die unsere kulinarische Expertise repräsentiert"
+	},
+	"CTA": {
+		"ariaLabel": "Handlungsaufforderung",
+		"headingPart1": "Heute",
+		"headingPart2": "Abend",
+		"headingPart3": "Dabei?",
+		"subheading": "Begleiten Sie uns für einen Abend mit außergewöhnlichem Essen, innovativen Cocktails und lebendiger Atmosphäre",
+		"reserveTableButton": "Tisch reservieren",
+		"reserveTableButtonAriaLabel": "Einen Tisch in der Neon Kitchen reservieren",
+		"viewMenuButton": "Vollständige Speisekarte",
+		"viewMenuButtonAriaLabel": "Unsere komplette Speisekarte ansehen",
+		"contactUsButton": "Kontakt aufnehmen",
+		"contactUsButtonAriaLabel": "Kontakt zu Neon Kitchen für Anfragen aufnehmen"
 	}
 }

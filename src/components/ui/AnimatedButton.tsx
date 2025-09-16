@@ -11,10 +11,10 @@ interface AnimatedButtonProps
 }
 
 const variantClasses = {
-	primary: 'bg-accent hover:bg-accent/90 text-text-inverse focus:ring-accent',
+	primary:
+		'bg-accent hover:bg-accent/90 text-text-inverse focus:ring-accent border-2 border-transparent',
 	outline:
 		'border-2 border-highlight text-highlight hover:bg-highlight hover:text-text-inverse focus:ring-highlight',
-	lg: 'px-10 py-5 rounded-xl font-bold',
 };
 
 const sizeClasses = {
