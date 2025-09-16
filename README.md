@@ -14,7 +14,7 @@ This checklist outlines the planned features and their current implementation st
 
 **Frontend Tasks:**
 
--   [ ] **Dynamic Landing Page UI:** Welcomes visitors with highlights of special offers and featured menu items.
+-   [x] **Dynamic Landing Page UI:** Welcomes visitors with highlights of special offers and featured menu items.
 -   [ ] **Menu Page Layout:**
     -   [ ] Displays the full range of dishes with descriptions and pricing.
 -   [ ] **Table Reservation Form UI:** A dedicated form allowing users to request table bookings.

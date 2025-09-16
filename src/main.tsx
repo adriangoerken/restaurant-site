@@ -13,7 +13,7 @@ import homePage_de from './translations/de/homePage.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
-// TODO: Move all these files into a single homePage.json with object, instead of individual files per section on the HomePage.
+
 i18next.init({
 	lng: initialLanguage,
 	fallbackLng: 'en',

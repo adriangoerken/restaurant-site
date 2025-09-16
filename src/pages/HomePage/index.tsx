@@ -9,7 +9,8 @@ import CTASection from './sections/CTASection';
 const HomePage: React.FC = () => {
 	return (
 		<>
-			<HeroSection /> <SpecialOffersSection />
+			<HeroSection />
+			<SpecialOffersSection />
 			<SignatureDishesSection />
 			<VisualExperienceSection />
 			<OurStorySection />
