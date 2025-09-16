@@ -13,6 +13,7 @@ import AnimatedSection from '../../components/ui/AnimatedSection';
 import SpecialOffersSection from './sections/SpecialOffersSection';
 import SignatureDishesSection from './sections/SignatureDishesSection';
 import VisualExperienceSection from './sections/VisualExperienceSection';
+import OurStorySection from './sections/OurStorySection';
 
 // Main HomePage component
 const HomePage: React.FC = () => {
@@ -32,92 +33,7 @@ const HomePage: React.FC = () => {
 				<SpecialOffersSection />
 				<SignatureDishesSection />
 				<VisualExperienceSection />
-
-				{/* Story Preview Section */}
-				<AnimatedSection
-					className="py-20 px-4 bg-background-primary"
-					aria-labelledby="story-heading"
-				>
-					<div className="container mx-auto">
-						<div className="grid lg:grid-cols-2 gap-12 items-center overflow-hidden">
-							<motion.div
-								variants={slideInLeft}
-								initial="hidden"
-								whileInView="visible"
-								viewport={{ once: true }}
-							>
-								<h2
-									id="story-heading"
-									className="text-4xl md:text-5xl font-bold mb-6 font-display"
-								>
-									<span className="text-text-primary">
-										Our
-									</span>{' '}
-									<span className="text-highlight">
-										Story
-									</span>
-								</h2>
-								<p className="text-text-secondary text-lg leading-relaxed mb-6">
-									At Neon Kitchen, we believe in the power of
-									fusion - not just in our dishes, but in
-									bringing together diverse culinary
-									traditions to create something entirely new.
-									Our chef's journey through the night markets
-									of Seoul, the ramen bars of Tokyo, and the
-									street food stalls of Bangkok has inspired
-									every dish on our menu.
-								</p>
-								<p className="text-text-secondary text-lg leading-relaxed mb-8">
-									We're more than a restaurant - we're a
-									celebration of modern Asian cuisine, where
-									traditional techniques meet contemporary
-									innovation in an atmosphere that's both
-									electric and intimate.
-								</p>
-								<motion.button
-									className="text-accent hover:text-highlight font-semibold flex items-center gap-2 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background-primary rounded-lg p-2"
-									whileHover={{ x: 5 }}
-									whileTap={{ scale: 0.95 }}
-								>
-									Learn More About Us
-									<motion.span
-										animate={{ x: [0, 3, 0] }}
-										transition={{
-											duration: 1.5,
-										}}
-									>
-										<ArrowRight size={20} />
-									</motion.span>
-								</motion.button>
-							</motion.div>
-							<motion.div
-								className="aspect-square bg-background-secondary rounded-2xl overflow-hidden"
-								variants={slideInRight}
-								initial="hidden"
-								whileInView="visible"
-								viewport={{ once: true }}
-								whileHover={{ rotate: 2 }}
-								transition={{ duration: 0.3 }}
-							>
-								<div className="w-full h-full flex items-center justify-center text-text-muted">
-									<motion.span
-										className="text-8xl opacity-30"
-										animate={{
-											rotate: [0, 5, -5, 0],
-											scale: [1, 1.05, 1],
-										}}
-										transition={{
-											duration: 4,
-											ease: 'easeInOut',
-										}}
-									>
-										👨‍🍳
-									</motion.span>
-								</div>
-							</motion.div>
-						</div>
-					</div>
-				</AnimatedSection>
+				<OurStorySection />
 
 				{/* CTA Section */}
 				<AnimatedSection

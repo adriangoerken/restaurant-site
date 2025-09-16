@@ -16,10 +16,12 @@ import signatureDishes_en from './translations/en/signatureDishes.json';
 import signatureDishes_de from './translations/de/signatureDishes.json';
 import visualExperience_en from './translations/en/visualExperience.json';
 import visualExperience_de from './translations/de/visualExperience.json';
+import ourStory_en from './translations/en/ourStory.json';
+import ourStory_de from './translations/de/ourStory.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
-
+// TODO: Move all these files into a single homePage.json with object, instead of individual files per section on the HomePage.
 i18next.init({
 	lng: initialLanguage,
 	fallbackLng: 'en',
@@ -31,6 +33,7 @@ i18next.init({
 			specialOffers: specialOffers_en,
 			signatureDishes: signatureDishes_en,
 			visualExperience: visualExperience_en,
+			ourStory: ourStory_en,
 		},
 		de: {
 			global: global_de,
@@ -38,6 +41,7 @@ i18next.init({
 			specialOffers: specialOffers_de,
 			signatureDishes: signatureDishes_de,
 			visualExperience: visualExperience_de,
+			ourStory: ourStory_de,
 		},
 	},
 });

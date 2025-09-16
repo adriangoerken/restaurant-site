@@ -4,6 +4,7 @@ import { staggerContainer } from '../../../../utils/animations';
 import MenuCard from './MenuCard';
 import { useTranslation } from 'react-i18next';
 import SectionHeading from '../../../../components/ui/SectionHeading';
+import Container from '../../../../components/layout/Container';
 
 const SignatureDishesSection = () => {
 	const { t } = useTranslation('signatureDishes');
@@ -41,7 +42,7 @@ const SignatureDishesSection = () => {
 			className="py-20 bg-background-primary"
 			aria-labelledby="featured-menu-heading"
 		>
-			<div className="container mx-auto">
+			<Container>
 				<SectionHeading
 					id="featured-menu-heading"
 					part1={t('headingPart1')}
@@ -59,7 +60,7 @@ const SignatureDishesSection = () => {
 						<MenuCard key={index} {...item} />
 					))}
 				</motion.div>
-			</div>
+			</Container>
 		</AnimatedSection>
 	);
 };
