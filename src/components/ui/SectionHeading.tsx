@@ -26,7 +26,7 @@ const SectionHeading: React.FC<SectionHeadingProps> = ({
 		<>
 			<motion.h2
 				id={id}
-				className="flex justify-center gap-x-4 text-4xl md:text-5xl font-bold text-center mb-4 font-display"
+				className="flex justify-center gap-x-4 text-3xl sm:text-4xl md:text-5xl font-bold text-center mb-4 font-display"
 				variants={fadeInUp}
 				initial="hidden"
 				whileInView="visible"

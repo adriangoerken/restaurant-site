@@ -20,7 +20,7 @@ const CTASection = () => {
 			<div className="container mx-auto text-center">
 				<motion.h2
 					id="cta-heading"
-					className="flex justify-center gap-x-4 text-4xl md:text-5xl font-bold mb-6 font-display"
+					className="flex justify-center gap-x-4 text-3xl sm:text-4xl md:text-5xl font-bold mb-6 font-display"
 					variants={fadeInUp}
 					initial="hidden"
 					whileInView="visible"

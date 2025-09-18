@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { slideInLeft } from '../../../../utils/animations';
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
+import SectionHeading from '../../../../components/ui/SectionHeading';
 
 interface StoryContentProps {
 	onLearnMoreClick?: () => void;
@@ -17,17 +18,12 @@ const StoryContent: React.FC<StoryContentProps> = ({ onLearnMoreClick }) => {
 			whileInView="visible"
 			viewport={{ once: true }}
 		>
-			<h2
+			<SectionHeading
 				id="story-heading"
-				className="flex gap-x-4 text-4xl md:text-5xl font-bold mb-6 font-display"
-			>
-				<span className="text-text-primary">
-					{t('ourStory.headingPart1')}
-				</span>
-				<span className="text-highlight">
-					{t('ourStory.headingPart2')}
-				</span>
-			</h2>
+				part1={t('ourStory.headingPart1')}
+				part2={t('ourStory.headingPart2')}
+				highlightColor="highlight"
+			/>
 			<p className="text-text-secondary text-lg leading-relaxed mb-6">
 				{t('ourStory.paragraph1')}
 			</p>
