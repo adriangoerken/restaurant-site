@@ -5,43 +5,11 @@ import HeaderLogo from './HeaderLogo';
 import DesktopNavigation from './DesktopNavigation';
 import HeaderActions from './HeaderActions';
 import MobileMenu from './MobileMenu';
+import { NAVIGATION_LINKS } from '../../constants/navLinks';
 
 const Header = () => {
 	const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 	const { t } = useTranslation('header');
-
-	const navigationLinks = [
-		{
-			href: '/',
-			label: t('navigation.home.label'),
-			ariaLabel: t('navigation.home.ariaLabel'),
-		},
-		{
-			href: '/menu',
-			label: t('navigation.menu.label'),
-			ariaLabel: t('navigation.menu.ariaLabel'),
-		},
-		{
-			href: '/story',
-			label: t('navigation.story.label'),
-			ariaLabel: t('navigation.story.ariaLabel'),
-		},
-		{
-			href: '/events',
-			label: t('navigation.events.label'),
-			ariaLabel: t('navigation.events.ariaLabel'),
-		},
-		{
-			href: '/gallery',
-			label: t('navigation.gallery.label'),
-			ariaLabel: t('navigation.gallery.ariaLabel'),
-		},
-		{
-			href: '/contact',
-			label: t('navigation.contact.label'),
-			ariaLabel: t('navigation.contact.ariaLabel'),
-		},
-	];
 
 	const toggleMobileMenu = () => {
 		setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -60,7 +28,7 @@ const Header = () => {
 					aria-label={t('ariaLabels.mainNavigation')}
 				>
 					<HeaderLogo />
-					<DesktopNavigation links={navigationLinks} />
+					<DesktopNavigation links={NAVIGATION_LINKS} />
 					<HeaderActions
 						isMobileMenuOpen={isMobileMenuOpen}
 						onToggleMobileMenu={toggleMobileMenu}
@@ -71,7 +39,7 @@ const Header = () => {
 			<MobileMenu
 				isOpen={isMobileMenuOpen}
 				onClose={closeMobileMenu}
-				links={navigationLinks}
+				links={NAVIGATION_LINKS}
 			/>
 		</header>
 	);

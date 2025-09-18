@@ -1,18 +1,15 @@
 import { motion } from 'framer-motion';
 import { fadeInUp } from '../../utils/animations';
 import { NavLink } from 'react-router-dom';
-
-export interface NavigationLink {
-	href: string;
-	label: string;
-	ariaLabel: string;
-}
+import { useTranslation } from 'react-i18next';
+import type { NavigationLink } from '../../constants/navLinks';
 
 interface DesktopNavigationProps {
 	links: NavigationLink[];
 }
 
 const DesktopNavigation = ({ links }: DesktopNavigationProps) => {
+	const { t } = useTranslation('global');
 	return (
 		<motion.div
 			className="hidden lg:flex items-center space-x-8"
@@ -32,11 +29,11 @@ const DesktopNavigation = ({ links }: DesktopNavigationProps) => {
 								: 'text-text-secondary hover:text-text-primary'
 						}`
 					}
-					aria-label={link.ariaLabel}
+					aria-label={t(link.ariaLabelKey)}
 				>
 					{({ isActive }) => (
 						<>
-							{link.label}
+							{t(link.labelKey)}
 							{isActive && (
 								<motion.div
 									className="absolute bottom-0 left-0 right-0 h-0.5 bg-accent rounded-full"

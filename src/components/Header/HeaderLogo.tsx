@@ -15,7 +15,7 @@ const HeaderLogo = () => {
 		>
 			<Link
 				to="/"
-				className="flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background-overlay rounded-lg p-2"
+				className="flex items-center space-x-2 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background-overlay rounded-lg p-2 pl-0"
 				aria-label={t('logo.ariaLabel')}
 			>
 				<motion.span

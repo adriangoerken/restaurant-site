@@ -1,0 +1,89 @@
+{
+	"brand": {
+		"logoAriaLabel": "Neon Kitchen - Zur Startseite",
+		"name": {
+			"first": "Neon",
+			"second": "Kitchen"
+		},
+		"description": "Moderne asiatische Fusionsküche mit zeitgenössischen Wendungen traditioneller Aromen. Erleben Sie außergewöhnliches Essen und lebendige Atmosphäre im Herzen der Innenstadt."
+	},
+	"sections": {
+		"quickLinks": "Schnelllinks",
+		"quickLinksAriaLabel": "Footer-Navigationslinks",
+		"contact": "Kontaktinfo",
+		"hours": "Öffnungszeiten"
+	},
+	"quickLinks": {
+		"menu": {
+			"label": "Speisekarte",
+			"ariaLabel": "Unsere Speisekarte ansehen"
+		},
+		"reservations": {
+			"label": "Reservierungen",
+			"ariaLabel": "Eine Reservierung vornehmen"
+		},
+		"events": {
+			"label": "Veranstaltungen",
+			"ariaLabel": "Kommende Veranstaltungen ansehen"
+		},
+		"gallery": {
+			"label": "Galerie",
+			"ariaLabel": "Unsere Fotogalerie ansehen"
+		},
+		"story": {
+			"label": "Unsere Geschichte",
+			"ariaLabel": "Mehr über unsere Geschichte erfahren"
+		},
+		"contact": {
+			"label": "Kontakt",
+			"ariaLabel": "Kontaktinformationen und Standort"
+		}
+	},
+	"contact": {
+		"phone": {
+			"number": "(555) 123-NEON",
+			"ariaLabel": "Rufen Sie uns an unter (555) 123-NEON"
+		},
+		"email": {
+			"address": "info@neonkitchen.com",
+			"ariaLabel": "Senden Sie uns eine E-Mail an info@neonkitchen.com"
+		},
+		"address": {
+			"street": "Neonstraße 123",
+			"city": "Innenstadt, NY 10001"
+		}
+	},
+	"hours": {
+		"weekdays": {
+			"label": "Mo - Do",
+			"time": "17:00 - 22:00"
+		},
+		"weekends": {
+			"label": "Fr - So",
+			"time": "17:00 - 23:00"
+		},
+		"kitchen": {
+			"label": "Küche schließt",
+			"time": "30 Min vor Schließung"
+		}
+	},
+	"social": {
+		"ariaLabel": "Folgen Sie uns in den sozialen Medien",
+		"instagram": {
+			"ariaLabel": "Folgen Sie uns auf Instagram"
+		},
+		"facebook": {
+			"ariaLabel": "Folgen Sie uns auf Facebook"
+		},
+		"twitter": {
+			"ariaLabel": "Folgen Sie uns auf Twitter"
+		}
+	},
+	"bottom": {
+		"copyright": "© {{year}} Neon Kitchen. Alle Rechte vorbehalten.",
+		"legalLinksAriaLabel": "Rechtliche Links und Richtlinien",
+		"privacy": "Datenschutzrichtlinie",
+		"terms": "Nutzungsbedingungen",
+		"accessibility": "Barrierefreiheit"
+	}
+}

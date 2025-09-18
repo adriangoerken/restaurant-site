@@ -1,0 +1,89 @@
+{
+	"brand": {
+		"logoAriaLabel": "Neon Kitchen - Go to homepage",
+		"name": {
+			"first": "Neon",
+			"second": "Kitchen"
+		},
+		"description": "Modern Asian Fusion cuisine with contemporary twists on traditional flavors. Experience exceptional food and vibrant atmosphere in the heart of Downtown District."
+	},
+	"sections": {
+		"quickLinks": "Quick Links",
+		"quickLinksAriaLabel": "Footer navigation links",
+		"contact": "Contact Info",
+		"hours": "Opening Hours"
+	},
+	"quickLinks": {
+		"menu": {
+			"label": "Menu",
+			"ariaLabel": "View our menu"
+		},
+		"reservations": {
+			"label": "Reservations",
+			"ariaLabel": "Make a reservation"
+		},
+		"events": {
+			"label": "Events",
+			"ariaLabel": "View upcoming events"
+		},
+		"gallery": {
+			"label": "Gallery",
+			"ariaLabel": "View our photo gallery"
+		},
+		"story": {
+			"label": "Our Story",
+			"ariaLabel": "Learn about our story"
+		},
+		"contact": {
+			"label": "Contact",
+			"ariaLabel": "Contact information and location"
+		}
+	},
+	"contact": {
+		"phone": {
+			"number": "(555) 123-NEON",
+			"ariaLabel": "Call us at (555) 123-NEON"
+		},
+		"email": {
+			"address": "info@neonkitchen.com",
+			"ariaLabel": "Send us an email at info@neonkitchen.com"
+		},
+		"address": {
+			"street": "123 Neon Street",
+			"city": "Downtown District, NY 10001"
+		}
+	},
+	"hours": {
+		"weekdays": {
+			"label": "Mon - Thu",
+			"time": "5:00 PM - 10:00 PM"
+		},
+		"weekends": {
+			"label": "Fri - Sun",
+			"time": "5:00 PM - 11:00 PM"
+		},
+		"kitchen": {
+			"label": "Kitchen closes",
+			"time": "30 min before closing"
+		}
+	},
+	"social": {
+		"ariaLabel": "Follow us on social media",
+		"instagram": {
+			"ariaLabel": "Follow us on Instagram"
+		},
+		"facebook": {
+			"ariaLabel": "Follow us on Facebook"
+		},
+		"twitter": {
+			"ariaLabel": "Follow us on Twitter"
+		}
+	},
+	"bottom": {
+		"copyright": "© {{year}} Neon Kitchen. All rights reserved.",
+		"legalLinksAriaLabel": "Legal and policy links",
+		"privacy": "Privacy Policy",
+		"terms": "Terms of Service",
+		"accessibility": "Accessibility"
+	}
+}

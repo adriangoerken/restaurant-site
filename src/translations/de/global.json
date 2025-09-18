@@ -1,3 +1,29 @@
 {
-	"documentTitle": "Neon Kitchen - Asiatische Fusion"
+	"documentTitle": "Neon Kitchen - Asiatische Fusion",
+	"navigation": {
+		"home": {
+			"label": "Startseite",
+			"ariaLabel": "Zur Startseite navigieren"
+		},
+		"menu": {
+			"label": "Speisekarte",
+			"ariaLabel": "Unsere Speisekarte ansehen"
+		},
+		"story": {
+			"label": "Unsere Geschichte",
+			"ariaLabel": "Erfahren Sie mehr über unsere Geschichte"
+		},
+		"events": {
+			"label": "Veranstaltungen",
+			"ariaLabel": "Kommende Veranstaltungen ansehen"
+		},
+		"gallery": {
+			"label": "Galerie",
+			"ariaLabel": "Unsere Fotogalerie ansehen"
+		},
+		"contact": {
+			"label": "Kontakt",
+			"ariaLabel": "Kontaktinformationen und Standort"
+		}
+	}
 }
