@@ -1,0 +1,59 @@
+{
+	"navigation": {
+		"home": {
+			"label": "Home",
+			"ariaLabel": "Navigate to home page"
+		},
+		"menu": {
+			"label": "Menu",
+			"ariaLabel": "View our menu"
+		},
+		"story": {
+			"label": "Our Story",
+			"ariaLabel": "Learn about our story"
+		},
+		"events": {
+			"label": "Events",
+			"ariaLabel": "View upcoming events"
+		},
+		"gallery": {
+			"label": "Gallery",
+			"ariaLabel": "View our photo gallery"
+		},
+		"contact": {
+			"label": "Contact",
+			"ariaLabel": "Contact information and location"
+		}
+	},
+	"logo": {
+		"ariaLabel": "Neon Kitchen - Go to homepage",
+		"brandName": {
+			"first": "Neon",
+			"second": "Kitchen"
+		}
+	},
+	"actions": {
+		"reserve": "Reserve",
+		"reserveAriaLabel": "Make a table reservation",
+		"toggleMenu": {
+			"openAriaLabel": "Open navigation menu",
+			"closeAriaLabel": "Close navigation menu"
+		}
+	},
+	"contact": {
+		"phone": "(555) 123-NEON",
+		"phoneAriaLabel": "Call us at (555) 123-NEON",
+		"hours": "Daily: 5PM - 11PM",
+		"hoursAriaLabel": "Our hours: Daily 5PM to 11PM",
+		"location": "Downtown District",
+		"locationAriaLabel": "View our location in Downtown District"
+	},
+	"mobileMenu": {
+		"reserveButton": "Reserve Your Table",
+		"reserveButtonAriaLabel": "Make a table reservation"
+	},
+	"ariaLabels": {
+		"mainNavigation": "Main navigation",
+		"mobileMainNavigation": "Mobile navigation"
+	}
+}

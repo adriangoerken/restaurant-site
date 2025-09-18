@@ -1,0 +1,59 @@
+{
+	"navigation": {
+		"home": {
+			"label": "Startseite",
+			"ariaLabel": "Zur Startseite navigieren"
+		},
+		"menu": {
+			"label": "Speisekarte",
+			"ariaLabel": "Unsere Speisekarte ansehen"
+		},
+		"story": {
+			"label": "Unsere Geschichte",
+			"ariaLabel": "Erfahren Sie mehr über unsere Geschichte"
+		},
+		"events": {
+			"label": "Veranstaltungen",
+			"ariaLabel": "Kommende Veranstaltungen ansehen"
+		},
+		"gallery": {
+			"label": "Galerie",
+			"ariaLabel": "Unsere Fotogalerie ansehen"
+		},
+		"contact": {
+			"label": "Kontakt",
+			"ariaLabel": "Kontaktinformationen und Standort"
+		}
+	},
+	"logo": {
+		"ariaLabel": "Neon Kitchen - Zur Startseite",
+		"brandName": {
+			"first": "Neon",
+			"second": "Kitchen"
+		}
+	},
+	"actions": {
+		"reserve": "Reservieren",
+		"reserveAriaLabel": "Einen Tisch reservieren",
+		"toggleMenu": {
+			"openAriaLabel": "Navigationsmenü öffnen",
+			"closeAriaLabel": "Navigationsmenü schließen"
+		}
+	},
+	"contact": {
+		"phone": "(555) 123-NEON",
+		"phoneAriaLabel": "Rufen Sie uns an unter (555) 123-NEON",
+		"hours": "Täglich: 17:00 - 23:00",
+		"hoursAriaLabel": "Unsere Öffnungszeiten: Täglich 17:00 bis 23:00 Uhr",
+		"location": "Innenstadt",
+		"locationAriaLabel": "Unseren Standort in der Innenstadt ansehen"
+	},
+	"mobileMenu": {
+		"reserveButton": "Tisch reservieren",
+		"reserveButtonAriaLabel": "Einen Tisch reservieren"
+	},
+	"ariaLabels": {
+		"mainNavigation": "Hauptnavigation",
+		"mobileMainNavigation": "Mobile Navigation"
+	}
+}

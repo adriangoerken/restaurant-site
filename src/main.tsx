@@ -10,6 +10,8 @@ import global_en from './translations/en/global.json';
 import global_de from './translations/de/global.json';
 import homePage_en from './translations/en/homePage.json';
 import homePage_de from './translations/de/homePage.json';
+import header_en from './translations/en/header.json';
+import header_de from './translations/de/header.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
@@ -22,10 +24,12 @@ i18next.init({
 		en: {
 			global: global_en,
 			homePage: homePage_en,
+			header: header_en,
 		},
 		de: {
 			global: global_de,
 			homePage: homePage_de,
+			header: header_de,
 		},
 	},
 });
