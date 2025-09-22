@@ -1,0 +1,15 @@
+{
+	"documentTitle": "404 - Page Not Found | Neon Kitchen",
+	"heading": "Page Not Found",
+	"description": "Sorry, the page you're looking for doesn't exist. Let's get you back to our delicious menu!",
+	"actions": {
+		"backToHome": {
+			"label": "Back to Home",
+			"ariaLabel": "Go back to Neon Kitchen homepage"
+		}
+	},
+	"ariaLabels": {
+		"skipNavigation": "Skip to main navigation",
+		"chefHatDecoration": "Decorative chef hat icon"
+	}
+}

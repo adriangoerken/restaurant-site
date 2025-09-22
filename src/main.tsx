@@ -14,6 +14,8 @@ import header_en from './translations/en/header.json';
 import header_de from './translations/de/header.json';
 import footer_en from './translations/en/footer.json';
 import footer_de from './translations/de/footer.json';
+import notFoundPage_en from './translations/en/notFoundPage.json';
+import notFoundPage_de from './translations/de/notFoundPage.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
@@ -28,12 +30,14 @@ i18next.init({
 			homePage: homePage_en,
 			header: header_en,
 			footer: footer_en,
+			notFoundPage: notFoundPage_en,
 		},
 		de: {
 			global: global_de,
 			homePage: homePage_de,
 			header: header_de,
 			footer: footer_de,
+			notFoundPage: notFoundPage_de,
 		},
 	},
 });

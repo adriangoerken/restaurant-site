@@ -1,0 +1,15 @@
+{
+	"documentTitle": "404 - Seite nicht gefunden | Neon Kitchen",
+	"heading": "Seite nicht gefunden",
+	"description": "Entschuldigung, die gesuchte Seite existiert nicht. Lassen Sie uns Sie zurück zu unserer köstlichen Speisekarte bringen!",
+	"actions": {
+		"backToHome": {
+			"label": "Zur Startseite",
+			"ariaLabel": "Zurück zur Neon Kitchen Startseite"
+		}
+	},
+	"ariaLabels": {
+		"skipNavigation": "Zur Hauptnavigation springen",
+		"chefHatDecoration": "Dekorative Kochmütze"
+	}
+}
