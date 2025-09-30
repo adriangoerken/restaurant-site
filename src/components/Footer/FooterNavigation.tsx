@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 import { fadeInUp } from '../../utils/animations';
 import { NAVIGATION_LINKS } from '../../constants/navLinks';
 
-const FooterQuickLinks = () => {
+const FooterNavigation = () => {
 	const { t } = useTranslation('footer');
 
 	return (
@@ -31,4 +31,4 @@ const FooterQuickLinks = () => {
 	);
 };
 
-export default FooterQuickLinks;
+export default FooterNavigation;

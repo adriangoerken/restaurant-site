@@ -39,7 +39,7 @@ const AnimatedButton = ({
 	return (
 		<motion.button
 			type={type}
-			className={`transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-background-primary ${variantClasses[variant]} ${sizeClasses[size]}`}
+			className={`transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-background-primary cursor-pointer ${variantClasses[variant]} ${sizeClasses[size]}`}
 			{...motionProps}
 			{...props}
 		>

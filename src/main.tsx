@@ -16,6 +16,10 @@ import footer_en from './translations/en/footer.json';
 import footer_de from './translations/de/footer.json';
 import notFoundPage_en from './translations/en/notFoundPage.json';
 import notFoundPage_de from './translations/de/notFoundPage.json';
+import menuPage_en from './translations/en/menuPage.json';
+import menuPage_de from './translations/de/menuPage.json';
+import dishes_en from './translations/en/dishes.json';
+import dishes_de from './translations/de/dishes.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
@@ -31,6 +35,8 @@ i18next.init({
 			header: header_en,
 			footer: footer_en,
 			notFoundPage: notFoundPage_en,
+			menuPage: menuPage_en,
+			dishes: dishes_en,
 		},
 		de: {
 			global: global_de,
@@ -38,6 +44,8 @@ i18next.init({
 			header: header_de,
 			footer: footer_de,
 			notFoundPage: notFoundPage_de,
+			menuPage: menuPage_de,
+			dishes: dishes_de,
 		},
 	},
 });

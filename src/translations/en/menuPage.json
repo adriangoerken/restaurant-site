@@ -1,0 +1,94 @@
+{
+	"hero": {
+		"heading": "Our Menu",
+		"subheading": "Discover bold flavors and innovative dishes that blend traditional Asian techniques with contemporary culinary artistry",
+		"ariaLabel": "Menu page hero section"
+	},
+	"categories": {
+		"appetizers": "Appetizers",
+		"mains": "Main Dishes",
+		"cocktails": "Signature Cocktails",
+		"desserts": "Desserts"
+	},
+	"badges": {
+		"signature": "Signature",
+		"vegetarian": "Vegetarian",
+		"vegan": "Vegan",
+		"spicy": "Spicy"
+	},
+	"allergenInfo": {
+		"heading": "Allergen Information",
+		"description": "Please inform your server of any allergies or dietary restrictions. Our kitchen handles common allergens including nuts, dairy, gluten, and seafood.",
+		"common": {
+			"gluten": "Contains Gluten",
+			"dairy": "Contains Dairy",
+			"nuts": "Contains Nuts",
+			"soy": "Contains Soy",
+			"fish": "Contains Fish",
+			"shellfish": "Contains Shellfish",
+			"egg": "Contains Egg",
+			"sesame": "Contains Sesame",
+			"coconut": "Contains Coconut",
+			"alcohol": "Contains Alcohol"
+		}
+	},
+	"cta": {
+		"heading": "Ready to Experience Neon Kitchen?",
+		"subheading": "Book your table now and embark on a culinary journey through modern Asian fusion",
+		"reserveButton": "Reserve Your Table",
+		"reserveButtonAriaLabel": "Make a table reservation",
+		"takeawayButton": "Order Takeaway",
+		"takeawayButtonAriaLabel": "Place a takeaway order"
+	},
+	"ariaLabels": {
+		"menuSection": "Menu section for {{category}}",
+		"menuItem": "Menu item: {{name}} - {{price}}",
+		"signatureDish": "{{name}} is a signature dish",
+		"allergenWarning": "Contains allergens: {{allergens}}",
+		"spiceLevel": "Spice level: {{level}}"
+	},
+	"filters": {
+		"filtersLabel": "Filter Menu",
+		"toggleFiltersAriaLabel": "Toggle filter options",
+		"categoryLabel": "Category",
+		"allCategories": "All Categories",
+		"dietaryLabel": "Dietary Preferences",
+		"dietary": {
+			"all": "All Dishes",
+			"vegetarian": "Vegetarian",
+			"vegan": "Vegan"
+		},
+		"spiceLabel": "Spice Level",
+		"spice": {
+			"all": "All Spice Levels",
+			"spicy": "Spicy Only",
+			"non-spicy": "Mild Only"
+		},
+		"allergenLabel": "Allergen-Free Options",
+		"allergenDescription": "Select allergens to exclude from your results",
+		"allergenTooltip": {
+			"gluten": "Exclude dishes containing gluten",
+			"dairy": "Exclude dishes containing dairy products",
+			"nuts": "Exclude dishes containing nuts",
+			"soy": "Exclude dishes containing soy",
+			"fish": "Exclude dishes containing fish",
+			"shellfish": "Exclude dishes containing shellfish",
+			"egg": "Exclude dishes containing eggs",
+			"sesame": "Exclude dishes containing sesame",
+			"coconut": "Exclude dishes containing coconut",
+			"alcohol": "Exclude dishes containing alcohol"
+		},
+		"clearAll": "Clear All Filters",
+		"clearAllAriaLabel": "Clear all active filters and show all menu items",
+		"applyFilters": "Apply filters",
+		"showingAll": "Showing all {{count}} dishes",
+		"showingFiltered": "Showing {{filtered}} of {{total}} dishes"
+	},
+	"noResults": {
+		"heading": "No Dishes Found",
+		"withFilters": "We couldn't find any dishes matching your current filters. Try adjusting your preferences.",
+		"general": "We're having trouble loading our menu right now. Please try again later.",
+		"clearFilters": "Clear All Filters",
+		"clearFiltersAriaLabel": "Remove all filters to show all menu items"
+	}
+}

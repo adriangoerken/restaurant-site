@@ -47,7 +47,7 @@ const LanguageToggle = ({ className = '' }: LanguageToggleProps) => {
 		<motion.button
 			type="button"
 			onClick={toggleLanguage}
-			className={`flex items-center space-x-2 text-text-secondary hover:text-text-primary transition-colors duration-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background-overlay ${className}`}
+			className={`flex items-center space-x-2 text-text-secondary hover:text-text-primary transition-colors duration-300 p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2 focus:ring-offset-background-overlay cursor-pointer ${className}`}
 			whileHover={{ scale: 1.05 }}
 			whileTap={{ scale: 0.95 }}
 			aria-label={getAriaLabel()}

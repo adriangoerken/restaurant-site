@@ -2,6 +2,7 @@ import { motion } from 'framer-motion';
 import { fadeInUp, staggerContainer } from '../../../../utils/animations';
 import AnimatedButton from '../../../../components/ui/AnimatedButton';
 import { useTranslation } from 'react-i18next';
+import { Link } from 'react-router-dom';
 
 const TextContent = () => {
 	const { t } = useTranslation('homePage');
@@ -68,12 +69,14 @@ const TextContent = () => {
 				>
 					{t('hero.reserveButton')}
 				</AnimatedButton>
-				<AnimatedButton
-					variant="outline"
-					aria-label={t('hero.menuButtonAriaLabel')}
-				>
-					{t('hero.menuButton')}
-				</AnimatedButton>
+				<Link to="/menu">
+					<AnimatedButton
+						variant="outline"
+						aria-label={t('hero.menuButtonAriaLabel')}
+					>
+						{t('hero.menuButton')}
+					</AnimatedButton>
+				</Link>
 			</motion.div>
 		</div>
 	);

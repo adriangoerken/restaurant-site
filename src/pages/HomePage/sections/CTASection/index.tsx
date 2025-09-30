@@ -8,6 +8,7 @@ import {
 import { ArrowRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import AnimatedButton from '../../../../components/ui/AnimatedButton';
+import { Link } from 'react-router-dom';
 
 const CTASection = () => {
 	const { t } = useTranslation('homePage');
@@ -59,14 +60,16 @@ const CTASection = () => {
 					>
 						{t('CTA.reserveTableButton')}
 					</AnimatedButton>
-					<AnimatedButton
-						variant="outline"
-						size="lg"
-						aria-label={t('CTA.viewMenuButtonAriaLabel')}
-						type="button"
-					>
-						{t('CTA.viewMenuButton')}
-					</AnimatedButton>
+					<Link to="/menu">
+						<AnimatedButton
+							variant="outline"
+							size="lg"
+							aria-label={t('CTA.viewMenuButtonAriaLabel')}
+							type="button"
+						>
+							{t('CTA.viewMenuButton')}
+						</AnimatedButton>
+					</Link>
 					<motion.button
 						className="text-success hover:text-success/80 font-semibold text-lg flex items-center gap-2 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-success focus:ring-offset-2 focus:ring-offset-background-elevated rounded-lg p-3"
 						variants={scaleIn}

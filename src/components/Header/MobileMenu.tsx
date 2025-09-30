@@ -1,8 +1,8 @@
 import { motion, AnimatePresence } from 'framer-motion';
 import Container from '../layout/Container';
-import MobileNavLinks from './MobileNavLinks';
+import MobileNavigation from './MobileNavNavigation';
 import MobileReserveButton from './MobileReserveButton';
-import type { NavigationLink } from './DesktopNavigation';
+import type { NavigationLink } from '../../constants/navLinks';
 import ContactInfo from './ContactInfo';
 import { slideInLeft } from '../../utils/animations';
 
@@ -36,7 +36,7 @@ const MobileMenu = ({ isOpen, onClose, links }: MobileMenuProps) => {
 				>
 					<Container>
 						<div className="py-6 space-y-4">
-							<MobileNavLinks
+							<MobileNavigation
 								links={links}
 								onLinkClick={onClose}
 							/>

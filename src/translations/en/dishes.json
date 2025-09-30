@@ -1,0 +1,74 @@
+{
+	"appetizers": {
+		"koreanCauliflower": {
+			"name": "Korean Cauliflower Bites",
+			"description": "Crispy cauliflower, gochujang glaze, sesame seeds"
+		},
+		"misoEggplant": {
+			"name": "Miso Glazed Eggplant",
+			"description": "Japanese eggplant, white miso, scallions"
+		},
+		"porkBellyBao": {
+			"name": "Pork Belly Bao",
+			"description": "Braised pork belly, pickled vegetables, hoisin sauce"
+		},
+		"tunaTartareTacos": {
+			"name": "Tuna Tartare Tacos",
+			"description": "Spicy tuna, avocado, crispy wonton shells"
+		}
+	},
+	"mains": {
+		"blackGarlicRamen": {
+			"name": "Black Garlic Ramen",
+			"description": "House-made noodles, slow-cooked broth, soft egg"
+		},
+		"misoSalmon": {
+			"name": "Miso Salmon",
+			"description": "Pan-seared salmon, miso glaze, jasmine rice, bok choy"
+		},
+		"koreanBbqRibs": {
+			"name": "Korean BBQ Short Ribs",
+			"description": "Marinated beef ribs, kimchi fried rice"
+		},
+		"thaiBasilDuck": {
+			"name": "Thai Basil Duck",
+			"description": "Roasted duck breast, coconut curry, sticky rice"
+		},
+		"szechuanMapoTofu": {
+			"name": "Szechuan Mapo Tofu",
+			"description": "Silky tofu, spicy bean sauce, steamed rice"
+		}
+	},
+	"cocktails": {
+		"yuzuMule": {
+			"name": "Yuzu Mule",
+			"description": "Vodka, yuzu juice, ginger beer, fresh mint"
+		},
+		"sakeSangria": {
+			"name": "Sake Sangria",
+			"description": "Junmai sake, seasonal fruit, sparkling wine"
+		},
+		"lycheeMartini": {
+			"name": "Lychee Martini",
+			"description": "Gin, lychee liqueur, rose water"
+		},
+		"matchaOldFashioned": {
+			"name": "Matcha Old Fashioned",
+			"description": "Whiskey, matcha syrup, orange bitters"
+		}
+	},
+	"desserts": {
+		"matchaCremeBrulee": {
+			"name": "Matcha Crème Brûlée",
+			"description": "Green tea custard, caramelized sugar"
+		},
+		"mochiIceCream": {
+			"name": "Mochi Ice Cream Trio",
+			"description": "Vanilla, red bean, and mango"
+		},
+		"blackSesameCheesecake": {
+			"name": "Black Sesame Cheesecake",
+			"description": "Graham crust, sesame tuile"
+		}
+	}
+}

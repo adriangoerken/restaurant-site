@@ -1,0 +1,94 @@
+{
+	"hero": {
+		"heading": "Unsere Speisekarte",
+		"subheading": "Entdecken Sie kräftige Aromen und innovative Gerichte, die traditionelle asiatische Techniken mit zeitgenössischer Kochkunst verbinden",
+		"ariaLabel": "Speisekarten-Hero-Bereich"
+	},
+	"categories": {
+		"appetizers": "Vorspeisen",
+		"mains": "Hauptgerichte",
+		"cocktails": "Signature Cocktails",
+		"desserts": "Desserts"
+	},
+	"badges": {
+		"signature": "Signature",
+		"vegetarian": "Vegetarisch",
+		"vegan": "Vegan",
+		"spicy": "Scharf"
+	},
+	"allergenInfo": {
+		"heading": "Allergie Informationen",
+		"description": "Bitte informieren Sie Ihren Service über Allergien oder Ernährungsbeschränkungen. Unsere Küche verarbeitet häufige Allergene wie Nüsse, Milchprodukte, Gluten und Meeresfrüchte.",
+		"common": {
+			"gluten": "Enthält Gluten",
+			"dairy": "Enthält Milchprodukte",
+			"nuts": "Enthält Nüsse",
+			"soy": "Enthält Soja",
+			"fish": "Enthält Fisch",
+			"shellfish": "Enthält Schalentiere",
+			"egg": "Enthält Ei",
+			"sesame": "Enthält Sesam",
+			"coconut": "Enthält Kokosnuss",
+			"alcohol": "Enthält Alkohol"
+		}
+	},
+	"cta": {
+		"heading": "Bereit für das Neon Kitchen Erlebnis?",
+		"subheading": "Reservieren Sie jetzt Ihren Tisch und begeben Sie sich auf eine kulinarische Reise durch moderne asiatische Fusion",
+		"reserveButton": "Tisch Reservieren",
+		"reserveButtonAriaLabel": "Tischreservierung vornehmen",
+		"takeawayButton": "Takeaway Bestellen",
+		"takeawayButtonAriaLabel": "Takeaway-Bestellung aufgeben"
+	},
+	"ariaLabels": {
+		"menuSection": "Speisekarten-Bereich für {{category}}",
+		"menuItem": "Speise: {{name}} - {{price}}",
+		"signatureDish": "{{name}} ist ein Signature-Gericht",
+		"allergenWarning": "Enthält Allergene: {{allergens}}",
+		"spiceLevel": "Schärfegrad: {{level}}"
+	},
+	"filters": {
+		"filtersLabel": "Menü filtern",
+		"toggleFiltersAriaLabel": "Filteroptionen umschalten",
+		"categoryLabel": "Kategorie",
+		"allCategories": "Alle Kategorien",
+		"dietaryLabel": "Ernährungspräferenzen",
+		"dietary": {
+			"all": "Alle Gerichte",
+			"vegetarian": "Vegetarisch",
+			"vegan": "Vegan"
+		},
+		"spiceLabel": "Schärfegrad",
+		"spice": {
+			"all": "Alle Schärfegrade",
+			"spicy": "Nur scharf",
+			"non-spicy": "Nur mild"
+		},
+		"allergenLabel": "Allergenfreie Optionen",
+		"allergenDescription": "Wählen Sie Allergene aus, die von Ihren Ergebnissen ausgeschlossen werden sollen",
+		"allergenTooltip": {
+			"gluten": "Gerichte mit Gluten ausschließen",
+			"dairy": "Gerichte mit Milchprodukten ausschließen",
+			"nuts": "Gerichte mit Nüssen ausschließen",
+			"soy": "Gerichte mit Soja ausschließen",
+			"fish": "Gerichte mit Fisch ausschließen",
+			"shellfish": "Gerichte mit Schalentieren ausschließen",
+			"egg": "Gerichte mit Eiern ausschließen",
+			"sesame": "Gerichte mit Sesam ausschließen",
+			"coconut": "Gerichte mit Kokosnuss ausschließen",
+			"alcohol": "Gerichte mit Alkohol ausschließen"
+		},
+		"clearAll": "Alle Filter löschen",
+		"clearAllAriaLabel": "Alle aktiven Filter löschen und alle Speisen anzeigen",
+		"applyFilters": "Filter anwenden",
+		"showingAll": "Zeige alle {{count}} Gerichte",
+		"showingFiltered": "Zeige {{filtered}} von {{total}} Gerichten"
+	},
+	"noResults": {
+		"heading": "Keine Gerichte gefunden",
+		"withFilters": "Wir konnten keine Gerichte finden, die Ihren aktuellen Filtern entsprechen. Versuchen Sie, Ihre Präferenzen anzupassen.",
+		"general": "Wir haben Probleme beim Laden unserer Speisekarte. Bitte versuchen Sie es später erneut.",
+		"clearFilters": "Alle Filter löschen",
+		"clearFiltersAriaLabel": "Alle Filter entfernen, um alle Speisen anzuzeigen"
+	}
+}

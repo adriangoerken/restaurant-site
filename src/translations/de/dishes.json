@@ -1,0 +1,74 @@
+{
+	"appetizers": {
+		"koreanCauliflower": {
+			"name": "Koreanische Blumenkohl-Häppchen",
+			"description": "Knuspriger Blumenkohl, Gochujang-Glasur, Sesamsamen"
+		},
+		"misoEggplant": {
+			"name": "Miso-glasierte Aubergine",
+			"description": "Japanische Aubergine, weiße Miso, Frühlingszwiebeln"
+		},
+		"porkBellyBao": {
+			"name": "Schweinebauch-Bao",
+			"description": "Geschmorter Schweinebauch, eingelegtes Gemüse, Hoisin-Sauce"
+		},
+		"tunaTartareTacos": {
+			"name": "Thunfisch-Tartar-Tacos",
+			"description": "Würziger Thunfisch, Avocado, knusprige Wonton-Schalen"
+		}
+	},
+	"mains": {
+		"blackGarlicRamen": {
+			"name": "Schwarzer Knoblauch Ramen",
+			"description": "Hausgemachte Nudeln, langsam gekochte Brühe, weichgekochtes Ei"
+		},
+		"misoSalmon": {
+			"name": "Miso-Lachs",
+			"description": "Gebratener Lachs, Miso-Glasur, Jasminreis, Bok Choy"
+		},
+		"koreanBbqRibs": {
+			"name": "Koreanische BBQ-Rippchen",
+			"description": "Marinierte Rinderrippchen, Kimchi-Bratreis"
+		},
+		"thaiBasilDuck": {
+			"name": "Thai-Basilikum-Ente",
+			"description": "Gebratene Entenbrust, Kokosnuss-Curry, Klebreis"
+		},
+		"szechuanMapoTofu": {
+			"name": "Szechuan Mapo Tofu",
+			"description": "Seidiger Tofu, würzige Bohnensauce, gedämpfter Reis"
+		}
+	},
+	"cocktails": {
+		"yuzuMule": {
+			"name": "Yuzu Mule",
+			"description": "Wodka, Yuzu-Saft, Ginger Beer, frische Minze"
+		},
+		"sakeSangria": {
+			"name": "Sake Sangria",
+			"description": "Junmai Sake, saisonale Früchte, Sekt"
+		},
+		"lycheeMartini": {
+			"name": "Lychee Martini",
+			"description": "Gin, Lychee-Likör, Rosenwasser"
+		},
+		"matchaOldFashioned": {
+			"name": "Matcha Old Fashioned",
+			"description": "Whiskey, Matcha-Sirup, Orangenbitter"
+		}
+	},
+	"desserts": {
+		"matchaCremeBrulee": {
+			"name": "Matcha Crème Brûlée",
+			"description": "Grüner Tee Pudding, karamelisierter Zucker"
+		},
+		"mochiIceCream": {
+			"name": "Mochi-Eis-Trio",
+			"description": "Vanille, rote Bohne und Mango"
+		},
+		"blackSesameCheesecake": {
+			"name": "Schwarzer Sesam Käsekuchen",
+			"description": "Graham-Kruste, Sesam-Tuile"
+		}
+	}
+}

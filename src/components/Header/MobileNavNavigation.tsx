@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { NavLink } from 'react-router-dom';
 import { slideInLeft } from '../../utils/animations';
-import type { NavigationLink } from './DesktopNavigation';
+import type { NavigationLink } from '../../constants/navLinks';
 import { useTranslation } from 'react-i18next';
 
 interface MobileNavLinksProps {
@@ -9,8 +9,8 @@ interface MobileNavLinksProps {
 	onLinkClick: () => void;
 }
 
-const MobileNavLinks = ({ links, onLinkClick }: MobileNavLinksProps) => {
-	const { t } = useTranslation('header');
+const MobileNavigation = ({ links, onLinkClick }: MobileNavLinksProps) => {
+	const { t } = useTranslation('global');
 
 	return (
 		<nav
@@ -36,9 +36,9 @@ const MobileNavLinks = ({ links, onLinkClick }: MobileNavLinksProps) => {
 							}`
 						}
 						onClick={onLinkClick}
-						aria-label={link.ariaLabel}
+						aria-label={t(link.ariaLabelKey)}
 					>
-						{link.label}
+						{t(link.labelKey)}
 					</NavLink>
 				</motion.div>
 			))}
@@ -46,4 +46,4 @@ const MobileNavLinks = ({ links, onLinkClick }: MobileNavLinksProps) => {
 	);
 };
 
-export default MobileNavLinks;
+export default MobileNavigation;

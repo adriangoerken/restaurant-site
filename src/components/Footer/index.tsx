@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import Container from '../layout/Container';
 import { staggerContainer } from '../../utils/animations';
 import FooterBrand from './FooterBrand';
-import FooterQuickLinks from './FooterQuickLinks';
+import FooterNavigation from './FooterNavigation';
 import FooterContact from './FooterContact';
 import FooterHours from './FooterHours';
 import FooterBottom from './FooterBottom';
@@ -20,7 +20,7 @@ const Footer = () => {
 				>
 					<div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8 mb-12">
 						<FooterBrand />
-						<FooterQuickLinks />
+						<FooterNavigation />
 						<FooterContact />
 						<FooterHours />
 					</div>
