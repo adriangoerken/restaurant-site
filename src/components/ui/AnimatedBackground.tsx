@@ -2,7 +2,10 @@ import { motion } from 'framer-motion';
 
 const AnimatedBackground = () => {
 	return (
-		<div className="absolute inset-0 opacity-20 pointer-events-none">
+		<div
+			className="absolute inset-0 opacity-20 pointer-events-none"
+			aria-hidden="true"
+		>
 			<motion.div
 				className="absolute top-1/4 left-1/4 w-32 h-32 bg-success rounded-full blur-3xl"
 				animate={{

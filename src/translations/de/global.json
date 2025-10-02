@@ -25,5 +25,8 @@
 			"label": "Kontakt",
 			"ariaLabel": "Kontaktinformationen und Standort"
 		}
+	},
+	"accessibility": {
+		"skipToMainContent": "Zum Hauptinhalt springen"
 	}
 }

@@ -1,6 +1,6 @@
 import Container from '../../../../components/layout/Container';
 import AnimatedSection from '../../../../components/ui/AnimatedSection';
-import AnimatedBackground from './AnimatedBackground';
+import AnimatedBackground from '../../../../components/ui/AnimatedBackground';
 import TextContent from './TextContent';
 import { useTranslation } from 'react-i18next';
 

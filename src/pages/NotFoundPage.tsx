@@ -82,14 +82,6 @@ const NotFoundPage = () => {
 					</motion.div>
 				</motion.div>
 			</Container>
-
-			{/* Skip link for accessibility */}
-			<a
-				href="#main-navigation"
-				className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-accent text-text-inverse px-4 py-2 rounded-md font-medium z-50"
-			>
-				{t('ariaLabels.skipNavigation')}
-			</a>
 		</main>
 	);
 };

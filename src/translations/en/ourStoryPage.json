@@ -1,0 +1,53 @@
+{
+	"hero": {
+		"headingPart1": "Our",
+		"headingPart2": "Story",
+		"subheading": "A journey of passion, flavor, and tradition"
+	},
+	"origin": {
+		"headingPart1": "The",
+		"headingPart2": "Beginning",
+		"paragraph1": "Neon Kitchen was born from a simple dream: to create a space where traditional Asian culinary techniques meet modern innovation. Our story began in 2015, when our founder traveled across Asia, discovering the rich tapestry of flavors, cooking methods, and food culture that would inspire our restaurant.",
+		"paragraph2": "From the bustling street food markets of Bangkok to the refined kaiseki restaurants of Kyoto, every experience shaped our vision. We witnessed how food brings people together, how it tells stories, and how it connects generations. This journey became the foundation of what Neon Kitchen represents today.",
+		"paragraph3": "When we opened our doors, we committed to honoring these traditions while embracing creativity and contemporary techniques. Every dish we serve carries this philosophy – respect for heritage, excitement for innovation.",
+		"imageAlt": "Illustration representing the origin of Neon Kitchen"
+	},
+	"chef": {
+		"headingPart1": "Meet Our",
+		"headingPart2": "Head Chef",
+		"paragraph1": "Chef Marcus Chen brings over 20 years of culinary expertise to Neon Kitchen. Trained in both traditional Asian cooking schools and modern European culinary institutes, he embodies our philosophy of bridging cultures through food.",
+		"paragraph2": "His approach to cuisine is both respectful and bold. He believes that the best dishes emerge when you understand the 'why' behind traditional recipes, then have the courage to reimagine them. This philosophy has earned our restaurant numerous accolades and a devoted following.",
+		"paragraph3": "Chef Chen leads a diverse team of talented chefs, each bringing their unique background and expertise. Together, they craft menus that surprise and delight, staying true to authentic flavors while pushing culinary boundaries.",
+		"imageAlt": "Illustration of our head chef"
+	},
+	"values": {
+		"headingPart1": "Our",
+		"headingPart2": "Values",
+		"subheading": "The principles that guide everything we do",
+		"passion": {
+			"title": "Passion",
+			"description": "We pour our heart into every dish, every detail, and every guest experience. Our love for food drives us to continuously improve and innovate."
+		},
+		"quality": {
+			"title": "Quality",
+			"description": "We source the finest ingredients and never compromise on standards. From farm to table, excellence is our non-negotiable commitment."
+		},
+		"community": {
+			"title": "Community",
+			"description": "We believe restaurants are gathering places that strengthen communities. We support local suppliers and create spaces where connections flourish."
+		},
+		"innovation": {
+			"title": "Innovation",
+			"description": "While respecting tradition, we embrace creativity. We experiment with techniques, flavors, and presentations to create memorable dining experiences."
+		}
+	},
+	"vision": {
+		"headingPart1": "Looking",
+		"headingPart2": "Forward",
+		"paragraph1": "Our vision extends beyond serving exceptional food. We aim to be a cultural bridge, introducing diners to the diversity and richness of Asian cuisine while creating a space where tradition and innovation coexist harmoniously.",
+		"paragraph2": "As we continue to grow, our commitment remains unchanged: to provide an unforgettable dining experience that nourishes both body and soul, one plate at a time."
+	},
+	"ariaLabels": {
+		"skipNavigation": "Skip to main navigation"
+	}
+}

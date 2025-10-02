@@ -1,0 +1,53 @@
+{
+	"hero": {
+		"headingPart1": "Unsere",
+		"headingPart2": "Geschichte",
+		"subheading": "Eine Reise voller Leidenschaft, Geschmack und Tradition"
+	},
+	"origin": {
+		"headingPart1": "Der",
+		"headingPart2": "Anfang",
+		"paragraph1": "Neon Kitchen entstand aus einem einfachen Traum: einen Ort zu schaffen, an dem traditionelle asiatische Kochtechniken auf moderne Innovation treffen. Unsere Geschichte begann 2015, als unser Gründer durch Asien reiste und die reiche Vielfalt an Aromen, Kochmethoden und Esskultur entdeckte, die unser Restaurant inspirieren sollte.",
+		"paragraph2": "Von den lebhaften Straßenmärkten Bangkoks bis zu den raffinierten Kaiseki-Restaurants Kyotos prägte jede Erfahrung unsere Vision. Wir erlebten, wie Essen Menschen zusammenbringt, Geschichten erzählt und Generationen verbindet. Diese Reise wurde zum Fundament dessen, wofür Neon Kitchen heute steht.",
+		"paragraph3": "Als wir unsere Türen öffneten, verpflichteten wir uns, diese Traditionen zu ehren und gleichzeitig Kreativität und zeitgenössische Techniken zu umarmen. Jedes Gericht, das wir servieren, trägt diese Philosophie – Respekt für das Erbe, Begeisterung für Innovation.",
+		"imageAlt": "Illustration zum Ursprung der Neon Kitchen"
+	},
+	"chef": {
+		"headingPart1": "Lernen Sie unseren",
+		"headingPart2": "Küchenchef kennen",
+		"paragraph1": "Küchenchef Marcus Chen bringt über 20 Jahre kulinarische Expertise zur Neon Kitchen. Ausgebildet sowohl in traditionellen asiatischen Kochschulen als auch in modernen europäischen Kulinarinstituten verkörpert er unsere Philosophie, Kulturen durch Essen zu verbinden.",
+		"paragraph2": "Sein Ansatz zur Küche ist sowohl respektvoll als auch mutig. Er glaubt, dass die besten Gerichte entstehen, wenn man das 'Warum' hinter traditionellen Rezepten versteht und dann den Mut hat, sie neu zu erfinden. Diese Philosophie hat unserem Restaurant zahlreiche Auszeichnungen und eine treue Anhängerschaft eingebracht.",
+		"paragraph3": "Chef Chen leitet ein vielfältiges Team talentierter Köche, von denen jeder seinen einzigartigen Hintergrund und seine Expertise einbringt. Gemeinsam kreieren sie Menüs, die überraschen und begeistern, dabei den authentischen Aromen treu bleiben und gleichzeitig kulinarische Grenzen erweitern.",
+		"imageAlt": "Illustration unseres Küchenchefs"
+	},
+	"values": {
+		"headingPart1": "Unsere",
+		"headingPart2": "Werte",
+		"subheading": "Die Prinzipien, die alles leiten, was wir tun",
+		"passion": {
+			"title": "Leidenschaft",
+			"description": "Wir stecken unser Herz in jedes Gericht, jedes Detail und jedes Gästeerlebnis. Unsere Liebe zum Essen treibt uns an, uns kontinuierlich zu verbessern und zu innovieren."
+		},
+		"quality": {
+			"title": "Qualität",
+			"description": "Wir beziehen die besten Zutaten und machen keine Kompromisse bei Standards. Vom Bauernhof bis zum Tisch ist Exzellenz unser nicht verhandelbares Versprechen."
+		},
+		"community": {
+			"title": "Gemeinschaft",
+			"description": "Wir glauben, dass Restaurants Treffpunkte sind, die Gemeinschaften stärken. Wir unterstützen lokale Lieferanten und schaffen Räume, in denen Verbindungen gedeihen."
+		},
+		"innovation": {
+			"title": "Innovation",
+			"description": "Während wir die Tradition respektieren, umarmen wir Kreativität. Wir experimentieren mit Techniken, Aromen und Präsentationen, um unvergessliche kulinarische Erlebnisse zu schaffen."
+		}
+	},
+	"vision": {
+		"headingPart1": "Nach vorne",
+		"headingPart2": "blicken",
+		"paragraph1": "Unsere Vision geht über das Servieren außergewöhnlicher Speisen hinaus. Wir möchten eine kulturelle Brücke sein, die Gäste in die Vielfalt und Fülle der asiatischen Küche einführt und gleichzeitig einen Raum schafft, in dem Tradition und Innovation harmonisch koexistieren.",
+		"paragraph2": "Während wir weiter wachsen, bleibt unser Engagement unverändert: ein unvergessliches kulinarisches Erlebnis zu bieten, das Körper und Seele nährt, ein Gericht nach dem anderen."
+	},
+	"ariaLabels": {
+		"skipNavigation": "Zur Hauptnavigation springen"
+	}
+}

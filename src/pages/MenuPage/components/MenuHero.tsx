@@ -44,7 +44,6 @@ const FloatingElement = ({
 				duration,
 				ease: 'easeInOut',
 				delay,
-				repeat: Infinity,
 			}}
 		/>
 	);
