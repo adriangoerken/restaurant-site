@@ -1,0 +1,72 @@
+{
+	"hero": {
+		"ariaLabel": "Events and Promotions Hero",
+		"headingPart1": "Upcoming",
+		"headingPart2": "Events",
+		"subheading": "Join us for special occasions, seasonal menus, and exclusive culinary experiences"
+	},
+	"events": {
+		"ariaLabel": "Upcoming Events List",
+		"headingPart1": "Featured",
+		"headingPart2": "Events",
+		"subheading": "Mark your calendar for these exclusive dining experiences",
+		"datePrefix": "Date",
+		"timePrefix": "Time",
+		"locationPrefix": "Location",
+		"pricePrefix": "Price",
+		"availabilityPrefix": "Availability",
+		"detailsLabel": "Event details",
+		"featured": "Featured",
+		"reserveButton": "Reserve Your Spot",
+		"reserveButtonAriaLabel": "Reserve your spot for {{eventName}}",
+		"soldOut": "Sold Out",
+		"limitedSeats": "Limited Seats Available",
+		"availableSeats": "{{count}} seats available",
+		"mainDiningRoom": "Main Dining Room",
+		"privateDiningRoom": "Private Dining Room",
+		"fullVenue": "Full Venue",
+		"barArea": "Bar Area"
+	},
+	"promotions": {
+		"ariaLabel": "Ongoing Promotions",
+		"headingPart1": "Current",
+		"headingPart2": "Promotions",
+		"subheading": "Take advantage of our special offers and seasonal deals",
+		"validUntilPrefix": "Valid until",
+		"ongoing": "Ongoing",
+		"termsApply": "Terms & Conditions Apply",
+		"learnMoreButton": "Learn More",
+		"learnMoreButtonAriaLabel": "Learn more about {{promotionName}}"
+	},
+	"pastEvents": {
+		"ariaLabel": "Past Events Gallery",
+		"headingPart1": "Past",
+		"headingPart2": "Events",
+		"subheading": "A glimpse into our memorable celebrations and special evenings",
+		"imageAlt": "{{eventName}} event photo"
+	},
+	"newsletter": {
+		"ariaLabel": "Event Newsletter Signup",
+		"headingPart1": "Stay",
+		"headingPart2": "Updated",
+		"subheading": "Subscribe to our newsletter and be the first to know about upcoming events and exclusive promotions",
+		"emailPlaceholder": "Enter your email address",
+		"emailLabel": "Email address for event newsletter",
+		"subscribeButton": "Subscribe",
+		"subscribeButtonAriaLabel": "Subscribe to event newsletter",
+		"privacyNote": "We respect your privacy. Unsubscribe anytime.",
+		"successMessage": "Thank you for subscribing!",
+		"errorMessage": "Please enter a valid email address"
+	},
+	"cta": {
+		"ariaLabel": "Events Call to Action",
+		"headingPart1": "Plan Your",
+		"headingPart2": "Event",
+		"headingPart3": "With Us",
+		"subheading": "From intimate celebrations to corporate gatherings, we create unforgettable experiences",
+		"privateEventsButton": "Host a Private Event",
+		"privateEventsButtonAriaLabel": "Inquire about hosting a private event at Neon Kitchen",
+		"contactUsButton": "Contact Us",
+		"contactUsButtonAriaLabel": "Contact us about event planning"
+	}
+}

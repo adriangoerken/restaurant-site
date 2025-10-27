@@ -16,7 +16,7 @@ const VisionSection = () => {
 				<div className="max-w-4xl mx-auto text-center">
 					<motion.h2
 						id="vision-heading"
-						className="text-3xl md:text-4xl font-bold mb-6 font-display text-text-primary"
+						className="text-3xl md:text-4xl font-bold mb-6 font-display text-text-primary flex flex-wrap justify-center gap-x-2"
 						variants={fadeInUp}
 						initial="hidden"
 						whileInView="visible"
@@ -24,7 +24,7 @@ const VisionSection = () => {
 					>
 						<span className="text-text-primary">
 							{t('vision.headingPart1')}
-						</span>{' '}
+						</span>
 						<span className="text-accent">
 							{t('vision.headingPart2')}
 						</span>

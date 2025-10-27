@@ -22,6 +22,8 @@ import dishes_en from './translations/en/dishes.json';
 import dishes_de from './translations/de/dishes.json';
 import ourStoryPage_en from './translations/en/ourStoryPage.json';
 import ourStoryPage_de from './translations/de/ourStoryPage.json';
+import eventsPage_en from './translations/en/eventsPage.json';
+import eventsPage_de from './translations/de/eventsPage.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
@@ -40,6 +42,7 @@ i18next.init({
 			menuPage: menuPage_en,
 			dishes: dishes_en,
 			ourStoryPage: ourStoryPage_en,
+			eventsPage: eventsPage_en,
 		},
 		de: {
 			global: global_de,
@@ -50,6 +53,7 @@ i18next.init({
 			menuPage: menuPage_de,
 			dishes: dishes_de,
 			ourStoryPage: ourStoryPage_de,
+			eventsPage: eventsPage_de,
 		},
 	},
 });

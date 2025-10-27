@@ -1,0 +1,72 @@
+{
+	"hero": {
+		"ariaLabel": "Veranstaltungen und Aktionen Hero",
+		"headingPart1": "Kommende",
+		"headingPart2": "Events",
+		"subheading": "Erleben Sie besondere Anlässe, saisonale Menüs und exklusive kulinarische Erlebnisse"
+	},
+	"events": {
+		"ariaLabel": "Liste kommender Veranstaltungen",
+		"headingPart1": "Ausgewählte",
+		"headingPart2": "Events",
+		"subheading": "Merken Sie sich diese exklusiven kulinarischen Erlebnisse vor",
+		"datePrefix": "Datum",
+		"timePrefix": "Zeit",
+		"locationPrefix": "Ort",
+		"pricePrefix": "Preis",
+		"availabilityPrefix": "Verfügbarkeit",
+		"detailsLabel": "Veranstaltungsdetails",
+		"featured": "Hervorgehoben",
+		"reserveButton": "Platz reservieren",
+		"reserveButtonAriaLabel": "Reservieren Sie Ihren Platz für {{eventName}}",
+		"soldOut": "Ausverkauft",
+		"limitedSeats": "Begrenzte Plätze verfügbar",
+		"availableSeats": "{{count}} Plätze verfügbar",
+		"mainDiningRoom": "Hauptspeisesaal",
+		"privateDiningRoom": "Privater Speisesaal",
+		"fullVenue": "Gesamte Location",
+		"barArea": "Bar-Bereich"
+	},
+	"promotions": {
+		"ariaLabel": "Laufende Aktionen",
+		"headingPart1": "Aktuelle",
+		"headingPart2": "Aktionen",
+		"subheading": "Nutzen Sie unsere Sonderangebote und saisonalen Deals",
+		"validUntilPrefix": "Gültig bis",
+		"ongoing": "Laufend",
+		"termsApply": "Es gelten die AGB",
+		"learnMoreButton": "Mehr erfahren",
+		"learnMoreButtonAriaLabel": "Mehr über {{promotionName}} erfahren"
+	},
+	"pastEvents": {
+		"ariaLabel": "Galerie vergangener Events",
+		"headingPart1": "Vergangene",
+		"headingPart2": "Events",
+		"subheading": "Ein Einblick in unsere unvergesslichen Feiern und besonderen Abende",
+		"imageAlt": "Foto vom {{eventName}} Event"
+	},
+	"newsletter": {
+		"ariaLabel": "Event-Newsletter Anmeldung",
+		"headingPart1": "Bleiben Sie",
+		"headingPart2": "Informiert",
+		"subheading": "Abonnieren Sie unseren Newsletter und erfahren Sie als Erster von kommenden Events und exklusiven Aktionen",
+		"emailPlaceholder": "E-Mail-Adresse eingeben",
+		"emailLabel": "E-Mail-Adresse für Event-Newsletter",
+		"subscribeButton": "Abonnieren",
+		"subscribeButtonAriaLabel": "Event-Newsletter abonnieren",
+		"privacyNote": "Wir respektieren Ihre Privatsphäre. Jederzeit abbestellbar.",
+		"successMessage": "Vielen Dank für Ihre Anmeldung!",
+		"errorMessage": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+	},
+	"cta": {
+		"ariaLabel": "Events Aufruf zum Handeln",
+		"headingPart1": "Planen Sie Ihr",
+		"headingPart2": "Event",
+		"headingPart3": "Mit Uns",
+		"subheading": "Von intimen Feiern bis zu Firmenveranstaltungen schaffen wir unvergessliche Erlebnisse",
+		"privateEventsButton": "Private Veranstaltung anfragen",
+		"privateEventsButtonAriaLabel": "Anfrage für eine private Veranstaltung in der Neon Kitchen",
+		"contactUsButton": "Kontaktieren Sie uns",
+		"contactUsButtonAriaLabel": "Kontaktieren Sie uns bezüglich Eventplanung"
+	}
+}

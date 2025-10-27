@@ -24,7 +24,7 @@ This checklist outlines the planned features and their current implementation st
     -   [ ] Provides essential contact information and operating hours.
     -   [ ] Includes an embedded map for easy directions.
 -   [ ] **Visual Gallery Component:** Features high-quality images showcasing the restaurant's ambiance, signature dishes, and special events.
--   [ ] **Events & Promotions Display:** Keeps customers informed about upcoming events, seasonal menus, or exclusive promotions.
+-   [x] **Events & Promotions Display:** Keeps customers informed about upcoming events, seasonal menus, or exclusive promotions.
 -   [ ] **Responsive & Accessible Design:**
     -   [ ] Ensures the website is functional and looks great on major device sizes (desktops, tablets, mobiles).
     -   [ ] Prioritizes accessibility standards for usability by all visitors.

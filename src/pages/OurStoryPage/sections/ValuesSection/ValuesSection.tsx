@@ -40,7 +40,7 @@ const ValuesSection = () => {
 			<Container>
 				<motion.h2
 					id="values-heading"
-					className="text-3xl md:text-4xl font-bold text-center mb-4 font-display text-text-primary"
+					className="text-3xl md:text-4xl font-bold text-center mb-4 font-display text-text-primary flex flex-wrap justify-center gap-x-2"
 					variants={fadeInUp}
 					initial="hidden"
 					whileInView="visible"
@@ -48,7 +48,7 @@ const ValuesSection = () => {
 				>
 					<span className="text-text-primary">
 						{t('values.headingPart1')}
-					</span>{' '}
+					</span>
 					<span className="text-highlight">
 						{t('values.headingPart2')}
 					</span>

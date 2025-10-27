@@ -1,19 +1,26 @@
 import { Route, Routes } from 'react-router-dom';
 import MainLayout from './layouts/MainLayout';
-import HomePage from './pages/HomePage';
-import NotFoundPage from './pages/NotFoundPage';
-import MenuPage from './pages/MenuPage';
-import OurStoryPage from './pages/OurStoryPage';
+import { SuspenseRoute } from './components/SuspenseRoute';
+import { ROUTE_CONFIG, NOT_FOUND_ROUTE } from './constants/routeConfig';
 
 function App() {
 	return (
 		<Routes>
 			<Route path="/" element={<MainLayout />}>
-				<Route index element={<HomePage />} />
-				<Route path="menu" element={<MenuPage />} />
-				<Route path="story" element={<OurStoryPage />} />
-				{/* 404 page */}
-				<Route path="*" element={<NotFoundPage />} />
+				{ROUTE_CONFIG.map(({ path, Component }) => (
+					<Route
+						key={path}
+						path={path === '/' ? undefined : path}
+						index={path === '/'}
+						element={<SuspenseRoute Component={Component} />}
+					/>
+				))}
+				<Route
+					path={NOT_FOUND_ROUTE.path}
+					element={
+						<SuspenseRoute Component={NOT_FOUND_ROUTE.Component} />
+					}
+				/>
 			</Route>
 		</Routes>
 	);

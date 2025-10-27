@@ -78,11 +78,11 @@ const TwoColumnStorySection = ({
 					>
 						<h2
 							id={headingId}
-							className="text-3xl md:text-4xl font-bold mb-6 font-display text-text-primary"
+							className="text-3xl md:text-4xl font-bold mb-6 font-display flex flex-wrap gap-x-2"
 						>
 							<span className="text-text-primary">
 								{headingPart1}
-							</span>{' '}
+							</span>
 							<span className={`text-${highlightColor}`}>
 								{headingPart2}
 							</span>
