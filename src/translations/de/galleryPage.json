@@ -1,0 +1,46 @@
+{
+	"hero": {
+		"ariaLabel": "Galerie Hero",
+		"headingPart1": "Visuelle",
+		"headingPart2": "Reise",
+		"subheading": "Erleben Sie das Ambiente, die Kunstfertigkeit und die kulinarischen Meisterwerke, die Neon Kitchen unvergesslich machen"
+	},
+	"gallery": {
+		"ariaLabel": "Fotogalerie",
+		"headingPart1": "Unsere",
+		"headingPart2": "Galerie",
+		"subheading": "Entdecken Sie hochwertige Bilder unserer Restaurantatmosphäre, Signature Dishes und besonderen Momente",
+		"allCategories": "Alle",
+		"filterLabel": "Galerie nach Kategorie filtern",
+		"categories": {
+			"all": "Alle Fotos",
+			"ambiance": "Ambiente",
+			"dishes": "Signature Dishes",
+			"events": "Events",
+			"chef": "Chef & Team",
+			"cocktails": "Cocktails",
+			"desserts": "Desserts"
+		},
+		"imageAlt": "{{description}}",
+		"viewImageButton": "Bild in voller Größe anzeigen",
+		"imageCount": "{{count}} von {{total}} Fotos werden angezeigt",
+		"closeModal": "Bildansicht schließen",
+		"previousImage": "Vorheriges Bild anzeigen",
+		"nextImage": "Nächstes Bild anzeigen",
+		"imageDetails": "Bild {{current}} von {{total}}",
+		"loadMore": "Mehr Fotos laden",
+		"loadMoreAriaLabel": "Mehr Galeriefotos laden",
+		"noImages": "Keine Bilder in dieser Kategorie gefunden",
+		"featured": "Empfohlen"
+	},
+	"cta": {
+		"ariaLabel": "Galerie Call-to-Action",
+		"headingPart1": "Erleben Sie Es",
+		"headingPart2": "Persönlich",
+		"subheading": "Bilder können das volle Erlebnis nicht einfangen. Besuchen Sie uns und schaffen Sie Ihre eigenen unvergesslichen Erinnerungen",
+		"reserveButton": "Reservierung vornehmen",
+		"reserveButtonAriaLabel": "Eine Reservierung bei Neon Kitchen vornehmen",
+		"menuButton": "Unsere Speisekarte",
+		"menuButtonAriaLabel": "Unsere vollständige Speisekarte anzeigen"
+	}
+}

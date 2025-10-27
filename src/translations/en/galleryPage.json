@@ -1,0 +1,46 @@
+{
+	"hero": {
+		"ariaLabel": "Gallery Hero",
+		"headingPart1": "Visual",
+		"headingPart2": "Journey",
+		"subheading": "Experience the ambiance, artistry, and culinary masterpieces that make Neon Kitchen unforgettable"
+	},
+	"gallery": {
+		"ariaLabel": "Photo Gallery",
+		"headingPart1": "Our",
+		"headingPart2": "Gallery",
+		"subheading": "Explore high-quality images showcasing our restaurant's atmosphere, signature dishes, and special moments",
+		"allCategories": "All",
+		"filterLabel": "Filter gallery by category",
+		"categories": {
+			"all": "All Photos",
+			"ambiance": "Ambiance",
+			"dishes": "Signature Dishes",
+			"events": "Events",
+			"chef": "Chef & Team",
+			"cocktails": "Cocktails",
+			"desserts": "Desserts"
+		},
+		"imageAlt": "{{description}}",
+		"viewImageButton": "View full size image",
+		"imageCount": "Showing {{count}} of {{total}} photos",
+		"closeModal": "Close image viewer",
+		"previousImage": "View previous image",
+		"nextImage": "View next image",
+		"imageDetails": "Image {{current}} of {{total}}",
+		"loadMore": "Load More Photos",
+		"loadMoreAriaLabel": "Load more gallery photos",
+		"noImages": "No images found in this category",
+		"featured": "Featured"
+	},
+	"cta": {
+		"ariaLabel": "Gallery Call to Action",
+		"headingPart1": "Experience It",
+		"headingPart2": "In Person",
+		"subheading": "Pictures can't capture the full experience. Visit us and create your own unforgettable memories",
+		"reserveButton": "Make a Reservation",
+		"reserveButtonAriaLabel": "Make a reservation at Neon Kitchen",
+		"menuButton": "View Our Menu",
+		"menuButtonAriaLabel": "View our full menu"
+	}
+}
