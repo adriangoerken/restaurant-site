@@ -1,0 +1,117 @@
+{
+	"hero": {
+		"heading": {
+			"normal": "Reservieren Sie Ihren",
+			"gradient": "Tisch"
+		},
+		"description": "Erleben Sie die perfekte Mischung aus moderner asiatischer Fusionsküche in unserem zeitgenössischen Ambiente. Buchen Sie jetzt Ihren Tisch für eine unvergessliche kulinarische Reise.",
+		"subtitle": "Reservierungen werden dringend empfohlen, besonders am Wochenende."
+	},
+	"reservationForm": {
+		"heading": "Tischreservierung",
+		"subheading": "Füllen Sie das Formular aus und wir bestätigen Ihre Reservierung in Kürze.",
+		"sections": {
+			"contact": "Kontaktinformationen",
+			"details": "Reservierungsdetails",
+			"requests": "Besondere Wünsche (Optional)"
+		},
+		"fields": {
+			"name": {
+				"label": "Vollständiger Name",
+				"placeholder": "Max Mustermann",
+				"ariaLabel": "Geben Sie Ihren vollständigen Namen ein",
+				"required": "Name ist erforderlich"
+			},
+			"email": {
+				"label": "E-Mail-Adresse",
+				"placeholder": "max.mustermann@beispiel.de",
+				"ariaLabel": "Geben Sie Ihre E-Mail-Adresse ein",
+				"required": "E-Mail ist erforderlich",
+				"invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein"
+			},
+			"phone": {
+				"label": "Telefonnummer",
+				"placeholder": "+49 123 456789",
+				"ariaLabel": "Geben Sie Ihre Telefonnummer ein",
+				"required": "Telefonnummer ist erforderlich",
+				"invalid": "Bitte geben Sie eine gültige Telefonnummer ein"
+			},
+			"date": {
+				"label": "Datum",
+				"ariaLabel": "Wählen Sie das Reservierungsdatum",
+				"required": "Datum ist erforderlich",
+				"invalid": "Bitte wählen Sie ein gültiges Datum"
+			},
+			"time": {
+				"label": "Uhrzeit",
+				"placeholder": "Uhrzeit wählen",
+				"ariaLabel": "Wählen Sie die Reservierungszeit",
+				"required": "Uhrzeit ist erforderlich"
+			},
+			"guests": {
+				"label": "Gäste",
+				"placeholder": "Anzahl der Gäste",
+				"ariaLabel": "Wählen Sie die Anzahl der Gäste",
+				"invalid": "Bitte wählen Sie die Anzahl der Gäste",
+				"single": "1 Gast",
+				"multiple": "{{count}} Gäste"
+			},
+			"specialRequests": {
+				"label": "Besondere Wünsche",
+				"placeholder": "Haben Sie Ernährungseinschränkungen, Allergien oder besondere Anlässe, über die wir Bescheid wissen sollten?",
+				"ariaLabel": "Geben Sie besondere Wünsche oder Ernährungsanforderungen ein"
+			}
+		},
+		"submit": {
+			"label": "Reservierung bestätigen",
+			"submitting": "Wird übermittelt...",
+			"ariaLabel": "Reservierungsanfrage absenden"
+		},
+		"status": {
+			"success": "Vielen Dank! Ihre Reservierungsanfrage wurde übermittelt. Sie erhalten in Kürze eine Bestätigungs-E-Mail.",
+			"error": "Es tut uns leid, aber beim Übermitteln Ihrer Reservierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut oder rufen Sie uns direkt an."
+		},
+		"note": "Bitte beachten Sie: Dies ist eine Reservierungsanfrage. Sie erhalten eine Bestätigungs-E-Mail, sobald wir die Verfügbarkeit überprüft haben."
+	},
+	"infoSection": {
+		"heading": "Wichtige Informationen",
+		"subheading": "Alles, was Sie vor Ihrer Reservierung wissen müssen.",
+		"cards": {
+			"hours": {
+				"title": "Öffnungszeiten",
+				"description": "Reservierungen während unserer Öffnungszeiten",
+				"detail": "Täglich: 17:00 - 23:00"
+			},
+			"parties": {
+				"title": "Große Gruppen",
+				"description": "Gruppen ab 8 Personen bitte direkt anrufen",
+				"detail": "(555) 123-NEON"
+			},
+			"contact": {
+				"title": "Brauchen Sie Hilfe?",
+				"description": "Unser Team ist für Sie da",
+				"detail": "Kontaktieren Sie uns"
+			},
+			"policy": {
+				"title": "Stornierung",
+				"description": "Bitte stornieren Sie mindestens 24 Stunden im Voraus",
+				"detail": "24 Stunden Vorlauf"
+			}
+		}
+	},
+	"ctaSection": {
+		"heading": "Fragen zu Ihrer Reservierung?",
+		"description": "Unser freundliches Team hilft Ihnen gerne weiter. Sehen Sie sich unsere Speisekarte an oder rufen Sie uns an, um Ihre Essenswünsche zu besprechen.",
+		"buttons": {
+			"menu": {
+				"label": "Speisekarte ansehen",
+				"ariaLabel": "Unsere vollständige Speisekarte ansehen"
+			},
+			"call": {
+				"label": "Anrufen",
+				"ariaLabel": "Rufen Sie uns an unter (555) 123-NEON"
+			}
+		},
+		"note": "Wir freuen uns darauf, Sie in der Neon Kitchen zu bedienen!"
+	}
+}

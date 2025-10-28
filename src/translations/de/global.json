@@ -24,6 +24,10 @@
 		"contact": {
 			"label": "Kontakt",
 			"ariaLabel": "Kontaktinformationen und Standort"
+		},
+		"reservation": {
+			"label": "Reservieren",
+			"ariaLabel": "Tischreservierung vornehmen"
 		}
 	},
 	"accessibility": {

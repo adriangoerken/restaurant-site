@@ -13,6 +13,7 @@ const EventsPage = lazy(() => import('../pages/EventsPage'));
 const NotFoundPage = lazy(() => import('../pages/NotFoundPage'));
 const GalleryPage = lazy(() => import('../pages/GalleryPage'));
 const ContactPage = lazy(() => import('../pages/ContactPage'));
+const ReservationPage = lazy(() => import('../pages/ReservationPage'));
 
 /**
  * Application route configuration
@@ -42,6 +43,10 @@ export const ROUTE_CONFIG: RouteConfig[] = [
 	{
 		path: 'contact',
 		Component: ContactPage,
+	},
+	{
+		path: 'reservation',
+		Component: ReservationPage,
 	},
 ];
 

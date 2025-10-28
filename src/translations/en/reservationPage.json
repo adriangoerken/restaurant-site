@@ -1,0 +1,117 @@
+{
+	"hero": {
+		"heading": {
+			"normal": "Reserve Your",
+			"gradient": "Table"
+		},
+		"description": "Experience the perfect blend of modern Asian fusion cuisine in our contemporary dining space. Book your table now for an unforgettable culinary journey.",
+		"subtitle": "Reservations are highly recommended, especially for weekend dining."
+	},
+	"reservationForm": {
+		"heading": "Make a Reservation",
+		"subheading": "Fill out the form below and we'll confirm your reservation shortly.",
+		"sections": {
+			"contact": "Contact Information",
+			"details": "Reservation Details",
+			"requests": "Special Requests (Optional)"
+		},
+		"fields": {
+			"name": {
+				"label": "Full Name",
+				"placeholder": "John Doe",
+				"ariaLabel": "Enter your full name",
+				"required": "Name is required"
+			},
+			"email": {
+				"label": "Email Address",
+				"placeholder": "john.doe@example.com",
+				"ariaLabel": "Enter your email address",
+				"required": "Email is required",
+				"invalid": "Please enter a valid email address"
+			},
+			"phone": {
+				"label": "Phone Number",
+				"placeholder": "(555) 123-4567",
+				"ariaLabel": "Enter your phone number",
+				"required": "Phone number is required",
+				"invalid": "Please enter a valid phone number"
+			},
+			"date": {
+				"label": "Date",
+				"ariaLabel": "Select reservation date",
+				"required": "Date is required",
+				"invalid": "Please select a valid date"
+			},
+			"time": {
+				"label": "Time",
+				"placeholder": "Select time",
+				"ariaLabel": "Select reservation time",
+				"required": "Time is required"
+			},
+			"guests": {
+				"label": "Guests",
+				"placeholder": "Number of guests",
+				"ariaLabel": "Select number of guests",
+				"invalid": "Please select number of guests",
+				"single": "1 Guest",
+				"multiple": "{{count}} Guests"
+			},
+			"specialRequests": {
+				"label": "Special Requests",
+				"placeholder": "Any dietary restrictions, allergies, or special occasions we should know about?",
+				"ariaLabel": "Enter any special requests or dietary requirements"
+			}
+		},
+		"submit": {
+			"label": "Confirm Reservation",
+			"submitting": "Submitting...",
+			"ariaLabel": "Submit reservation request"
+		},
+		"status": {
+			"success": "Thank you! Your reservation request has been submitted. We'll send you a confirmation email shortly.",
+			"error": "We're sorry, but there was an error submitting your reservation. Please try again or call us directly."
+		},
+		"note": "Please note: This is a reservation request. You will receive a confirmation email once we verify availability."
+	},
+	"infoSection": {
+		"heading": "Important Information",
+		"subheading": "Everything you need to know before making your reservation.",
+		"cards": {
+			"hours": {
+				"title": "Dining Hours",
+				"description": "We accept reservations during our operating hours",
+				"detail": "Daily: 5PM - 11PM"
+			},
+			"parties": {
+				"title": "Large Parties",
+				"description": "Groups of 8 or more please call us directly",
+				"detail": "(555) 123-NEON"
+			},
+			"contact": {
+				"title": "Need Help?",
+				"description": "Our team is here to assist you",
+				"detail": "Contact Us"
+			},
+			"policy": {
+				"title": "Cancellation",
+				"description": "Please cancel at least 24 hours in advance",
+				"detail": "24 Hour Notice"
+			}
+		}
+	},
+	"ctaSection": {
+		"heading": "Questions About Your Reservation?",
+		"description": "Our friendly staff is here to help. Browse our menu or give us a call to discuss your dining needs.",
+		"buttons": {
+			"menu": {
+				"label": "View Menu",
+				"ariaLabel": "View our full menu"
+			},
+			"call": {
+				"label": "Call Us",
+				"ariaLabel": "Call us at (555) 123-NEON"
+			}
+		},
+		"note": "We look forward to serving you at Neon Kitchen!"
+	}
+}

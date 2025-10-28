@@ -2,13 +2,14 @@ import React from 'react';
 
 export interface InputFieldProps {
 	label: string;
-	type?: 'text' | 'email' | 'tel';
+	type?: 'text' | 'email' | 'tel' | 'date';
 	name: string;
 	value: string;
 	placeholder?: string;
 	error?: string;
 	required?: boolean;
 	autoComplete?: string;
+	min?: string;
 	onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
 	'aria-label'?: string;
 }
@@ -22,6 +23,7 @@ const InputField: React.FC<InputFieldProps> = ({
 	error,
 	required = false,
 	autoComplete,
+	min,
 	onChange,
 	'aria-label': ariaLabel,
 }) => {
@@ -51,6 +53,7 @@ const InputField: React.FC<InputFieldProps> = ({
 				required={required}
 				aria-required={required}
 				autoComplete={autoComplete}
+				min={min}
 				aria-label={ariaLabel}
 				aria-invalid={!!error}
 				aria-describedby={error ? errorId : undefined}

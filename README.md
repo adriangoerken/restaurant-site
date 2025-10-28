@@ -17,7 +17,7 @@ This checklist outlines the planned features and their current implementation st
 -   [x] **Dynamic Landing Page UI:** Welcomes visitors with highlights of special offers and featured menu items.
 -   [x] **Menu Page Layout:**
     -   [x] Displays the full range of dishes with descriptions and pricing.
--   [ ] **Table Reservation Form UI:** A dedicated form allowing users to request table bookings.
+-   [x] **Table Reservation Form UI:** A dedicated form allowing users to request table bookings.
 -   [ ] **Customer Feedback Form Interface:** Enables users to provide detailed feedback, comments, and overall ratings for the restaurant.
 -   [x] **Restaurant Story Page Layout:** Shares the unique background, culinary concept, and information about the head chef or team.
 -   [x] **Contact & Location Page UI:**
@@ -25,9 +25,9 @@ This checklist outlines the planned features and their current implementation st
     -   [ ] Includes an embedded map for easy directions.
 -   [x] **Visual Gallery Component:** Features high-quality images showcasing the restaurant's ambiance, signature dishes, and special events.
 -   [x] **Events & Promotions Display:** Keeps customers informed about upcoming events, seasonal menus, or exclusive promotions.
--   [ ] **Responsive & Accessible Design:**
-    -   [ ] Ensures the website is functional and looks great on major device sizes (desktops, tablets, mobiles).
-    -   [ ] Prioritizes accessibility standards for usability by all visitors.
+-   [x] **Responsive & Accessible Design:**
+    -   [x] Ensures the website is functional and looks great on major device sizes (desktops, tablets, mobiles).
+    -   [x] Prioritizes accessibility standards for usability by all visitors.
 -   [ ] **Administrative Dashboard UI:**
     -   [ ] Interface to manage customer feedback submissions (view, moderate, respond).
     -   [ ] Interface to update and organize menu items, descriptions and pricing.

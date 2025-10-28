@@ -28,6 +28,8 @@ import galleryPage_en from './translations/en/galleryPage.json';
 import galleryPage_de from './translations/de/galleryPage.json';
 import contactPage_en from './translations/en/contactPage.json';
 import contactPage_de from './translations/de/contactPage.json';
+import reservationPage_en from './translations/en/reservationPage.json';
+import reservationPage_de from './translations/de/reservationPage.json';
 
 const savedLanguage = localStorage.getItem('neonkitchen_language');
 const initialLanguage = savedLanguage || getLanguage().substring(0, 2);
@@ -49,6 +51,7 @@ i18next.init({
 			eventsPage: eventsPage_en,
 			galleryPage: galleryPage_en,
 			contactPage: contactPage_en,
+			reservationPage: reservationPage_en,
 		},
 		de: {
 			global: global_de,
@@ -62,6 +65,7 @@ i18next.init({
 			eventsPage: eventsPage_de,
 			galleryPage: galleryPage_de,
 			contactPage: contactPage_de,
+			reservationPage: reservationPage_de,
 		},
 	},
 });
