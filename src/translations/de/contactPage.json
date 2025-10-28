@@ -1,0 +1,103 @@
+{
+	"hero": {
+		"headingPart1": "Kontaktieren Sie",
+		"headingPart2": "Uns",
+		"subheading": "Wir freuen uns von Ihnen zu hören. Ob Sie Fragen haben, Feedback geben oder reservieren möchten - kontaktieren Sie uns."
+	},
+	"contactInfo": {
+		"heading": "Kontaktinformationen",
+		"phone": {
+			"label": "Telefon",
+			"value": "(555) 123-NEON",
+			"ariaLabel": "Rufen Sie uns an unter (555) 123-NEON"
+		},
+		"email": {
+			"label": "E-Mail",
+			"value": "info@neonkitchen.com",
+			"ariaLabel": "Senden Sie uns eine E-Mail an info@neonkitchen.com"
+		},
+		"address": {
+			"label": "Adresse",
+			"street": "123 Neon Street",
+			"city": "Downtown District, NY 10001",
+			"ariaLabel": "Besuchen Sie uns unter 123 Neon Street, Downtown District, NY 10001"
+		}
+	},
+	"contactForm": {
+		"heading": "Senden Sie uns eine Nachricht",
+		"subheading": "Füllen Sie das Formular aus und wir melden uns schnellstmöglich bei Ihnen.",
+		"fields": {
+			"name": {
+				"label": "Vollständiger Name",
+				"placeholder": "Max Mustermann",
+				"required": "Name ist erforderlich",
+				"ariaLabel": "Geben Sie Ihren vollständigen Namen ein"
+			},
+			"email": {
+				"label": "E-Mail-Adresse",
+				"placeholder": "max@beispiel.de",
+				"required": "E-Mail ist erforderlich",
+				"invalid": "Bitte geben Sie eine gültige E-Mail-Adresse ein",
+				"ariaLabel": "Geben Sie Ihre E-Mail-Adresse ein"
+			},
+			"phone": {
+				"label": "Telefonnummer",
+				"placeholder": "(555) 123-4567",
+				"invalid": "Bitte geben Sie eine gültige Telefonnummer ein",
+				"ariaLabel": "Geben Sie Ihre Telefonnummer ein (optional)"
+			},
+			"subject": {
+				"label": "Betreff",
+				"placeholder": "Wie können wir Ihnen helfen?",
+				"required": "Betreff ist erforderlich",
+				"ariaLabel": "Geben Sie den Betreff Ihrer Nachricht ein"
+			},
+			"message": {
+				"label": "Nachricht",
+				"placeholder": "Teilen Sie uns mit, was Sie beschäftigt...",
+				"required": "Nachricht ist erforderlich",
+				"ariaLabel": "Geben Sie Ihre Nachricht ein"
+			}
+		},
+		"button": {
+			"submit": "Nachricht senden",
+			"submitting": "Wird gesendet...",
+			"ariaLabel": "Kontaktformular absenden"
+		},
+		"status": {
+			"success": "Vielen Dank! Ihre Nachricht wurde erfolgreich gesendet. Wir melden uns bald bei Ihnen.",
+			"error": "Ups! Etwas ist schief gelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt."
+		}
+	},
+	"hours": {
+		"heading": "Öffnungszeiten",
+		"weekdays": {
+			"label": "Montag - Donnerstag",
+			"time": "17:00 - 22:00"
+		},
+		"weekends": {
+			"label": "Freitag - Sonntag",
+			"time": "17:00 - 23:00"
+		},
+		"kitchen": {
+			"note": "Küche schließt 30 Minuten vor Geschäftsschluss"
+		},
+		"reservations": {
+			"note": "Reservierungen empfohlen für Gruppen ab 6 Personen"
+		}
+	},
+	"map": {
+		"heading": "Finden Sie uns",
+		"subheading": "Im Herzen des Downtown District gelegen",
+		"directions": "Route anzeigen",
+		"ariaLabel": "Interaktive Karte zeigt den Standort von Neon Kitchen"
+	},
+	"cta": {
+		"heading": "Bereit für das Neon Kitchen Erlebnis?",
+		"subheading": "Reservieren Sie einen Tisch oder kommen Sie während unserer Öffnungszeiten vorbei. Wir freuen uns auf Sie!",
+		"button": {
+			"reserve": "Tisch reservieren",
+			"ariaLabel": "Einen Tisch reservieren"
+		}
+	}
+}

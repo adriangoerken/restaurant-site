@@ -20,8 +20,8 @@ This checklist outlines the planned features and their current implementation st
 -   [ ] **Table Reservation Form UI:** A dedicated form allowing users to request table bookings.
 -   [ ] **Customer Feedback Form Interface:** Enables users to provide detailed feedback, comments, and overall ratings for the restaurant.
 -   [x] **Restaurant Story Page Layout:** Shares the unique background, culinary concept, and information about the head chef or team.
--   [ ] **Contact & Location Page UI:**
-    -   [ ] Provides essential contact information and operating hours.
+-   [x] **Contact & Location Page UI:**
+    -   [x] Provides essential contact information and operating hours.
     -   [ ] Includes an embedded map for easy directions.
 -   [x] **Visual Gallery Component:** Features high-quality images showcasing the restaurant's ambiance, signature dishes, and special events.
 -   [x] **Events & Promotions Display:** Keeps customers informed about upcoming events, seasonal menus, or exclusive promotions.
